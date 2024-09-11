@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="andianLookBtnSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="125" height="100">
+<e:Image id="img_icon" x="14" source="andiansuitIcon1"/>
+ <e:Image id="img_selectd" source="xuanzhongyuan" width="90" height="90" x="18" y="7" visible="false"/>
+	<e:BitmapLabel id="lab_name" font="andianlab_fnt" text="十二阶魔套" y="81" horizontalCenter="0" letterSpacing="-4"/>
+</e:Skin>

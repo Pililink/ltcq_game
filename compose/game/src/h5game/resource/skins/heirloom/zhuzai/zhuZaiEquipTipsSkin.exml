@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="zhuZaiEquipTipsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*" width="580" height="930"  states="equip,peishi,lingpi" >
+	<w:Config id="1586b3502a7"/>
+	<e:Rect id="bgClose" fillAlpha="0.8" left="-1" right="1" top="0" bottom="0"/>
+
+	<e:Group id="anigroup" width="303" horizontalCenter="0" verticalCenter="-73.5" touchEnabled="true" anchorOffsetX="0" anchorOffsetY.peishi="0" horizontalCenter.peishi="0.5" verticalCenter.peishi="-129" height.peishi="372">
+		<e:Image id="background" source="tongyongtip1" scale9Grid="7,6,11,12" touchEnabled="false" bottom="0"  left="0" right="0" top.peishi="0" top="0" anchorOffsetY.lingpi="0" left.lingpi="0" right.lingpi="0" top.lingpi="0" bottom.lingpi="-10"/>
+		<e:Image id="quali" source="quali1" y="2" left="0" right="0" scale9Grid="9,0,10,54" height="130"/>
+		<e:Image source="tongyongtip2" left="0" right="0" top="0" bottom="-5" scale9Grid="18,18,2,4" touchEnabled="false" anchorOffsetY="0" left.lingpi="0" right.lingpi="0" top.lingpi="0" bottom.lingpi="-10"/>
+		<e:Image y="140" scale9Grid="85,1,6,1" width="340" horizontalCenter="0" source="bantoutiaobg" visible.lingpi="false"/>
+		<ns1:BaseComponent id="itemIcon" skinName="ItemSkin" className="ItemBaseNoName" x="7" y="43" touchChildren="false" touchEnabled="false"/>
+		<e:Label id="nameLabel" text="屠龙 " size="20" textAlign="left" textColor="0x90f490" y="15" x="20" bold="true"/>
+		<e:Label y="47" text="部位：" size="18" x="109" textColor="0x966e5a"/>
+		<e:Label id="type" y="47" text="武器" size="18" x="160" textColor="0xffd9b5"/>
+		<e:Label id="levelKey" y="71" text="星级：" size="18" x="110" textColor="0x966e5a"/>
+		<e:Label id="lv" y="71" text="7星" size="18" x="160" textColor="0xffd9b5"/>
+		<e:Label y="96" text="转生：" size="18" x="110" textColor="0x966e5a"/>
+		<e:Label id="lab_zsLv" y="96" text="11转" size="18" x="160" textColor="0xffd9b5"/>
+		<ns1:BaseComponent id="powerPanel" skinName="PowerPanelSkin" className="PowerPanel" y="126" x="-14" includeIn="equip,peishi"/>
+		<e:Group anchorOffsetX="0" anchorOffsetY="0" y="201" horizontalCenter="0" horizontalCenter.lingpi="0" y.lingpi="131">
+			<e:Rect left="-7" right="-11" top="-6" bottom="-5" fillAlpha="0.4" ellipseWidth="17"/>
+			<e:Label id="zhuZaiScore" text="主宰评分：2540000" left="0" right="0" top="0" bottom="0" size="19" textColor="0xEFAB3F" bold="true" verticalAlign="middle"/>
+		</e:Group>
+		<e:Group x="19" y="231" anchorOffsetX="0" width="270" includeIn="equip,peishi">
+			<e:Label y="0" text="基础属性" size="20" x="0" bold="true" textColor="0x7e6437" scaleX="1" scaleY="1"/>
+			<e:Label id="attr1" y="24" text="攻击：100 +100" size="18" verticalAlign="justify" x="22" textAlign="left" textColor="0x9f946d" scaleX="1" scaleY="1" maxWidth="256"/>
+			<e:Label id="attr2" y="44" text="攻击：100 +100" size="18" verticalAlign="justify" x="22" textAlign="left" textColor="0x9f946d" scaleX="1" scaleY="1" maxWidth="256"/>
+			<e:Label id="attr3" y="63" text="攻击：100 +100" size="18" verticalAlign="justify" x="22" textAlign="left" textColor="0x9f946d" scaleX="1" scaleY="1" maxWidth="256"/>
+			<e:Label id="attr4" y="81" text="攻击：100 +100" size="18" verticalAlign="justify" x="22" textAlign="left" textColor="0x9f946d" scaleX="1" scaleY="1" maxWidth="256"/>
+			<e:Label id="attr5" y="100" text="攻击：100 +100" size="18" verticalAlign="justify" x="22" textAlign="left" textColor="0x9F946D" scaleX="1" scaleY="1" maxWidth="256"/>
+		</e:Group>
+		<e:Group x="24" y="356" anchorOffsetX="0" width="267" visible.peishi="false" y.lingpi="164">
+			<e:Label y="0" text="随机属性" size="20" x="0" bold="true" scaleX="1" scaleY="1" textColor="0xdb9c13"/>
+			<e:Label id="extattr1" y="25" text="攻击：100 +100" size="18" verticalAlign="justify" x="22" textAlign="left" scaleX="1" scaleY="1" textColor="0x3cd60a"/>
+			<e:Label id="extattr2" y="46" text="攻击：100 +100" size="18" verticalAlign="justify" x="22" textAlign="left" textColor="0x3cd60a" scaleX="1" scaleY="1"/>
+			<e:Label id="extattr3" y="68" text="攻击：100 +100" size="18" verticalAlign="justify" x="22" textAlign="left" textColor="0x3cd60a" scaleX="1" scaleY="1"/>
+			<e:Label id="extattr4" y="89" text="攻击：100 +100" size="18" verticalAlign="justify" x="22" textAlign="left" textColor="0x3cd60a" scaleX="1" scaleY="1"/>
+			<e:Label id="extattr5" y="110" text="攻击：100 +100" size="18" verticalAlign="justify" x="22" textAlign="left" textColor="0x3cd60a" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="bgGroup" x="0" bottom="-95" bottom.lingpi="-100">
+			<e:Image id="bgimg0" source="bantoutiaobg" height="30" scale9Grid="128,2,15,41" width="300" touchEnabled="false" y="1" x="0"/>
+			<e:Label id="bglabel0" text="点击空白区域关闭窗口" size="18" x="58" bold="true" textColor="0x7E6437" touchEnabled="false" y="7"/>
+
+
+
+			<e:Group id="grpBtn" x="20" y="33" visible="false">
+				<e:Button id="changeXiLian" label="提炼" skinName="Btn3Skin" width="100" height="45" x="157" y="7"/>
+				<e:Button id="btnHeCheng" label="合成" skinName="Btn3Skin" width="100" height="45" x="0" y="4"/>
+				<e:Image id="redPoint0" touchEnabled="false" source="zjmhongdian" x="80" y="0"/>
+				<e:Image id="redPoint1" touchEnabled="false" source="zjmhongdian" x="240" y="1"/>
+			</e:Group>
+
+		</e:Group>
+
+
+
+
+		
+
+
+
+	</e:Group>
+
+</e:Skin>

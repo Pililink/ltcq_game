@@ -1,0 +1,7 @@
+{"file":"limitreward.png","frames":{
+"limitreward_btn":{"x":484,"y":203,"w":175,"h":52,"offX":0,"offY":0,"sourceW":175,"sourceH":52},
+"limitreward_bg":{"x":484,"y":1,"w":527,"h":200,"offX":0,"offY":0,"sourceW":527,"sourceH":200},
+"limitreward_bg_beijing":{"x":1,"y":1,"w":481,"h":305,"offX":0,"offY":0,"sourceW":481,"sourceH":305},
+"limitreward_biaoti":{"x":742,"y":203,"w":137,"h":31,"offX":0,"offY":0,"sourceW":137,"sourceH":31},
+"limitreward_close":{"x":881,"y":203,"w":48,"h":45,"offX":0,"offY":0,"sourceW":48,"sourceH":45},
+"limitreward_times":{"x":661,"y":203,"w":79,"h":79,"offX":0,"offY":0,"sourceW":79,"sourceH":79}}}

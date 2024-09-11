@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RecycleTipsSkin" height="30" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" left="0" right="0" top="0" bottom="0" source="tongyongtip1" scale9Grid="8,8,6,2"/>
+	<e:Group verticalCenter="0" horizontalCenter="0">
+		<e:Label id="lab" text="tips" size="16" textColor="0xDFD1B5" touchEnabled="false" scaleX="1" scaleY="1"/>
+		<e:Label id="click" text="点击回收" size="16" scaleX="1" scaleY="1" textColor="0x68fc00"/>
+		<e:layout>
+			<e:HorizontalLayout gap="13"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="AnDianEquipSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586c85d15d"/>
+
+	<e:Image source="andianpos_bj_png" bottom="0" left="0" top="0" right="0"/>
+	<ns1:PowerPanel id="power" skinName="PowerPanelSkin" horizontalCenter="0" y="87"/>
+	<e:Button id="btnXiangQing" label="" horizontalCenter="118" verticalCenter="-235">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tongyongxiangxi"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group y="54" x="480" scaleX="0.8" scaleY="0.8">
+		<e:Image smoothing="true" source="touxiangkuang"/>
+		<e:Button id="btnLingShi" label="" horizontalCenter="1.5" verticalCenter="-0.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="611301_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+
+
+		</e:Button>
+		<e:Image id="redPoint0" touchEnabled="false" source="zjmhongdian" x="62.5" y="0" visible="false"/>
+		<e:Label id="lab_lsNum" text="0" x="11" y="47.5" fontFamily="SimHei" size="22" touchEnabled="false"/>
+	</e:Group>
+	<e:Group y="133" x="480" scaleX="0.8" scaleY="0.8">
+		<e:Image smoothing="true" source="touxiangkuang"/>
+		<e:Button id="btnmoshi" label="" horizontalCenter="1.5" verticalCenter="-0.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="611302_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+
+
+		</e:Button>
+		<e:Image id="redPoint1" touchEnabled="false" source="zjmhongdian" x="62.5" y="0" visible="false"/>
+		<e:Label id="labmoshi" text="0" x="11" y="47.5" fontFamily="SimHei" size="22" touchEnabled="false"/>
+	</e:Group>
+	
+	<e:Button id="btnLingIi" label="" y="90" x="20">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="andianpointBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<ns1:BaseComponent id="andianEquipPanel0" skinName="andianEquipItem2Skin" className="AnDianEquipItem" y="296" x="57"/>
+	<ns1:BaseComponent id="andianEquipPanel1" skinName="andainEquipItemSkin" className="AnDianEquipItem" y="190" x="110"/>
+	<ns1:BaseComponent id="andianEquipPanel2" skinName="andianEquipItem2Skin" className="AnDianEquipItem" y="296" x="221"/>
+	<ns1:BaseComponent id="andianEquipPanel3" skinName="andainEquipItemSkin" className="AnDianEquipItem" y="190" x="380"/>
+	<ns1:BaseComponent id="andianEquipPanel4" skinName="andainEquipItemSkin" className="AnDianEquipItem" y="540" x="110"/>
+	<ns1:BaseComponent id="andianEquipPanel5" skinName="andainEquipItemSkin" className="AnDianEquipItem"  y="630" x="110"/>
+	<ns1:BaseComponent id="andianEquipPanel6" skinName="andainEquipItemSkin" className="AnDianEquipItem" y="540" x="380"/>
+	<ns1:BaseComponent id="andianEquipPanel7" skinName="andainEquipItemSkin" className="AnDianEquipItem" y="630" x="380"/>
+
+
+
+
+	<ns1:BaseComponent id="andianEquipPanel8" y="186" x="221" skinName="andianEquipItem3Skin" className="AnDianEquipItem" />
+	<ns1:BaseComponent id="andianEquipPanel9" y="296" x="380" skinName="andianEquipItem3Skin" className="AnDianEquipItem" />
+	<ns1:BaseComponent id="andianEquipPanel10" y="542" x="221" skinName="andianEquipItem3Skin" className="AnDianEquipItem" />
+	<ns1:BaseComponent id="andianEquipPanel11" y="402" x="380" skinName="andianEquipItem3Skin" className="AnDianEquipItem" />
+
+	
+
+
+
+
+
+
+
+
+</e:Skin>

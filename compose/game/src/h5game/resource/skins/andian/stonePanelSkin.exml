@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="stonePanelSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" width="580" height="930">
+	<e:Rect id="bgClose" left="0" right="0" top="0" bottom="0" fillAlpha="0.8"/>
+
+	<e:Group id="anigroup" height="450" horizontalCenter="0" verticalCenter="27" width="380">
+		<e:Image source="tongyongtip1" scale9Grid="11,12,2,1" left="0" top="0" bottom="30" right="0"/>
+
+
+		<e:Image id="frame" left="0" right="0" top="0" bottom="30" scale9Grid="26,18,1,1" anchorOffsetX="0" anchorOffsetY="0" source="tongyongtip2"/>
+		<e:Image scale9Grid="85,1,6,1" width="340" y="134" horizontalCenter="0" source="tongyongline"/>
+		<e:Label id="lab_Name" text="屠龙 23323" size="20" textAlign="left" textColor="0x90F490" y="17" x="25" bold="true" fontFamily="SimHei"/>
+
+		<ns1:BaseComponent id="itemIcon" skinName="ItemIconSkin" className="ItemIcon" x="21" y="48"/>
+		<e:Label text="当前使用：" size="20" textAlign="left" textColor="0xc9a968" y="64" x="100" bold="true" fontFamily="SimHei"/>
+		<e:Label id="labLv" text="0/200" size="20" y="64" x="200" bold="true" textColor="0xd1c8c0" textAlign="left" fontFamily="SimHei"/>
+		<e:Label id="lab_Limit" text="(转生达到14级增加使用上线)" size="15" textAlign="left" y="95" x="105" bold="true" textColor="0xe5190b" fontFamily="SimHei"/>
+		<e:Label text="使用后暗殿装备属性：" size="18" textAlign="left" y="145" x="24" bold="true" textColor="0x7e6437" fontFamily="SimHei"/>
+		<e:Label id="labAttr1" text="攻击:0% +0%" size="18" y="170" x="43" bold="true" textAlign="left" fontFamily="SimHei" textColor="0x9f946d"/>
+		<e:Label id="labAttr2" text="物防+1000" size="18" y="197" x="43" bold="true" textAlign="left" textColor="0x9f946d" fontFamily="SimHei"/>
+		<e:Label id="labAttr3" text="魔防+1000" size="18" y="221" x="43" bold="true" textAlign="left" textColor="0x9f946d" fontFamily="SimHei"/>
+		<e:Label id="labAttr4" text="生命+54000" size="18" y="246" x="43" bold="true" textAlign="left" textColor="0x9f946d" fontFamily="SimHei"/>
+		<e:Label id="labAttr5" text="所有暗殿装备基础属性增加0.5%" size="18" y="270" x="43" bold="true" textAlign="left" textColor="0x9f946d" fontFamily="SimHei"/>
+
+
+
+
+		<e:Label id="labDesc" text="可在暗殿界面使用为暗殿装备提升属性" size="18" y="302" x="33" textColor="0xc9a968" textAlign="left" fontFamily="SimHei"/>
+		<e:Image scale9Grid="85,1,6,1" width="340" y="334" horizontalCenter="0" source="tongyongline"/>
+		<e:Label id="labMaxNum" text="已经达到最高使用上限" size="18" bold="true" textAlign="left" textColor="0x37D310" fontFamily="SimHei" horizontalCenter="0" bottom="65" visible="false"/>
+		<e:Label id="labUpZSLv" text="提升转生等级提高使用上限" size="18" bold="true" textAlign="left" textColor="0x37D310" fontFamily="SimHei" horizontalCenter="0" bottom="65"/>
+		<e:Group id="grpXH" horizontalCenter="0" bottom="60" visible="false">
+			<e:Label text="升级消耗：" size="20" textAlign="left" y="0" x="0" bold="true" fontFamily="SimHei" textColor="0xf4e6cb"/>
+			<e:Label id="labNum" text="X1" size="20" textAlign="left" y="1" x="140" bold="true" fontFamily="SimHei" textColor="0xef1107"/>
+			<e:Image id="imgIcon" x="97" y="-10" width="59" height="62" scaleX="0.6" scaleY="0.6" source="611301_png"/>
+		</e:Group>
+		<e:Button id="btnLv" label="升 级" skinName="Btn3Skin" anchorOffsetX="0" width="165" anchorOffsetY="0" height="56" horizontalCenter="0" bottom="45" visible="false"/>
+		<e:Group horizontalCenter="0" bottom="-30">
+			<e:Image source="bantoutiaobg" height="30" scale9Grid="128,2,15,41" width="300" touchEnabled="false" x="0" y="0"/>
+			<e:Label text="点击空白区域关闭窗口" size="20" x="48" bold="true" textColor="0x7E6437" touchEnabled="false" y="5"/>
+		</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</e:Group>
+	
+	
+</e:Skin>

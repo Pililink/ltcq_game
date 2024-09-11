@@ -1,0 +1,21 @@
+FROM ubuntu:20.04
+RUN apt update \
+	&& apt -y install software-properties-common vim \
+	&& add-apt-repository ppa:ondrej/php \
+	&& apt update \
+	&& apt -y install php5.6 php5.6-fpm php5.6-redis php5.6-mbstring php5.6-curl php5.6-mysql php5.6-xml  \
+	&& apt -y install nginx libmariadb-dev net-tools vim  \
+    && ln -s /usr/lib/x86_64-linux-gnu/libmariadb.so /usr/lib/x86_64-linux-gnu/libmysqlclient.so.18
+
+# 拷贝网站代码到默认的 Nginx 目录
+# COPY ./src /var/www/html
+
+# 设置工作目录为 Nginx 的默认根目录
+WORKDIR /var/www/html
+
+# 暴露 80 端口供 HTTP 服务使用
+EXPOSE 80 9001
+
+# 启动脚本：启动 PHP-FPM 和 Nginx 服务
+COPY ./src/start.sh /start.sh
+CMD  /start.sh

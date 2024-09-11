@@ -1,0 +1,16 @@
+{
+["Notice"]={
+["notice_list_end"]=2,
+["notice_list_begin"]=0,
+["notice_list"]={
+[1]={
+["content"]="BOSS|C:0x00ff00&T:铁血魔王|出现在|C:0x00ff00&T:s1跨服战场|！",
+["type"]=1,
+},
+[0]={
+["content"]="BOSS|C:0x00ff00&T:铁血魔王|出现在|C:0x00ff00&T:s1跨服战场|！",
+["type"]=1,
+},
+},
+},
+}

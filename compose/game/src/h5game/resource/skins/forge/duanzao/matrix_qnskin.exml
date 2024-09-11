@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="matrix_qnskin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+	<w:Config id="15a6a787b69"/>
+	<e:Rect id="bgClose" left="0" right="0" top="0" bottom="135" fillAlpha="0.8" anchorOffsetY="0"/>
+	<e:Group id="anigroup" height="315" width="350" horizontalCenter="0" verticalCenter="-67.5" anchorOffsetY="0">
+		<e:Image id="background"   source="tongyongtip1" scale9Grid="6,5,13,13" left="0" right="0" top="0" bottom="0"/>
+		<e:Image id="quali" height="110" top="0" source="quali5" left="0" right="0" anchorOffsetY="0" scale9Grid="8,1,12,5" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="tongyongtip2" scale9Grid="18,16,4,7" left="0" right="0" top="0" bottom="1" anchorOffsetY="0"/>
+		<e:Label id="nameLabel" text="技能名称" x="103" y="20" size="22" bold="true" textColor="0x47a4ee" stroke="1" visible="false"/>
+		<e:Label id="nameLabel0" text="天命" x="100" y="31" size="24" stroke="1" bold="true" textColor="0xfce307"/>
+		<e:Label id="nameLabel1" text="法阵潜能" x="103" y="70" size="20" stroke="1" textColor="0xf4f9f9"/>
+		<e:Label y="44" text="部位：" fontFamily="黑体" size="16" x="189" textColor="0xD2C76A" visible="false"/>
+		<e:Label id="type" y="44" text="武器" fontFamily="黑体" size="16" x="235" textColor="0xFFFFFF" visible="false"/>
+		<e:Group width="320" horizontalCenter="0" verticalCenter="60.5" anchorOffsetY="0" height="164">
+			<e:Label id="desc1" y="4" text="                    11111111111000000000000000000000000000000000000000000000000" size="18"   stroke="1" x="1" width="320" height="55" multiline="true" anchorOffsetY="0" textColor="0xffffff" lineSpacing="3"/>
+			<e:Label id="s1" y="70" text="当前属性：" size="18"   stroke="1" textColor="0xedb910"/>
+			<e:Label id="labValue" y="70" text="1050%" size="18"   stroke="1" x="90.34" textColor="0x9f946d"/>
+			<e:Label id="desc2" y="99.5" text="               每次领5444444444444悟可增加4000-50000" size="18" x="91"   stroke="1" width="230" textColor="0x20cb30" anchorOffsetY="0" height="55" multiline="true"/>
+			<e:Label y="3" text="潜能效果：" size="18" stroke="1" textColor="0xEDB910"/>
+			<e:Label id="s2" y="99" text="领悟效果：" size="18" stroke="1" textColor="0xEDB910"/>
+		</e:Group>
+		<e:Image source="bantoutiaobg" height="30" horizontalCenter="0" bottom="-38" width="400" x="-25" y="458"  />
+		<e:Label horizontalCenter="0" text="点击空白区域关闭窗口" size="20" x="73" bold="true" bottom="-33" textColor="0x7E6437" y="463"  />
+		<e:Image id="icon0" x="13" y="16" source="dc_potentialFrame"/>
+		<e:Image id="icon"  x="22" y="26" source="dc_potentialicon1"/>
+		<e:Label id="noActive" text="尚未激活" x="242" y="29" size="20" stroke="1" textColor="0xea6146" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

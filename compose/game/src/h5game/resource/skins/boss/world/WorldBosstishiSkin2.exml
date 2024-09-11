@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WorldBosstishiSkin2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="580" height="930">
+
+	<e:Rect fillAlpha="0.6" left="0" right="0" top="0" bottom="0"/>
+	<e:Group width="450" height="320" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="tongyonglabbg"   scale9Grid="15,8,97,54" left="0" right="0" top="0" bottom="0"/>
+		<e:Image source="tongyongkuang3tou"   y="1" left="0" right="0" scale9Grid="66,18,272,15"/>
+		<e:Label text="提  示" size="24" y="11" textColor="0xfd600d" bold="true" horizontalCenter="0"/>
+		<e:Image source="zdbossjianglixiaobg" horizontalCenter="0" verticalCenter="16" scaleX="2" scaleY="2"/>
+		<e:Group y="237" horizontalCenter="0.5">
+			<e:Button id="sure" skinName="Btn1Skin" label="确  定" width="130" x="203" y="0"/>
+			<e:Button id="giveUp" skinName="Btn1Skin" label="取消" width="130" height="50" x="0" y="0"/>
+		</e:Group>
+		<e:Group y="120" horizontalCenter="0">
+			<e:Label id="tipsTxt" text="确定需要消耗\n艾斯德斯男的女的撒大声地多所说的是对的地方地方大幅度发" size="22" width="350" textAlign="center" textColor="0xc6bca9" y="-23"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

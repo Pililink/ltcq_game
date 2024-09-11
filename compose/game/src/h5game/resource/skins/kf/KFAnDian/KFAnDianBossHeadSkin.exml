@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KFAnDianBossHeadSkin" width="139" height="141" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down" >
+	<e:Image source="KFAD_bosskuang" left="0" bottom="0" top="0" right="0"/>
+	<e:Image id="bossHead" source="monhead84023_png" horizontalCenter="0.5" bottom="43"/>
+	<e:Image id="isSelected" source="xuanzhongyuan" width="85" height="85" horizontalCenter="0" bottom="35" visible.up="false"/>
+	<e:Image source="teshuwenzibg2" horizontalCenter="0" bottom="0"/>
+	<e:Label id="bossName" text="暗殿~沙城之王" size="16" bold="true" textColor="0xaf8a4f" horizontalCenter="2" bottom="5"/>
+	<e:Image source="bantoutiaoboss" width="50" horizontalCenter="-42.5" bottom="97"/>
+	<e:Label id="order" text="15阶" size="20" textColor="0xc9b688" horizontalCenter="-45" bottom="99"/>
+	<e:Image id="isOpen" source="zdbossweikaiqi" horizontalCenter="54.5" bottom="79"/>
+	<e:Rect id="timeRect" width="75" height="75" anchorOffsetX="0" anchorOffsetY="0" ellipseWidth="80" ellipseHeight="80" fillAlpha="0.6" horizontalCenter="0" verticalCenter="-7"/>
+	<e:Label id="time" text="00:12:42" textColor="0xd19c2b" size="20" horizontalCenter="-0.5" verticalCenter="-5.5"/>
+	<e:Image id="redPoint" source="zjmhongdian" horizontalCenter="53.5" bottom="109"/>
+</e:Skin>

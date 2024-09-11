@@ -1,0 +1,142 @@
+﻿-- 合服活动配置
+--#include "..\..\language\LangCode.txt" once
+
+HefuConf = {
+	hefuDate = { -- 开启合服活动的服务器和对应时间
+		[10001] = { 2019, 2, 25 },-- 前面的是服务器ID，后面的是合服获得开启时间
+		[10028] = { 2019, 2, 25 },
+		[10053] = { 2019, 2, 25 },
+	},
+
+	serverList = 
+	{
+	},
+
+	nday = 14, -- 活动持续多少天
+	rankTime = 7, -- 战力排行榜结算时间(第几天的24点)
+	petRankTime = 14, -- 宠物排行榜结算时间(第几天24点)
+	infos = { -- 每个活动的通用配置，界面的剩余时间用
+		{
+			-- 豪华大回馈
+			endDay = 8,
+			endTime = { 23, 59, 59 }, -- 时分秒
+		},
+		{
+			-- 消费有惊喜
+			endDay = 7,
+			endTime = { 23, 59, 59 },
+		},
+		{
+			-- 限时神秘商店
+			endDay = 14,
+			endTime = { 23, 59, 59 },
+		},
+		{
+			-- 战力大比拼
+			endDay = 7,
+			endTime = { 23, 59, 59 },
+		},
+		{
+			-- 宠物大比拼
+			endDay = 14,
+			endTime = { 23, 59, 59 },
+		},
+		{
+			-- 激情天元之战
+			endDay = 14,
+			endTime = { 23, 59, 59 },
+		},
+		{
+			-- 仙王
+			endDay = 14,
+			endTime = { 23, 59, 59 },
+		},
+	},
+
+	-- 回馈大礼包相关配置
+	gift = {
+		itemId = 14458, -- 每天可以领取的礼包ID
+	},
+
+	-- 战力悬赏令相关配置
+	fight = {
+		count = 10, -- 取战力排行的前几个
+		rewards = { -- 排名1到count的玩家获得的奖励,type:0表示物品，5表示金钱
+		{{ type = 0, id = 14470, count = 1},},
+		{{ type = 0, id = 14471, count = 1},},
+		{{ type = 0, id = 14472, count = 1},},
+		{{ type = 0, id = 14473, count = 1},},
+		{{ type = 0, id = 14474, count = 1},},
+		{{ type = 0, id = 14475, count = 1},},
+		{{ type = 0, id = 14476, count = 1},},
+		{{ type = 0, id = 14477, count = 1},},
+		{{ type = 0, id = 14478, count = 1},},
+		{{ type = 0, id = 14479, count = 1},},
+		},
+	},
+
+	-- 灵兽召集令相关配置
+	pet = {
+		count = 10, -- 取宠物排行的前几个
+		rewards = { -- 排名1到count的玩家获得的奖励,type:0表示物品，5表示金钱
+		{{ type = 0, id = 14480, count = 1},},
+		{{ type = 0, id = 14481, count = 1},},
+		{{ type = 0, id = 14482, count = 1},},
+		{{ type = 0, id = 14483, count = 1},},
+		{{ type = 0, id = 14484, count = 1},},
+		{{ type = 0, id = 14485, count = 1},},
+		{{ type = 0, id = 14486, count = 1},},
+		{{ type = 0, id = 14487, count = 1},},
+		{{ type = 0, id = 14488, count = 1},},
+		{{ type = 0, id = 14489, count = 1},},
+		},
+	},
+
+	-- 充值相关配置
+	recharge = {
+	    endTimes = {  -- 活动结束时间
+	        endDay = 8,
+			endTime = { 23, 59, 59 },
+		},
+		
+		total = 588, -- 需要充值多少元宝
+		itemId = 14459, -- 奖励礼包ID
+	},
+
+	-- 消费排行配置
+	consume = {
+		count = 10, -- 取消费排行的前几个
+		rewards = { -- 排名1到count的玩家获得的奖励,type:0表示物品，5表示金钱
+		{{ type = 0, id = 14460, count = 1},},
+		{{ type = 0, id = 14461, count = 1},},
+		{{ type = 0, id = 14462, count = 1},},
+		{{ type = 0, id = 14463, count = 1},},
+		{{ type = 0, id = 14464, count = 1},},
+		{{ type = 0, id = 14465, count = 1},},
+		{{ type = 0, id = 14466, count = 1},},
+		{{ type = 0, id = 14467, count = 1},},
+		{{ type = 0, id = 14468, count = 1},},
+		{{ type = 0, id = 14469, count = 1},},
+		},
+	},
+
+	-- 天元配置
+	tianyuan = { 
+		rewards = { -- 第一届宗主，第一届帮众，第二届宗主，第二届帮众获得的奖励
+		{{ type = 0, id = 14490, count = 1},},
+		{{ type = 0, id = 14491, count = 1},},
+		{{ type = 0, id = 14492, count = 1},},
+		{{ type = 0, id = 14493, count = 1},},
+		},
+	},
+
+	-- 仙王
+	xw = {
+		rewards = { -- 前四名奖励
+		{{ type = 0, id = 14494, count = 1},},
+		{{ type = 0, id = 14495, count = 1},},
+		{{ type = 0, id = 14496, count = 1},},
+		{{ type = 0, id = 14496, count = 1},},
+		},
+	},
+}

@@ -1,0 +1,15 @@
+{"file":"swjdRes.png","frames":{
+"swjd_progressBarLight":{"x":984,"y":0,"w":20,"h":26,"offX":0,"offY":0,"sourceW":20,"sourceH":26},
+"biaoti_jingji4":{"x":861,"y":157,"w":145,"h":30,"offX":0,"offY":3,"sourceW":145,"sourceH":34},
+"swjd_tips_icon1":{"x":967,"y":64,"w":25,"h":32,"offX":0,"offY":0,"sourceW":25,"sourceH":32},
+"swjd_tabBar_0":{"x":861,"y":99,"w":146,"h":56,"offX":0,"offY":0,"sourceW":146,"sourceH":56},
+"swjd_progressBar":{"x":1006,"y":0,"w":10,"h":11,"offX":0,"offY":0,"sourceW":10,"sourceH":11},
+"swjd_progressBarIcon":{"x":938,"y":0,"w":44,"h":62,"offX":0,"offY":0,"sourceW":44,"sourceH":62},
+"swjd_tips_icon2":{"x":994,"y":64,"w":27,"h":29,"offX":0,"offY":0,"sourceW":27,"sourceH":29},
+"swjd_tips_icon3":{"x":938,"y":64,"w":27,"h":30,"offX":0,"offY":0,"sourceW":27,"sourceH":30},
+"swjd_text":{"x":713,"y":169,"w":118,"h":26,"offX":1,"offY":1,"sourceW":122,"sourceH":28},
+"swjd_tabBar_1":{"x":713,"y":99,"w":146,"h":68,"offX":0,"offY":0,"sourceW":146,"sourceH":68},
+"swjd_btn":{"x":713,"y":0,"w":223,"h":97,"offX":0,"offY":0,"sourceW":223,"sourceH":97},
+"swjd_tips_text":{"x":0,"y":0,"w":546,"h":107,"offX":0,"offY":0,"sourceW":546,"sourceH":107},
+"swjd_progressBarBox":{"x":984,"y":28,"w":24,"h":17,"offX":0,"offY":0,"sourceW":24,"sourceH":17},
+"swjd_card":{"x":548,"y":0,"w":163,"h":198,"offX":0,"offY":0,"sourceW":164,"sourceH":199}}}

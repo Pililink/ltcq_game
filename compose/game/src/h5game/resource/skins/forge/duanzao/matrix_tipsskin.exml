@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="matrix_tipsskin" currentState="skill0" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:PriceIcon="PriceIcon.*" xmlns:ns1="*"  width="580"  height="930" states="skill0,skill1" >
+	<w:Config id="15a177a4c06"/>
+	<e:Rect id="closeBtn" left="0" top="0" bottom="0" right="0" fillAlpha="0.6"/>
+	<e:Group width="448" height="603" horizontalCenter="0" top="100" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="tongyongtip1" scale9Grid="7,6,11,12" touchEnabled="false" left="0" top="0" bottom="0" right="0"/>
+		<e:Image id="quali" height="99" top="0" source="quali5" left="0" right="0" anchorOffsetY="0" scale9Grid="8,1,12,5" left.skill0="0" right.skill0="0" top.skill0="2"/>
+		<e:Image id="corner" source="tongyongtip2" scale9Grid="18,18,2,4" touchEnabled="false" left="0" top="0" right="0" bottom="0"/>
+		<e:Image y="60" source="teshuwenzibg" anchorOffsetX="0" width="297" horizontalCenter="0.5"/>
+		<e:Image x="24" y="16" source="lym_kuang" anchorOffsetX="0" width="-73" anchorOffsetY="0" height="-74"/>
+		<e:Image id="skillImg" x="28" y="20" source="lym_skill1"/>
+		<e:Group x="105" y="19" anchorOffsetX="0" width="252" anchorOffsetY="0" height="87">
+			<e:Label id="nametxt" text="印记之殇" x="0" y="0" textColor="0xffd93f" size="28" bold="true" fontFamily="SimHei"/>
+			<e:Label id="lvtxt" text="Lv.1" x="126" y="1" textColor="0xFFD93F" size="28" bold="true" fontFamily="SimHei"/>
+			<e:Label id="nametxt0" text="阵眼威能" x="1" y="38" size="28" bold="true" fontFamily="SimHei" scaleX="1" scaleY="1" textColor="0xf2eddc" y.skill1="39"/>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="skillDesctxt" size="20" anchorOffsetY="0" anchorOffsetX="0" width="419" lineSpacing="3" bottom="174" height="62" left="25" left.skill1="25" bottom.skill1="177" width.skill1="421" text="                   222222222222222222222"/>
+		<e:Label text="当前效果:" textColor="0xf8b141" size="20" bold="true" left="25" bottom="193" anchorOffsetY="0" height="43"/>
+		<e:Label id="damageDesctxt" text="                     33333333333333" size="20" anchorOffsetY="0" anchorOffsetX="0" width="400" lineSpacing="3" bottom="102" height="63" left="25" left.skill1="25" bottom.skill1="102" width.skill1="422"/>
+		<e:Label text="下级效果:" textColor="0xF8B141" size="20" bold="true" left="25" bottom="120" anchorOffsetY="0" height="44"/>
+		<e:Image source="tongyongline" horizontalCenter="0" width="280" bottom="165" includeIn="skill1"/>
+		<e:Button id="update" label="升  级" skinName="Btn3Skin" includeIn="skill1" horizontalCenter="0" bottom="8" horizontalCenter.skill1="0" bottom.skill1="7"/>
+		<e:Image id="redpoint" source="zjmhongdian" right="128" bottom="39" visible="false"/>
+		<e:Group id="cost" horizontalCenter="0.5" bottom="56" includeIn="skill1" horizontalCenter.skill1="1" bottom.skill1="59">
+			<e:Label text="升级消耗:" x="0" y="0" size="22" textColor="0xd1c28f" bold="true"/>
+			<e:Image id="costImg" width="40" height="40" x="19" y="2" source="200926_png"/>
+			<e:Label id="costNum" text="X 3" x="10" y="10" size="22" textColor="0xD1C28F" bold="true"/>
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="nextLevel" text="" size="20" bold="true" textColor="0xd1c28f" horizontalCenter="1.5" bottom="23" includeIn="skill1"/>
+		<e:Group id="uieff" x="185" y="314" anchorOffsetX="0" anchorOffsetY="0" x.skill1="228" y.skill1="295" x.skill0="228" y.skill0="295"/>
+		<e:Label id="getItemTxt" text="获取道具" size="20" textColor="0x00FF00" height="60" verticalAlign="middle" width="100" textAlign="center" right="10" bottom="5" includeIn="skill1"/>
+		<e:Label id="noActive" text="尚未激活" size="16" bold="true" anchorOffsetY="0" height="19" x="367" y="41" textColor="0xf9041d" visible="false"/>
+		<e:Label id="maxLab" text="已满级" x="182" y="538" size="22" textColor="0xD1C28F" bold="true" includeIn="skill0"/>
+	</e:Group>
+</e:Skin>

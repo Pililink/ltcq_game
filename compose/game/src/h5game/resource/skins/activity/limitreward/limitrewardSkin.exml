@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="limitrewardSkin" width="580" height="930" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+<e:Rect fillAlpha="0.5" left="0" right="0" top="0" bottom="0"/>
+<e:Group horizontalCenter="-13">
+	<e:Image y="47" x="27" scaleX="1" scaleY="1" source="limitreward_bg" scale9Grid="201,157,125,18" anchorOffsetY="0" height="834"/>
+	<e:Image y="69" x="240" scaleX="1" scaleY="1" source="biaoti_xglb_png"/>
+	 <e:Image source="gantanhao" y="119" x="130" width="28" height="28"/>
+	<e:Label text="限购礼包不计入VIP等级，充值，累充" size="17" fontFamily="SimHei" y="124" x="158" textAlign="left" width="300" textColor="0xD1C28F"/>
+	<e:Scroller scrollPolicyH="off" width="481" height="700" y="146" x="50" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="menuList" x="26" y="60" itemRendererSkinName="limitrewarditemSkin" width="465">
+		<e:layout>
+			<e:VerticalLayout gap="5"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="closeBtn" label="" x="506" y="74">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="limitreward_close" source.down="limitreward_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Group>
+</e:Skin>

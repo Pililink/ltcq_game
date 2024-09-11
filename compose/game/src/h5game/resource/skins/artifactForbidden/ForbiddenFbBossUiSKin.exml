@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForbiddenFbBossUiSKin" width="580" height="930" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="580" height="99.8" anchorOffsetY="0" fillAlpha="0.4" top="0" horizontalCenter="0"/>
+	<e:ProgressBar id="proBar" skinName="bar12Skin" width="118" value="100" right="1" bottom="127"/>
+	<e:Image source="swjd_progressBarIcon" scaleX="0.7" scaleY="0.7" bottom="120" right="100"/>
+	<e:List id="bosslist" top="8" itemRendererSkinName="ForbiddenFbBossHeadSKin" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:layout>
+			<e:HorizontalLayout gap="18"/>
+		</e:layout>
+	</e:List>
+	<e:Group id="bossBloodGroup" y="99.98" horizontalCenter="13.5" anchorOffsetX="0" width="481">
+		<e:Group id="gp" y="0" width="480" x="0">
+		<e:Rect height="20" y="50" left="112" right="28" fillColor="0x111010"/>
+		<e:Rect width="82" height="82" x="19" y="19" ellipseWidth="82" ellipseHeight="82" fillColor="0x111010"/>
+		<e:Image id="hpNext" y="53" width="340" x="110" source="bosshp4"/>
+		<e:Image id="hpEffect" y="53" source="bosshp2" width="340" x="110"/>
+		<e:Image id="hp" y="53" width="340" x="110" source="bosshp1"/>
+		<e:Image id="grayImg" y="53" width="340" x="110" source="bosshp1"/>
+			<e:Label id="labelDisplay" size="16" text="100000/1000000" horizontalCenter="33.5" verticalCenter="0.5" textColor="0xD1C28F" bold="true"/>
+		<e:ProgressBar id="bloodBar" y="52" value="100" left="110" right="30" skinName="bar7Skin" visible="false"/>
+		<e:Image id="head" y="16" x="18" width="82" height="82" source=""/>
+		<e:Image left="0" right="0" scale9Grid="148,0,10,122" source="bosstouxiangk"/>
+		<e:Label id="nameTxt" y="26" size="20" text="祖玛教主" textColor="0xF15A25" x="150" bold="true"/>
+		</e:Group>
+		<e:Group id="hudun" width="310" height="16" y="74" x="117">
+		<e:Rect left="13" right="13" top="0" bottom="10" fillColor="0x111010"/>
+		<e:ProgressBar id="hudunbloodBar" value="100" skinName="bar6Skin" left="13" right="13" top="0" bottom="10"/>
+		<e:Image source="zdbosshudunxuetiaobg" left="0" right="0" top="0" bottom="0" scale9Grid="18,0,7,16"/>
+		</e:Group>
+		<e:Group y="46.34" anchorOffsetX="0" right="41">
+		<e:Image id="xImg" y="-0.02" source="x" scaleX="1" scaleY="1" right="0"/>
+		<e:BitmapLabel id="label" text="1" scaleX="1" scaleY="1" letterSpacing="-6" font="num_boss_fnt" x="26"/>
+		<e:layout>
+			<e:HorizontalLayout gap="-4"/>
+		</e:layout>
+		</e:Group>
+		<e:Button id="tipBtn0" label="奖励" y="112" horizontalCenter="-179" icon="bosstouxiangbtn" skinName="Btn18Skin" x="15" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="attList" width="100" top="191" bottom="143" right="0">
+		<e:Group id="beAttackGroup" x="0" top="151" bottom="0">
+		<e:Group x="0" y="0" width="100">
+			<e:Image source="teshuwenzibg" y="0" height="30" left="0" right="0"/>
+			<e:Label text="受到攻击" y="5" size="18" textAlign="center" textColor="0xD6240E" x="14"/>
+		</e:Group>
+		<e:Scroller id="bar0" width="100" x="0" top="32" bottom="0">
+			<e:List id="list2" x="5" y="6" itemRendererSkinName="MemberHeadSkin"/>
+		</e:Scroller>
+		</e:Group>
+		<e:Group id="attackGroup" x="0" y="1">
+		<e:Group x="0" y="0" width="100">
+			<e:Image source="teshuwenzibg" y="0" height="30" left="0" right="0"/>
+			<e:Label text="正在攻击" y="5" size="18" textColor="0xFFCE0B" textAlign="center" x="14"/>
+		</e:Group>
+		<e:List id="list1" width="100" height="110" x="0" y="30" itemRendererSkinName="MemberHeadSkin"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="attackBtnGroup" bottom="166" horizontalCenter="0" width="322">
+		<ns1:BaseComponent id="attackBoss" xmlns:ns1="*" skinName="worldBossAtbtn" x="75" y="35" className="BossUIBtnItem" anchorOffsetX="75" anchorOffsetY="35"/>
+		<ns1:BaseComponent id="attackPlayer" xmlns:ns1="*" skinName="worldBossAtbtn" x="246" y="35" className="BossUIBtnItem" anchorOffsetX="75" anchorOffsetY="35"/>
+	</e:Group>
+	<e:Group width="235" y="189.98" id="belongGroup" right="95">
+		<e:Rect height="14" y="30" left="77" right="13" fillColor="0x111010"/>
+		<e:Rect left="91" right="32" fillColor="0x111010" height="4" width="92" y="46"/>
+		<e:Rect width="58" height="58" x="8" y="9" ellipseWidth="82" ellipseHeight="82" fillColor="0x111010"/>
+		<e:Image id="roleHead" source="yuanhead10" width="52" height="52" x="11" y="11.2"/>
+		<e:Image y="5" height="24" width="196" source="bantoutiaobg" x="23" scale9Grid="51,5,136,35"/>
+		<e:ProgressBar id="neigongBar0" width="112" height="4" y="46" value="100" x="89" skinName="bar6Skin"/>
+		<e:ProgressBar id="bloodBar0" y="31" value="50" left="76" right="14" height="12" skinName="bar7Skin"/>
+		<e:Image scale9Grid="92,32,5,7" left="0" right="0" y="1" source="zdbossgueishuzhebg"/>
+		<e:Group x="77" y="8" height="18" width="140">
+		<e:Label text="归属" size="16" textAlign="center" y="1" textColor="0x9F946D" x="0"/>
+		<e:Label id="belongNameTxt" text="玩家名称" size="16" textColor="0xFFCE0B" textAlign="center" y="1" x="40"/>
+		</e:Group>
+		<e:Button id="attguishu" label="抢夺归属" x="72" y="50" width="80" height="36" skinName="Btn17Skin"/>
+	</e:Group>
+	<e:Group id="timeBitGrp" width="580" height="930" verticalCenter="0" horizontalCenter="0">
+		<e:Image source="swjd_tips_text" horizontalCenter="0" verticalCenter="0"/>
+		<e:BitmapLabel id="timeBit" font="num_9_fnt" text="4" scaleX="0.8" scaleY="0.8" horizontalCenter="-122" verticalCenter="7"/>
+	</e:Group>
+	<e:Group id="canAttackGroup" x="0" top="200" touchEnabled="false">
+		<e:Group x="0" y="0" width="100">
+		<e:Image source="teshuwenzibg" y="0" height="30" left="0" right="0"/>
+		<e:Label text="可以攻击" y="5" size="18" textAlign="center" x="14" textColor="0x00FF00"/>
+		</e:Group>
+		<e:Scroller width="100" x="0" top="32" height="500" anchorOffsetY="0">
+		<e:List id="list3" x="5" y="6" itemRendererSkinName="MemberHeadSkin" touchEnabled="false"/>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

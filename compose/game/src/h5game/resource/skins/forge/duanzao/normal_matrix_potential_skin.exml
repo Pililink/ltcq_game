@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="normal_matrix_potential_skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        xmlns:tween="egret.tween.*" states="zl_up,zl_max,skin_up,skin_max" includeIn="normalWithPrompt,disabledWithPrompt" width="554"
+        height="930" height.zl_up="712" height.zl_max="712" width.skin_up="580" width.skin_max="580">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.6" includeIn="skin_up,skin_max" locked="true"/>
+	<e:Image top="0" bottom="0" source="tongyongmianbanbg2" width="580" horizontalCenter="0" scale9Grid="15,12,2,3" includeIn="skin_up,skin_max" locked="true"/>
+	<e:Group width="556" horizontalCenter="0" bottom="73" includeIn="skin_up,skin_max">
+		<e:Image source="bantoumingkuang4" x="0" top="0" bottom="0" width="278" height="90"/>
+		<e:Image source="bantoumingkuang4" scaleX="-1" right="0" top="0" bottom="0" width="278" height="90"/>
+	</e:Group>
+	<e:Image width="570" horizontalCenter="0" source="tongyongmianbanbg" top="44" bottom="155" scale9Grid="19,12,14,14" includeIn="skin_up,skin_max" locked="true"/>
+	<e:Group id="content" top.skin_up="52" bottom.skin_up="162" horizontalCenter.skin_up="0" top.skin_max="52" horizontalCenter.skin_max="0" bottom.skin_max="162" left.zl_up="0" right.zl_up="0" top.zl_up="0" bottom.zl_up="0" left.zl_max="0" right.zl_max="0" top.zl_max="0" bottom.zl_max="0" horizontalCenter="0" top="0" width.skin_up="554" width.skin_max="554">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="52" source="dc_upgradeBg_jpg" x="1" y="52" scaleX="1" scaleY="1" horizontalCenter.zl_up="0" top.zl_up="2" horizontalCenter.zl_max="0" top.zl_max="1"/>
+
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="153" source="dc_potentialCir_png" horizontalCenter.zl_up="0" top.zl_up="103" horizontalCenter.zl_max="0" top.zl_max="102"/>
+		<e:Group id="zhanling" horizontalCenter="1.5" top="346" horizontalCenter.zl_up="2.5" top.zl_up="296" horizontalCenter.zl_max="4.5" top.zl_max="295"/>
+		<e:Group width="500" height="154" scaleX="1" scaleY="1" horizontalCenter="0" bottom="98" bottom.zl_up="141" bottom.zl_max="139" bottom.skin_up="153" bottom.skin_max="153" anchorOffsetY="0" horizontalCenter.zl_up="0" horizontalCenter.zl_max="0">
+			<e:Image source="dc_attrDepart" y="-64" x="39"/>
+			<e:Image source="dc_attrDepart" scaleX="-1" x="464" y="-65"/>
+		<e:Image source="shuxingbg" left="0" right="0" top="0" bottom="0" scale9Grid="50,5,65,34"/>
+			<ns1:BaseComponent id="powerPanel0" skinName="PowerPanelSkin" className="PowerPanel" x="107" y="-54" scaleX="1" scaleY="1"/>
+			<e:Image id="skillTitle1" horizontalCenter="122.5" top="5" source="dc_potentialtitle2"/>
+			<e:Image id="skillTitle0" horizontalCenter="-128.5" top="0" source="dc_potentialtitle1" horizontalCenter.zl_max="-136.5" top.zl_max="0"/>
+			<e:Image id="cursor" source="jiantouyou" horizontalCenter="0" verticalCenter="0" rotation="180" x="202" y="70" scaleX="1" scaleY="1"/>
+
+
+
+			<e:Group y="38" scaleX="1" scaleY="1"  height="20" width="225" horizontalCenter="-90.5">
+				<e:Label id="attr0" text="攻击+10000" size="18"  x="0" textColor="0x9F946D" y="41"/>	
+				<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:Group y="61" scaleX="1" scaleY="1" height="20" width="225" horizontalCenter="-90.5">
+				<e:Label id="attr1" text="攻击+10000" size="18" x="0" textColor="0x9F946D" y="41"/>
+				<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:Group y="85" scaleX="1" scaleY="1" height="20" width="225" horizontalCenter="-90.5">
+				<e:Label id="attr2" text="攻击+10000" size="18" x="0" textColor="0x9F946D" y="41"/>
+				<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:Group y="108" scaleX="1" scaleY="1" height="20" width="225" horizontalCenter="-90.5">
+				<e:Label id="attr3" text="攻击+10000" size="18" x="0" textColor="0x9F946D" y="41"/>
+				<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:Group y="131" scaleX="1" scaleY="1" height="20" width="225" horizontalCenter="-90.5">
+				<e:Label id="attr4" text="攻击+10000" size="18" x="0" textColor="0x9F946D" y="41"/>
+				<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:Group y="38" scaleX="1" scaleY="1" height="20" width="225" horizontalCenter="171.5">
+				<e:Label id="attr5" text="攻击+10000" size="18" x="0" y="41" textColor="0x00ff00" includeIn="zl_up"/>
+				<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:Group y="61" scaleX="1" scaleY="1" height="20" width="225" horizontalCenter="171.5">
+				<e:Label id="attr6" text="攻击+10000" size="18" x="0" y="41" textColor="0x00ff00" includeIn="zl_up"/>
+				<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:Group y="85" scaleX="1" scaleY="1" height="20" width="225" horizontalCenter="171.5">
+				<e:Label id="attr7" text="攻击+10000" size="18" x="0" y="41" textColor="0x00ff00" includeIn="zl_up"/>
+				<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:Group y="108" scaleX="1" scaleY="1" height="20" width="225" horizontalCenter="171.5">
+				<e:Label id="attr8" text="攻击+10000" size="18" x="0" y="41" textColor="0x00ff00" includeIn="zl_up"/>
+				<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:Group y="131" scaleX="1" scaleY="1" height="20" width="225" horizontalCenter="171.5">
+				<e:Label id="attr9" text="攻击+10000" size="18" x="0" y="41" textColor="0x00ff00" includeIn="zl_up"/>
+				<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+
+		</e:Group>
+
+
+
+		<e:Group id="dinghong" anchorOffsetY="0" y.skin_up="638" y.skin_max="638" width="556" horizontalCenter="0" horizontalCenter.zl_up="0" height.zl_up="130" horizontalCenter.zl_max="0" height="95" bottom.zl_up="3" bottom.zl_max="7" height.zl_max="130">
+			<e:Image top="1" bottom="-1" source="bantoumingkuang3" left="0" width="296" anchorOffsetY="0" left.zl_max="0" top.zl_max="-3" bottom.zl_max="-17"/>
+			<e:Image scaleX="-1" top="1" bottom="-1" source="bantoumingkuang3" width="296" right="0" x.zl_up="561" anchorOffsetY="0" right.zl_max="0" top.zl_max="-2" bottom.zl_max="-18"/>
+			<e:Group id="upInfo" bottom="-15" height="110" horizontalCenter="0" width="560" horizontalCenter.zl_up="0" bottom.zl_up="-1" includeIn="zl_up">
+				<e:Group id="costGroup0" horizontalCenter="0" bottom="70">
+				<e:Label id="expendLabel0" text="消耗: " size="20" bold="true" x="0" y="0" textColor="0xD1C28F"/>
+				<e:Image id="icon0" x="55" source="200002_png" width="40" height="40" y="28"/>
+				<e:Label id="countLabel0" text="12000/100" size="20" textAlign="left" textColor="0xD1C28F" x="94" y="12"/>
+				<e:layout>
+					<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+				</e:layout>
+				</e:Group>
+				<e:Label id="getItemTxt0" text="获取道具" size="20" textColor="0x00FF00" horizontalCenter="200" bottom="10" height="60" verticalAlign="middle" width="100" textAlign="center"/>
+				<e:Button id="upGradeBtn1" label="领  悟" skinName="Btn1Skin" bottom="10" horizontalCenter="0"/>
+				<e:Label id="lingwuCount" text="12000/100" size="20" textAlign="left" x="22" y="62" includeIn="zl_up,skin_up,skin_max" textColor="0xf9c107"/>
+			</e:Group>
+
+		</e:Group>
+		<e:Label id="countLabel1" text="已满级" size="20" textAlign="left" textColor="0xD1C28F" x="253" y="615.5" includeIn="zl_max"/>
+
+
+		<e:Group id="maxLevel" width="158" height="40" includeIn="zl_max,skin_max" bottom="-298" horizontalCenter="0" horizontalCenter.zl_max="0" bottom.zl_max="-247">
+			<e:Image source="bantoutiaobg" left="0" right="0" top="0" bottom="0"/>
+			<e:Label textColor="0xFFD862" text="已满阶" size="20" width="144" height="84" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Image id="zhanlingName" top="155" horizontalCenter="-236" source="dc_upgradename1" horizontalCenter.zl_up="-208" top.zl_up="28" horizontalCenter.zl_max="-211" top.zl_max="24"/>
+		<e:Image y="252.27" x="71" source="dc_potentialFrame" y.zl_up="198.27" y.zl_max="201.27"/>
+		<e:Image y="172" x="138.5" source="dc_potentialFrame" y.zl_up="118" y.zl_max="121"/>
+		<e:Image y="146" x="249" source="dc_potentialFrame" y.zl_up="92" y.zl_max="95"/>
+		<e:Image y="172" x="360" source="dc_potentialFrame" y.zl_up="118" y.zl_max="121"/>
+		<e:Image y="252" x="446" source="dc_potentialFrame" y.zl_up="198" y.zl_max="201"/>
+		<e:Image id="point_0"  x="80" y="263.5"  source="dc_potentialicon1" y.zl_up="209.5" y.zl_max="212.5"/>
+		<e:Image id="point_1" x="149" y="182.5" scaleX="1" scaleY="1" source="dc_potentialicon2" y.zl_up="128.5" y.zl_max="131.5"/>
+		<e:Image id="point_2" x="258" y="156" scaleX="1" scaleY="1" source="dc_potentialicon3" y.zl_up="102" y.zl_max="105"/>
+		<e:Image id="point_3" x="368" y="182" scaleX="1" scaleY="1" source="dc_potentialicon4" y.zl_up="128" y.zl_max="131"/>
+		<e:Image id="point_4" x="453.5" y="261.5" scaleX="1" scaleY="1" source="dc_potentialicon5" y.zl_up="207.5" y.zl_max="210.5"/>
+		<e:Group id="zhanling0" horizontalCenter="-0.5" y="335" x="277" scaleX="1" scaleY="1" horizontalCenter.zl_up="0.5" y.zl_up="285" horizontalCenter.zl_max="2.5" y.zl_max="284"/>
+
+
+
+
+
+
+
+
+
+
+	</e:Group>
+	<ns1:BaseComponent id="roleSelect" skinName="RoleSelectPanelSkin" width="580" horizontalCenter="0" className="RoleSelectPanel" includeIn="skin_up,skin_max" top="0"/>
+	<e:Image id="skillTitle" horizontalCenter="-155" source="biaoti_zhanling" includeIn="skin_up,skin_max" top="5"/>
+	<e:Button id="closeBtn" label="按钮" skinName="Btn0Skin" icon="chatclose" scaleX="0.8" scaleY="0.8" horizontalCenter="266" includeIn="skin_up,skin_max" top="46"/>
+	<e:Button id="help" label="按钮" skinName="Btn0Skin" icon="wenhao" horizontalCenter="-246" scaleX="0.9" scaleY="0.9" includeIn="skin_up,skin_max" top="8"/>
+
+
+
+</e:Skin>

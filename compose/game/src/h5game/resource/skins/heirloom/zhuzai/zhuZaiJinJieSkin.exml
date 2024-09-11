@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="zhuZaiJinJieSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="580" height="930">
+	<e:Rect id="bgClose" left="0" right="0" top="0" bottom="0" fillAlpha="0.8"/>
+	<e:Group id="anigroup" width="445" height="728" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="-36">
+		<e:Image left="0" right="0" top="0" bottom="0" source="tongyongtip3" scale9Grid="10,9,9,10"/>
+		<e:Image left="0" right="0" top="0" bottom="0" source="tongyongtip2" scale9Grid="19,18,2,6"/>
+		<e:Image  anchorOffsetX="0" anchorOffsetY="0" source="andian_bg_png" left="0" right="0" bottom="2" top="2"/>
+		<e:Image source="bantoutiaobg" scale9Grid="126,21,4,5" scaleX="1" scaleY="1" y="70" anchorOffsetY="0" height="29" horizontalCenter="0"/>
+		<ns1:PowerPanel id="power" skinName="PowerPanelSkin" x="64" y="10"/>
+		<e:Label id="lab_pinfen" text="主宰评分：120000" fontFamily="SimHei" size="18" textColor="0xc17c28" y="77" bold="true" horizontalCenter="0"/>
+		<e:Image id="img_jie"  anchorOffsetX="0" anchorOffsetY="0" x="33" y="83" source="jieji0_png"/>
+		<e:Image id="point_0" source="jineng_json.neigongzhuzi2" y="111" x="196"/>
+		<e:Image id="point_1" source="jineng_json.neigongzhuzi2" y="240" x="355"/>
+		<e:Image id="point_2" source="jineng_json.neigongzhuzi2" y="407" x="306"/>
+		<e:Image id="point_3" source="jineng_json.neigongzhuzi2" y="409" x="88"/>
+		<e:Image id="point_4" source="jineng_json.neigongzhuzi2" y="241" x="30"/>
+		<e:Group id="eff_0" y="111" x="224"/>
+		<e:Group id="eff_1" y="241" x="383"/>
+		<e:Group id="eff_2" y="407" x="334"/>
+		<e:Group id="eff_3" y="410" x="116"/>
+		<e:Group id="eff_4" y="242" x="58"/>
+		<ns1:BaseComponent id="itemIconTarge" skinName="ItemSkin" className="ItemBase" y="261" x="175" scaleX="1.1" scaleY="1.1" touchChildren="false" touchEnabled="true"/>
+		<e:Image y="480" scale9Grid="85,1,6,1" width="415" horizontalCenter="0" source="bantoutiaobg" anchorOffsetY="0" height="107"/>
+		<e:Image source="shuxingbg" y="480" width="415" height="107" scale9Grid="20,5,125,34" horizontalCenter="0"/>
+		<ns1:BaseComponent id="attrPanel" currentState="normal" y="478" skinName="zhuZaiJinJieAttrItemSkin" horizontalCenter="0" anchorOffsetY="0" height="112"/>
+		<ns1:BaseComponent id="xhPanel" currentState="normal"  y="596" skinName="zhuZaiJinJieXhSkin" horizontalCenter="0"/>
+		<e:Button id="btnJInJie" label="进 阶" anchorOffsetX="0" anchorOffsetY="0" y="651" x="148" skinName="Btn1Skin"/>
+		<e:Label id="lab_MaxLv" text="已满阶" x="205" size="20" textColor="0x00FF00" y="670" visible="false"/>
+
+	</e:Group>
+</e:Skin>

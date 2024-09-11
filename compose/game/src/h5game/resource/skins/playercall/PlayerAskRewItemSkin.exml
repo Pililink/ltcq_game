@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayerAskRewItemSkin" width="540" height="126" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0" anchorOffsetY="0">
+		<e:Image source="scitembg" scale9Grid="56,26,4,3" left="0" right="0" top="0" bottom="0" x="0" y="0"/>
+		<e:Scroller height="102" x="123" y="15" anchorOffsetY="0" anchorOffsetX="0" width="264">
+			<e:List id="list" width="322" x="30" y="60" itemRendererSkinName="ItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object r="null"/>
+						<e:Object r="null"/>
+						<e:Object r="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Group x="12" width="100" verticalCenter="-4.5">
+			<e:Label id="lab_title" text="召唤玩家" size="20" textColor="0xf8b141" horizontalCenter="0" bottom="38" fontFamily="SimHei"/>
+			<e:Label id="lab_num" text="1" size="20" textColor="0xedce15" horizontalCenter="0" top="31" fontFamily="SimHei"/>
+		</e:Group>
+		<e:Group x="399" y="24" width="120">
+			<e:Button id="getBtn" label="领取" skinName="Btn15Skin" y="1" x="9" height="44"/>
+			<e:Image id="redPoint" touchEnabled="false" source="zjmhongdian" x="93" y="0" visible="false"/>
+			<e:Label id="labnum" text="(0/0)" size="18" y="50" textColor="0x36e20b" textAlign="center" horizontalCenter="0" width="140" fontFamily="SimHei"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

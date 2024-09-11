@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChuanShiSQTipsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*" width="580" height="930"  >
+	<w:Config id="1586b3502a7"/>
+	<e:Rect id="bgClose" fillAlpha="0.8" left="-1" right="1" top="0" bottom="0"/>
+
+
+	<e:Group id="anigroup" width="501" horizontalCenter="0" verticalCenter="10" touchEnabled="true" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="background" source="tongyongtip1" scale9Grid="7,6,11,12" touchEnabled="false" bottom="-10"  left="0" right="0" top="0"/>
+		<e:Image id="quali" source="quali1" left="0" right="0" scale9Grid="9,0,10,54" top="0" height="200"/>
+		<e:Image source="tongyongtip2" left="0" right="0" top="0" bottom="-15" scale9Grid="18,18,2,4" touchEnabled="false" anchorOffsetY="0"/>
+		<e:Image scale9Grid="85,1,6,1" width="340" y="440" horizontalCenter="0" source="tongyongline"/>
+		<e:Group id="equipGrp" y="130" x="250">
+		</e:Group>
+		<e:Image id="imgName" source="shenwu_name8" x="409" y="29"/>
+		<ns1:BaseComponent id="powerPanel" skinName="PowerPanelSkin" className="PowerPanel" y="299" x="99"/>
+		<ns1:BaseComponent id="attrPanel"  y="374" skinName="ChuanShiSkillItemSkin" anchorOffsetY="0" x="43"/>
+		<e:List id="list" x="43" y="455" itemRendererSkinName="ChuanShiSkillItemSkin" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+			<e:VerticalLayout gap="14"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+
+		</e:List>
+
+
+		<e:Group id="bgGroup" horizontalCenter="0" bottom="-54">
+			<e:Image id="bgimg0" source="bantoutiaobg" height="30" scale9Grid="128,2,15,41" width="300" touchEnabled="false" y="1" x="0"/>
+			<e:Label id="bglabel0" text="点击空白区域关闭窗口" size="18" x="58" bold="true" textColor="0x7E6437" touchEnabled="false" y="7"/>
+
+
+
+
+
+		</e:Group>
+
+
+
+
+		
+
+
+
+	</e:Group>
+
+</e:Skin>

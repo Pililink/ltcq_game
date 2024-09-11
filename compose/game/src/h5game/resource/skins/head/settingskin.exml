@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="settingskin" width="580" height="930" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Rect id="bgClose" fillAlpha="0.8" left="0" right="0" top="0" bottom="0"/>
+	<e:Group width="450" height="400" verticalCenter="-85" horizontalCenter="0">
+		<e:Image id="frame" source="tongyongkuang3bg" scale9Grid="9,5,30,27" left="0" right="0" top="0" bottom="-180" anchorOffsetY="0"/>
+		<e:Image id="tou" source="tongyongkuang3tou" left="0" right="0" scale9Grid="66,0,269,47"/>
+		<e:Label id="titleTxt" y="11" text="设置" size="24" bold="true" textColor="0xA67D44" horizontalCenter="0.5"/>
+		<e:List width="430" height="440" y="48" horizontalCenter="0" itemRendererSkinName="stitemskins" visible="false"/>
+
+		<e:Group horizontalCenter="0" bottom="-159">
+			<e:Image source="bantoutiaobg" height="30" scale9Grid="128,2,15,41" width="300" x="0" y="0"/>
+			<e:Label text="点击空白区域关闭窗口" size="20" x="48" bold="true" textColor="0x7E6437" y="5"/>
+		</e:Group>
+
+		<e:Group width="430" horizontalCenter="0" y="69">
+
+
+
+
+
+			<e:CheckBox id="cbSound" label="音效" skinName="CheckBox0"  height="83"  width="166" verticalCenter="0" left="43"/>
+			<e:CheckBox id="cbShake" label="震屏" skinName="CheckBox0"  height="83"  verticalCenter="0" right="75"/>
+		</e:Group>
+		<e:Group width="430" horizontalCenter="0" y="129">
+
+			<e:CheckBox id="cbHeji" label="自动释放合击" skinName="CheckBox0"   height="75" y="6" x="42"/>
+			<e:CheckBox id="CheckMyTitle" label="隐藏称号" skinName="CheckBox0" height="83" y="3" x="261"/>
+			<e:CheckBox id="CheckWing" label="隐藏翅膀" skinName="CheckBox0" height="83" y="63" x="42"/>
+			<e:CheckBox id="CheckBinghun" label="隐藏兵魂" skinName="CheckBox0" height="83" y="62" x="261"/>
+			<e:CheckBox id="CheckZhanhun" label="隐藏战魂" skinName="CheckBox0" height="83" y="122" x="42"/>
+			<e:CheckBox id="CheckRing" label="隐藏特戒" skinName="CheckBox0" height="83" y="123" x="261"/>
+			<e:CheckBox id="CheckHeir" label="隐藏传世" skinName="CheckBox0" height="83" y="182" x="42"/>
+			<e:CheckBox id="CheckOtherPlayer" label="隐藏他人" skinName="CheckBox0" height="83" y="182" x="261"/>
+			<e:CheckBox id="CheckSkill" label="隐藏技能" skinName="CheckBox0" height="83" y="241" x="42"/>
+			<e:CheckBox id="CheckGuild" label="隐藏同帮人" skinName="CheckBox0" height="83" y="241" x="261"/>
+			<e:CheckBox id="CheckEff" label="隐藏特效" skinName="CheckBox0" height="83" y="294" x="41"/>
+			<e:CheckBox id="CheckWeap" label="隐藏武器" skinName="CheckBox0" height="83" y="294" x="261"/>
+
+
+		</e:Group>
+	</e:Group>	
+</e:Skin>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PlayerAskRewSkin" width="560" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" height="623">
+
+	<e:Image source="teshuwenzibg2" scaleY="-1" horizontalCenter="0" y="50" width="400" height="50" x="80" scaleX="1" />
+	<e:Image id="title" y="9" horizontalCenter="0" x="211" scaleX="1" scaleY="1"  source="biaoti_yaoqingjiangli"/>
+	<e:ViewStack id="viewStack" selectedIndex="0" visible="false">
+		<e:Group  name="数量奖励"/>
+		<e:Group  name="充值奖励"/>
+	</e:ViewStack>
+	<e:ViewStack id="viewStack2" selectedIndex="0" visible="false">
+		<e:Group  name="回归登录"/>
+		<e:Group name="回归累充"/>
+	</e:ViewStack>
+	<e:Group height="110" y="45" width="540" horizontalCenter="0">
+		<e:Image source="day42_headbg_png" width="540" x="0" top="0" bottom="0"/>
+		<e:Group id="grpDesc" left="10" right="10" verticalCenter="0">
+		<e:Image source="shuxingbg" scale9Grid="77,5,15,34" left="0" right="0" top="0" bottom="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			<e:Group id="grpTime" x="5" y="0">
+				<e:Label text="剩余时间：" size="18" textColor="0xFF9900" scaleX="1" scaleY="1" x="0" y="0" fontFamily="SimHei"/>
+				<e:Label id="actTime1" text="6天23小时55分" size="18" textColor="0x00FF00" scaleX="1" scaleY="1" x="90" y="0" fontFamily="SimHei"/>
+			</e:Group>
+
+			<e:Group x="3" y="21" width="520">
+				<e:Label text="活动说明：" x="0" size="18" textColor="0xFF9900" scaleX="1" scaleY="1" fontFamily="SimHei" y="0"/>
+				<e:Label id="actDesc" text="即日起每日充值任意金额，即可领取豪礼，每隔6天还可以领取海量元宝。" size="18" textColor="0xDFD1B5" scaleX="1" scaleY="1" anchorOffsetX="0" y="0" fontFamily="SimHei" x="87" width="433"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+
+	<e:Group width="540" horizontalCenter="0" height="350" y="200" anchorOffsetY="0">
+		<e:Scroller id="scroller" scrollPolicyH="off" scrollPolicyV="on" left="0" right="0" top="0" bottom="0">
+			<e:List id="list" y="1" horizontalCenter="0" x="0" useVirtualLayout="false" itemRendererSkinName="PlayerAskRewItemSkin" anchorOffsetY="0">
+				<e:layout>
+					<e:VerticalLayout  gap="6"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object b="null"/>
+						<e:Object b="null"/>
+						<e:Object b="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Image source="tongyongtip2" scale9Grid="18,18,2,4" touchEnabled="false" scaleX="1" scaleY="1" width="560" x="0" y="558" anchorOffsetY="0" height="58"/>
+	<e:Group y="577" x="181">
+		<e:Label id="lab_desc" text="已召回的玩家数量：" size="20" scaleX="1" scaleY="1" anchorOffsetX="0" y="10" x="0" fontFamily="SimHei" textColor="0xe0b170"/>
+		<e:Label id="lab_count" text="1" size="20" scaleX="1" scaleY="1" anchorOffsetX="0" y="0" x="185" textColor="0x63bf07" fontFamily="SimHei" bold="true"/>
+		<e:layout>
+			<e:HorizontalLayout gap="7"/>
+		</e:layout>
+	</e:Group>
+
+
+	<e:TabBar id="tab" dataProvider="{viewStack}" selectedIndex="0" y="152" x="15" itemRendererSkinName="BtnTab8Skin">
+		<e:layout>
+		<e:HorizontalLayout gap="-8"/>
+		</e:layout>
+	</e:TabBar>
+</e:Skin>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="OneBuySkin" width="580" height="930" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+<e:Rect fillAlpha="0.5" left="0" right="0" top="0" bottom="0"/>
+<e:Group x="0" y="233">
+	<e:Image x="0" scaleX="1" scaleY="1" source="bg_1yuangou_png"/>
+	<e:Image id="img_title" y="59" x="44" scaleX="1" scaleY="1" source="img_desc_1"/>
+	<e:Image id="img_song" y="21" x="353" scaleX="1" scaleY="1" source="img_song_1"/>
+	<e:Button id="closeBtn" label="" x="540" y="25">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="x_1yuangou"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:List id="reward" y="233" itemRendererSkinName="ItemIconSkin" maxWidth="430" height="90" anchorOffsetX="0" scaleX="0.8" scaleY="0.8" horizontalCenter="6">
+		<e:layout>
+		<e:HorizontalLayout gap="28"/>
+		</e:layout>
+	</e:List>
+	<e:Button id="btnLogin" label="" x="201" y="307">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_1yuangou" source.down="anniu_1yuangou"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="gantanhao" y="383" x="140" width="28" height="28"/>
+	<e:Label id="lab_desc" text="一元购不计入VIP等级，充值，累充" size="17" fontFamily="SimHei" y="388" x="168" textAlign="left" width="300" textColor="0xD1C28F"/>
+	<e:Group  x="129" y="116"  anchorOffsetX="0" width="55" touchEnabled="false" touchChildren="false">
+		<e:BitmapLabel id="labMoney" text="99" scaleX="1" scaleY="1" horizontalCenter="0" font="onebuyMoney_fnt" letterSpacing="-1"/>
+	</e:Group>
+	<e:Group  x="219" y="341"  anchorOffsetX="0" width="60" touchEnabled="false" touchChildren="false">
+		<e:BitmapLabel id="labMoney1" text="99" scaleX="1" scaleY="1" font="onegou_fnt" letterSpacing="-1" right="0" touchEnabled="false"/>
+	</e:Group>
+</e:Group>
+</e:Skin>

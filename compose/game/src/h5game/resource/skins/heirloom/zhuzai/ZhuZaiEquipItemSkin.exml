@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZhuZaiEquipItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="76" height="91">
+	<w:Config id="171a0aa9a9b"/>
+	<ns1:BaseComponent id="itemIconTarge" skinName="ItemIconSkin" className="ItemIcon"/>
+	<e:Label id="itemName" text="点击合成" x="1" y="74" size="17" bold="true" textColor="0x3af40c"/>
+	<!--<ns1:BaseComponent id="item13" skinName="ItemSkin" className="RoleItem" y="120" x="460"/>-->
+</e:Skin>

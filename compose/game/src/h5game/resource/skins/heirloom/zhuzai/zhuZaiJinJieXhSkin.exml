@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="zhuZaiJinJieXhSkin" currentState="max" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        xmlns:tween="egret.tween.*" includeIn="normalWithPrompt,disabledWithPrompt"
+        states="normal,max"  height="54">
+	<w:Declarations></w:Declarations>
+	<w:Config id="158995f2c90"></w:Config>
+	<e:Group y="0" verticalCenter.normal="0">
+		<e:Label text="消耗：" y="3" x="0" size="20" fontFamily="SimHei" textColor="0xAF9F7E"/>
+		<e:Image id="imgIcon0" source="621005_png" y="0" scaleX="0.35" scaleY="0.35" x="69"/>
+		<e:Label id="lab_Count0" text="0/3" y="2" x="98" size="20" fontFamily="SimHei" textColor="0xAF9F7E"/>
+	</e:Group>
+	<e:Group y="31" includeIn="max">
+		<e:Label text="消耗：" y="3" x="0" size="20" fontFamily="SimHei" textColor="0xAF9F7E"/>
+		<e:Image id="imgIcon1" source="621005_png" y="0" scaleX="0.35" scaleY="0.35" x="69"/>
+		<e:Label id="lab_Count1" text="0/3" y="2" x="98" size="20" fontFamily="SimHei" textColor="0xAF9F7E"/>
+	</e:Group>
+
+
+
+
+
+</e:Skin>

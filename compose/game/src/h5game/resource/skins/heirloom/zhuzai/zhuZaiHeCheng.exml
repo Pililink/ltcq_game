@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<e:Skin class="zhuZaiHeCheng" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="580" height="930" states="zhuzai,lingpi" >
+	<e:Rect id="bgClose" left="0" right="0" top="0" bottom="0" fillAlpha="0.8"/>
+	<e:Group id="anigroup" width="406" height="589" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="-40.5">
+		<e:Image left="0" right="0" top="0" bottom="0" source="tongyongtip3" scale9Grid="10,9,9,10"/>
+		<e:Image left="0" right="0" top="0" bottom="0" source="tongyongtip2" scale9Grid="19,18,2,6"/>
+		<e:Image source="composebg_png" y="-2" x="3"/>
+		<e:Image source="biaoti_zhuzaihecheng" x="131" y="9" source.lingpi="biaoti_zhuzailingpei"/>
+		<e:Image source="zjhc1" y="82" x="43" source.lingpi="zjhc2" x.lingpi="76" y.lingpi="69"/>
+		<e:Group id="grpMax" x="81" y="119" visible="false">
+			<e:Image source="zjhe_x" y="0" x="46" width="152" includeIn="zhuzai"/>
+			<e:Image source="zjhe_x" y="9" x="129" width="248" rotation="90" width.lingpi="215" y.lingpi="37"/>
+			<e:Image source="zjhe_x" y="209" x="0" width="246"/>
+			<e:Image source="zjhe_x" y="219" x="13" width="36" rotation="90" height="13"/>
+			<e:Image source="zjhe_x" y="219" x="246" width="36" rotation="90" height="13"/>
+		</e:Group>
+		<ns1:BaseComponent id="currItemIcon" skinName="ItemSkin" className="ItemBase" y="88" x="42" includeIn="zhuzai"/>
+		<ns1:BaseComponent id="itemIcon" skinName="ItemSkin" className="ItemBase" y="89" x="274" x.lingpi="157" y.lingpi="75"/>
+
+
+		<ns1:BaseComponent id="itemIconTarge" skinName="ItemSkin" className="ItemBase" y="204" x="153" scaleX="1.1" scaleY="1.1"/>
+		<ns1:BaseComponent id="itemIcon0" skinName="ItemSkin" className="ZhuZaiHeChengViewItem" y="371" x="41"/>
+		<ns1:BaseComponent id="itemIcon1" skinName="ItemSkin" className="ZhuZaiHeChengViewItem" y="371" x="159"/>
+		<ns1:BaseComponent id="itemIcon2" skinName="ItemSkin" className="ZhuZaiHeChengViewItem" y="371" x="277"/>
+		<e:Group includeIn="zhuzai" y="478" horizontalCenter="0.5">
+			<e:Image source="gantanhao" y="0" x="0" width="28" height="28" includeIn="zhuzai"/>
+			<e:Label text="合成后随机属性不变" size="17" fontFamily="SimHei" y="5" x="28" textAlign="left" textColor="0xD1C28F" includeIn="zhuzai"/>
+		</e:Group>
+		<e:Button id="btnHecheng" label="合成" anchorOffsetX="0" anchorOffsetY="0" y="507" x="129" skinName="Btn1Skin"/>
+		<e:Label id="lab_tab" text="主宰灵胚" x="295" y="31" size="18" fontFamily="SimHei" textColor="0x87d808" visible="false"/>
+		<e:Image id="redPoint" touchEnabled="false" source="zjmhongdian" x="364" y="24" visible="false"/>
+	</e:Group>
+</e:Skin>

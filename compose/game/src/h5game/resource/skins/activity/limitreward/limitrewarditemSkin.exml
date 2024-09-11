@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="limitrewarditemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="490" height="305">
+<e:Group>
+	<e:Image y="0" x="0" scaleX="1" scaleY="1" source="limitreward_bg_beijing"/>
+	<e:Group  x="398" y="3" >
+		<e:Image source="limitreward_json.limitreward_times" alpha="0.5"/>
+		<e:Label id="lab_buyTimes" text="可购买5次" size="16" fontFamily="SimHei" textAlign="center" width="100" scaleX="1" scaleY="1" rotation="44" y="-11" x="20" textColor="0xf8f7b6"/>
+	</e:Group>
+    <e:Label id="lab_syTime" text="剩餘时间：14时05分38秒" size="18" fontFamily="SimHei" y="57" x="88" textAlign="center" width="300" textColor="0x16bf00"/>
+	<e:Label id="lab_desc" text="特戒大礼包" size="20" fontFamily="SimHei" y="25" x="88" textAlign="center" width="300" textColor="0xe6bb2e"/>
+	<e:Button id="btnBuy" label="" x="152" y="220" anchorOffsetY="0" height="62">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="limitreward_btn"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="lab_buy" text="$0.99购买" size="20" fontFamily="SimHei" y="246" x="153" textAlign="center" width="175" touchEnabled="false" textColor="0xfff8aa"/>
+		<e:Group  horizontalCenter="-5" height="120" y="107" anchorOffsetY="0" anchorOffsetX="0"  scaleX="0.8" scaleY="0.8">
+		<e:Scroller x="-3" y="29" scrollPolicyH="auto" maxWidth="510" scrollPolicyV="off">
+			<e:List id="reward" itemRendererSkinName="ItemIcon2Skin" maxWidth="600">
+				<e:layout>
+				<e:HorizontalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		</e:Group>
+		</e:Group>
+
+</e:Skin>

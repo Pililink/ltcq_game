@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForbiddenFbBossHeadSKin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="90" width="78.67" states="up,down" >
+	<e:Image source="bosstouxiangk2" top="0" horizontalCenter="0" scaleX="0.7" scaleY="0.7"/>
+	<e:Image id="bossIcon" source="monhead84017_png" horizontalCenter="0" verticalCenter="-13" scaleX="0.7" scaleY="0.7"/>
+	<e:Image id="bossName" source="swjd_3_boss1" horizontalCenter="0.1" verticalCenter="35" scaleX="0.7" scaleY="0.7"/>
+	<e:Image source="swjd_tips_icon1" horizontalCenter="-11.335" bottom="17" scaleX="0.7" scaleY="0.7"/>
+	<e:Image id="isSelected" source="xuanzhongyuan" horizontalCenter="-0.3" bottom="30" scaleX="0.9" scaleY="0.9" visible.up="false"/>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="8.665" bottom="19">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.7"/>
+		<e:Label id="bossPower" text="45" size="15" textColor="0x07f71f" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Rect id="refreshAlpha" left="0" top="0" bottom="0" right="0" fillAlpha="0.4"/>
+	<e:Group id="RefreshGrp" x="11" y="30" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.73" ellipseWidth="31"/>
+		<e:Label id="RefreshTime" text="04:22 后刷新" size="10" textColor="0x03E303" horizontalCenter="0" verticalCenter="0" bold="true"/>
+	</e:Group>
+</e:Skin>

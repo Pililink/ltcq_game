@@ -1,0 +1,35 @@
+<e:Skin class="andianShengJieSkin" width="580" height="730" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+<e:Group>
+	<e:Image width="167" source="tongyongmianbanbg" scale9Grid="19,12,14,25" anchorOffsetX="0" anchorOffsetY="0" height="639" y="74" x="3"/>
+	<e:Scroller scrollPolicyH="off" x="12" y="80" scaleX="1" scaleY="1" anchorOffsetX="0" width="158" anchorOffsetY="0" height="623">
+		<e:List id="list" x="-3" y="30" itemRendererSkinName="AnDianComposeItemSkin" anchorOffsetX="0">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+    <e:Image source="andian_bg_png" x="170" y="30" anchorOffsetY="0" scale9Grid="49,485,295,182" height="546"/>
+	<e:Image id="mixline0" x="256" source="gwmix_line1" y="185" anchorOffsetY="0" height="214"/>
+	<e:Image id="mixline1" x="480" source="gwmix_line1" scaleX="-1" height="214" y="185"/>
+	<e:Image id="mixline0Effect" x="256" source="gwmix_line2" y="185" height="214"/>
+	<e:Image id="mixline1Effect"  x="480" source="gwmix_line2" scaleX="-1" y="185" height="214"/>
+	<ns1:BaseComponent id="need1" y="114" skinName="ItemSkin" className="ItemBase" x="322" scaleX="1" scaleY="1"/>
+	<e:Label id="lab_count1" text="1/1" fontFamily="SimHei" stroke="1" strokeColor="0x232323" size="16" y="166" x="340" textColor="0xffffff"/>
+	<ns1:BaseComponent id="need0" y="379" skinName="ItemSkin" className="ItemBase" x="190" scaleX="1" scaleY="1"/>
+	<e:Label text="1/1" fontFamily="SimHei" stroke="1" strokeColor="0x232323" size="16" y="431" x="210" id="lab_count0"/>
+	<ns1:BaseComponent id="need3" y="271" skinName="ItemSkin" className="ItemBase" x="322" scaleX="1" scaleY="1"/>
+	<ns1:BaseComponent id="need2" y="380" skinName="ItemSkin" className="ItemBase" x="457" scaleX="1" scaleY="1"/>
+	<e:Label text="1/1" fontFamily="SimHei" stroke="1" strokeColor="0x232323" size="16" y="432" x="474" id="lab_count2"/>
+	<e:Button id="btnJinJie" label="进阶" x="290" skinName="Btn3Skin" verticalCenter="283.5" anchorOffsetX="0" width="165" anchorOffsetY="0" height="56"/>
+	<e:Image id="redPoint" touchEnabled="false" source="zjmhongdian" x="435" y="610" visible="false"/>
+</e:Group>
+</e:Skin>

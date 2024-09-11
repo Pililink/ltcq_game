@@ -1,0 +1,25 @@
+﻿LoggerServer = 
+{
+	--数据库连接相关
+	SQL = 
+	{ 
+		Host = "127.0.0.1", 	
+		Port = 3306, 
+		DBName = "log_s1", 
+		DBUser = "root", 
+		DBPass = "123456" 
+	}, --123456abc
+
+	--服务器参数配置
+	Server = 
+	{ 
+		BindAddress = "0.0.0.0", 
+		Port = 7001,
+		ServiceName = "loggerserver_s1",
+		WebHost = "127.0.0.1",
+		WebUrl = "http://127.0.0.1/report",
+		WebPort = 80,
+		TLogHost="",
+		sendtobi = false,
+	},
+}

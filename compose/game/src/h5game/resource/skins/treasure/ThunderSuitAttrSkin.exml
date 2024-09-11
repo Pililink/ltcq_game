@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ThunderSuitAttrSkin" width="580" height="930" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Rect id="bgClose" left="0" right="0" top="0" bottom="0" fillAlpha="0.3" />
+    <e:Group width="481" height="576" horizontalCenter="0" verticalCenter="0">
+        <e:Image source="tongyongtip1" scale9Grid="11,12,2,1" left="0" top="0" bottom="0" right="0" />
+        <e:Image source="tongyongtip2" top="0" right="0" left="0" bottom="0" scale9Grid="19,19,2,2" />
+        <e:Label text="当前套装效果" y="20" textColor="0xcc8d5d" size="24" bold="true" horizontalCenter="-148" />
+        <e:Label id="titleName" text="" size="20" bold="true" textColor="0x01f701" top="60" x="21" />
+        <e:Group x="21" y="98">
+            <e:Label id="suitName2" text="雷神套装II·2件套2级激活属性" size="24" textColor="0xCC8D5D" bold="true" />
+            <e:Label id="suitAttr2" text="攻击+99609\n物防+19534\n魔防+19531\n生命+99999" y="37" size="20" textColor="0x01F701" />
+        </e:Group>
+        <e:Group x="21" y="258">
+            <e:Label id="suitName4" text="雷神套装II·2件套2级激活属性" size="24" textColor="0xcc8d5d" />
+            <e:Label id="suitAttr4" text="攻击+99609\n物防+19534\n魔防+19531\n生命+99999" y="37" size="20" textColor="0x01f701" />
+        </e:Group>
+        <e:Group x="21" y="421">
+            <e:Label id="suitName8" text="雷神套装II·2件套2级激活属性" size="24" textColor="0xCC8D5D" />
+            <e:Label id="suitAttr8" text="攻击+99609\n物防+19534\n魔防+19531\n生命+99999" y="37" size="20" textColor="0x01F701" />
+        </e:Group>
+    </e:Group>
+</e:Skin>

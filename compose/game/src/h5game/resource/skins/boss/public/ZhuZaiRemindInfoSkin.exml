@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ZhuZaiRemindInfoSkin" width="480" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Label id="txt" size="20" textColor="0xDB7021" verticalCenter="0" text="未满足挑战等级" horizontalCenter="170"/>
+	<e:Image bottom="0" source="tongyongline" left="0" right="0"/>
+	<e:Label id="bossName" text="主宰boss" size="20" textColor="0x23CA23" textAlign="center" horizontalCenter="-150.5" verticalCenter="0"/>
+	<e:Label id="starLvShow" text="1星" size="20" verticalCenter="0" horizontalCenter="-46"/>
+	<e:Label id="levelShow" text="270万" size="20" verticalCenter="0" horizontalCenter="26"/>
+	<e:CheckBox id="checkBoxs" label="复活时提醒" skinName="CheckBox0" verticalCenter="0.5" horizontalCenter="160"/>
+</e:Skin>

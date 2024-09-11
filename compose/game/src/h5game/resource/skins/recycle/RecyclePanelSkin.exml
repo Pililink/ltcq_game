@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RecyclePanelSkin" width="554" height="628" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image horizontalCenter="0" top="4" bottom="4" source="zbhuishou_bg_jpg"/>
+	<e:Scroller id="scroller" width="332" height="100" verticalCenter="237" horizontalCenter="14">
+		<e:List id="list" itemRendererSkinName="RecycleItemSkin">
+			<e:layout>
+				<e:VerticalLayout gap="9"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

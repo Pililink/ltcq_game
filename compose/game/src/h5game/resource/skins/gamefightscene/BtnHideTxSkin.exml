@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BtnHideTxSkin" width="70" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="state1,state2,state3" >
+    <e:Group id="autoHeji" anchorOffsetX="0" anchorOffsetY="0" top="2" right="40" left.state1="2" width.state1="28" right.state2="105" top.state2="110" width.state3="28" top.state3="120" right.state3="80">
+		<e:Button id="heji" label="Button" skinName="Btn0Skin" icon="tx_kq_png" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0"/>
+		<e:Label text="流畅模式" size="20" textColor="0x40ef0e" y="70" x="-6" y.state1="80" fontFamily.state1="SimHei" x.state1="1"/>
+	</e:Group>
+</e:Skin>

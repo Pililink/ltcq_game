@@ -1,0 +1,9 @@
+{"file":"reincompose.png","frames":{
+"zhangling_equip":{"x":0,"y":83,"w":91,"h":25,"offX":1,"offY":1,"sourceW":92,"sourceH":26},
+"rein_equal":{"x":93,"y":87,"w":28,"h":20,"offX":0,"offY":0,"sourceW":28,"sourceH":20},
+"rein_equip_sheng":{"x":121,"y":28,"w":119,"h":26,"offX":0,"offY":0,"sourceW":119,"sourceH":26},
+"rein_mulit":{"x":93,"y":56,"w":25,"h":29,"offX":0,"offY":0,"sourceW":26,"sourceH":29},
+"gaojizhanwen":{"x":0,"y":56,"w":91,"h":25,"offX":0,"offY":0,"sourceW":91,"sourceH":25},
+"rein_equip_shen":{"x":0,"y":28,"w":119,"h":26,"offX":0,"offY":0,"sourceW":119,"sourceH":26},
+"rein_equip_di":{"x":121,"y":0,"w":119,"h":26,"offX":0,"offY":0,"sourceW":119,"sourceH":26},
+"rein_equip_huang":{"x":0,"y":0,"w":119,"h":26,"offX":0,"offY":0,"sourceW":119,"sourceH":26}}}

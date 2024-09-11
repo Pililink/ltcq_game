@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="AnDianEquipTipsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*" width="580" height="930">
+	<w:Config id="1586b3502a7"/>
+	<e:Rect id="bgClose" fillAlpha="0.8" left="-1" right="1" top="0" bottom="0"/>
+	<e:Group id="anigroup" width="350" horizontalCenter="0" verticalCenter="-5" touchEnabled="false">
+		<e:Image id="background" source="tongyongtip1" scale9Grid="7,6,11,12" touchEnabled="false" bottom="0" height="490" left="0" right="0"/>
+		<e:Image id="quali" source="quali1" y="2" left="0" right="0" scale9Grid="9,0,10,54" height="130"/>
+		<e:Image source="tongyongtip2" left="0" right="0" top="0" bottom="-5" scale9Grid="18,18,2,4" touchEnabled="false" anchorOffsetY="0"/>
+		<e:Image y="140" scale9Grid="85,1,6,1" width="340" horizontalCenter="0" source="bantoutiaobg"/>
+		<ns1:BaseComponent id="itemIcon" skinName="ItemIconSkin" className="ItemIcon" x="20" y="52"/>
+		<e:Label id="nameLabel" text="屠龙 " size="20" textAlign="left" textColor="0x90f490" y="20" x="20" bold="true"/>
+		<e:Label y="58" text="部位：" size="18" x="120" textColor="0x966e5a"/>
+		<e:Label id="type" y="58" text="武器" size="18" x="180" textColor="0xffd9b5"/>
+
+
+
+
+
+		<e:Label id="lv" y="82" text="1" size="18" x="180" textColor="0xffd9b5"/>
+
+
+		<!--<e:Group id="powerGroup" x="32" y="143"  height="41" locked="true">
+			<e:Image source="zjmzhandouli"/>
+		</e:Group>-->
+		<ns1:BaseComponent id="powerPanel" skinName="PowerPanelSkin" className="PowerPanel" y="130" x="0"/>
+
+		<e:Label id="levelKey" y="82" text="转生：" size="18" x="120" textColor="0x966e5a"/>
+		<e:Group id="jobGroup" x="120" y="106">
+			<e:Label id="career" y="0" text="通用" size="18" x="60" textColor="0xffd9b5"/>
+			<e:Label y="0" text="职业：" size="18" x="0" textColor="0x966e5a"/>
+		</e:Group>
+		<e:Scroller horizontalCenter="0" width="350" y="199">
+			<e:Group scrollV="1">
+				<e:Label y="0" text="基础属性" size="20" x="24" bold="true" textColor="0x7e6437" scaleX="1" scaleY="1"/>
+				<e:Label id="attr1" y="25" text="攻击：100 +100" size="18" verticalAlign="justify" x="46" textAlign="left" textColor="0x9f946d" scaleX="1" scaleY="1"/>
+				<e:Label id="attr2" y="50" text="攻击：100 +100" size="18" verticalAlign="justify" x="46" textAlign="left" textColor="0x9f946d" scaleX="1" scaleY="1"/>
+				<e:Label id="attr3" y="75" text="攻击：100 +100" size="18" verticalAlign="justify" x="46" textAlign="left" textColor="0x9f946d" scaleX="1" scaleY="1"/>
+				<e:Label id="attr4" y="100" text="攻击：100 +100" size="18" verticalAlign="justify" x="46" textAlign="left" textColor="0x9f946d" scaleX="1" scaleY="1"/>
+				<e:Label id="attr5" y="120" text="攻击：100 +100" size="18" verticalAlign="justify" x="46" textAlign="left" textColor="0x9F946D" scaleX="1" scaleY="1"/>
+				<e:Group id="grpXL" anchorOffsetX="0" y="147" x="23" width="320">
+					<e:Label y="0" text="暗殿之力" size="20" x="0" bold="true" textColor="0x7e6437" scaleX="1" scaleY="1"/>
+					<e:Label id="andiantype1" y="25" text="日之力：285" size="18" verticalAlign="justify" x="22" textAlign="left" textColor="0x9f946d" scaleX="1" scaleY="1"/>
+					<e:Label id="andiantype2" y="50" text="日之力：285" size="18" verticalAlign="justify" x="22" textAlign="left" textColor="0x9f946d" scaleX="1" scaleY="1"/>
+					<e:Label id="andiantype3" y="75" text="日之力：285" size="18" verticalAlign="justify" x="22" textAlign="left" textColor="0x9f946d" scaleX="1" scaleY="1"/>
+					<e:Label id="andiantype4" y="100" text="日之力：285" size="18" verticalAlign="justify" x="22" textAlign="left" textColor="0x9f946d" scaleX="1" scaleY="1"/>
+					<e:Label id="andiantype5" y="122" text="日之力：285" size="18" verticalAlign="justify" x="22" textAlign="left" textColor="0x9F946D" scaleX="1" scaleY="1"/>
+				</e:Group>
+				<e:Group id="grpTZ" anchorOffsetX="0" y="297" x="23" width="320">
+					<e:Label id="lab_TZAttr" y="0" text="暗殿神圣圣部套装(1/6)" size="20" x="0" bold="true" textColor="0x7e6437" scaleX="1" scaleY="1"/>
+					<e:Label id="labsuit" y="25" text="日之力：285\n日之力：285" size="18" verticalAlign="justify" x="22" textAlign="left" textColor="0x9f946d" scaleX="1" scaleY="1" lineSpacing="4"/>
+
+
+
+
+				</e:Group>
+				
+			</e:Group>
+		</e:Scroller>
+		
+
+		<e:Group id="bgGroup" x="25" bottom="-135">
+			<e:Image id="bgimg" source="bantoutiaobg" height="30" scale9Grid="128,2,15,41" width="300" touchEnabled="false" y="1" x="0"/>
+			<e:Label id="bglabel" text="点击空白区域关闭窗口" size="18" x="58" bold="true" textColor="0x7E6437" touchEnabled="false" y="7"/>
+			<e:Button id="changeBtn" label="更换装备" skinName="Btn1Skin" width="120" height="45" x="157" y="40"/>
+			<e:Button id="btnXieXia" label="卸下" skinName="Btn1Skin" width="120" height="45" x="0" y="40"/>
+			<e:Button id="btnQiangHua" label="强化" skinName="Btn1Skin" width="120" height="45" x="160" y="85"/>
+			<e:Image id="redPoint0" touchEnabled="false" source="zjmhongdian" x="260" y="34" visible="false"/>
+			<e:Image id="redPoint1" touchEnabled="false" source="zjmhongdian" x="260" y="84" visible="false"/>
+		</e:Group>
+
+	</e:Group>
+
+</e:Skin>

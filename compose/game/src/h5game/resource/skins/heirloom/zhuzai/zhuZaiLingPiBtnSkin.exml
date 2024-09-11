@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="zhuZaiLingPiBtnSkin" currentState="selected" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="100" states="normal,selected" >
+<e:Image id="m_bg" touchEnabled="false" source="kuang1" verticalCenter="-3" horizontalCenter="0" source.selected="kuang2"/>
+ <e:Image id="imgIcon" width="90" height="90" x="20" y="14" source="620901_png" scaleX="0.65" scaleY="0.65" touchEnabled="false" y.selected="18" x.selected="20" scaleX.selected="0.7" scaleY.selected="0.7"/>
+ <e:Label id="lab_name" text="一星灵胚" fontFamily="SimHei" size="18" y="76" horizontalCenter="0" textColor="0xe2ceaa" touchEnabled="false" horizontalCenter.selected="0" y.selected="83"/>
+</e:Skin>

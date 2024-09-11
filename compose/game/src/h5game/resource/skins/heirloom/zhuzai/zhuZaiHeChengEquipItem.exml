@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="zhuZaiHeChengEquipItem" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="noItem,hasitem" >
+	<e:Image id="imgBg" source="quality0" scale9Grid="9,9,46,46" width="76" height="76" x="0" y="0" includeIn="noItem"/>
+	<ns1:BaseComponent id="itemIcon" skinName="ItemIconSkin" className="ItemIcon" y="0" x="0" includeIn="hasitem"/>
+	<e:Label text="选择物品" y="78" size="18" textColor="0xD1C28F" x="2" includeIn="noItem"/>
+	<e:Image id="redPoint" y="-2" touchEnabled="false" source="zjmhongdian" x="53"/>
+</e:Skin>

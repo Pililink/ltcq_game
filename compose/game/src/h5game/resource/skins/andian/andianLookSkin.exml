@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="andianLookSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<e:Image horizontalCenter="0.5" source="andianpos_bj_png" height="590" anchorOffsetY="0"/>
+	<ns1:PowerPanel id="power" skinName="PowerPanelSkin" y="79" x="98"/>
+	<e:Image width="162" height="412" source="shuzibg" scale9Grid="4,7,17,14" x="409" y="160" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="lab_title" text="一阶魔部套装" x="416" y="170" size="18" fontFamily="SimHei" width="140" textAlign="center" textColor="0xdda00b"/>
+	<e:Label id="lab_attrDesc" text="【2件】\n攻击：1200\n物防：1200\n魔防：1200\n生命：1200\n【4件】\n暴击伤害减免:0.5%\n【6件】\n生命加成:0.5%" x="416" y="200" size="16" fontFamily="SimHei" width="151" textAlign="left" anchorOffsetY="0" height="253" lineSpacing="4" textColor="0x34ef0b" anchorOffsetX="0"/>
+	<e:Button id="compose1" label="获得装备" x="426" skinName="Btn3Skin" anchorOffsetX="0" width="125" y="496"/>
+<ns1:BaseComponent id="andianEquipPanel0" skinName="andianEquipItem2Skin" className="AnDianEquipItem"  y="241" x="33" scaleX="0.8" scaleY="0.8"/>
+<ns1:BaseComponent id="andianEquipPanel1" skinName="andainEquipItemSkin" className="AnDianEquipItem"  y="143" x="70" scaleX="0.8" scaleY="0.8"/>
+<ns1:BaseComponent id="andianEquipPanel2" skinName="andianEquipItem2Skin" className="AnDianEquipItem"  y="242" x="171" scaleX="0.8" scaleY="0.8"/>
+<ns1:BaseComponent id="andianEquipPanel3" skinName="andainEquipItemSkin" className="AnDianEquipItem"  y="142" x="300" scaleX="0.8" scaleY="0.8"/>
+<ns1:BaseComponent id="andianEquipPanel4" skinName="andainEquipItemSkin" className="AnDianEquipItem"  y="436" x="76" scaleX="0.8" scaleY="0.8"/>
+<ns1:BaseComponent id="andianEquipPanel5" skinName="andainEquipItemSkin" className="AnDianEquipItem"  y="512" x="76" scaleX="0.8" scaleY="0.8"/>
+<ns1:BaseComponent id="andianEquipPanel6" skinName="andainEquipItemSkin" className="AnDianEquipItem"  y="436" x="302" scaleX="0.8" scaleY="0.8"/>
+<ns1:BaseComponent id="andianEquipPanel7" skinName="andainEquipItemSkin" className="AnDianEquipItem"  y="512" x="302" scaleX="0.8" scaleY="0.8"/>
+<ns1:BaseComponent id="andianEquipPanel8" y="142" x="170" skinName="andianEquipItem3Skin" className="AnDianEquipItem"  scaleX="0.8" scaleY="0.8"/>
+<ns1:BaseComponent id="andianEquipPanel9" y="242" x="299" skinName="andianEquipItem3Skin" className="AnDianEquipItem"  scaleX="0.8" scaleY="0.8"/>
+<ns1:BaseComponent id="andianEquipPanel10" y="436" x="171" skinName="andianEquipItem3Skin" className="AnDianEquipItem"  scaleX="0.8" scaleY="0.8"/>
+<ns1:BaseComponent id="andianEquipPanel11" y="328" x="299" skinName="andianEquipItem3Skin" className="AnDianEquipItem"  scaleX="0.8" scaleY="0.8"/>
+	<e:Scroller id="barList"  horizontalCenter="-19" bounces="false" width="459" height="107" x="85" y="601" scrollPolicyV="off" scrollPolicyH="on" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="list" x="0" y="80" itemRendererSkinName="andianLookBtnSkin"  anchorOffsetX="0" width="459" anchorOffsetY="0">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout paddingLeft="0" gap="-22"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

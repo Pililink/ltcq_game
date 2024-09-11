@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KFDominateWinSkin" width="580" height="930" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.6"/>
+	<e:Image top="0" bottom="0" source="tongyongmianbanbg2" width="580" horizontalCenter="0" scale9Grid="15,12,2,3"/>
+	<e:Group width="556" horizontalCenter="0" bottom="58">
+		<e:Image source="bantoumingkuang4" x="0" top="0" bottom="0" width="278" height="90"/>
+		<e:Image source="bantoumingkuang4" scaleX="-1" right="0" top="0" bottom="0" width="278" height="90"/>
+	</e:Group>
+	<e:Image width="570" horizontalCenter="1" source="tongyongmianbanbg" scale9Grid="19,12,14,25" top="45" bottom="119"/>
+	<ns1:BaseComponent id="roleSelect" y="0" skinName="RoleSelectPanelSkin" className="RoleSelectPanel" width="580" horizontalCenter="0" currentState="nohead"/>
+	<e:Image y="10" horizontalCenter="-154.5" source="kf_biaoti_zhuzaishenyuan"/>
+	<e:Button id="seeRule" label="按钮" icon="wenhao" skinName="Btn0Skin" horizontalCenter="-259" y="5" scaleX="0.9" scaleY="0.9"/>
+	<e:Group width="560" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-3" bottom="157" top="46">
+		<e:Image x="6" y="5" scaleX="1" scaleY="1" source="zhuzaibossbg"/>
+		<e:Image scaleX="1" scaleY="1" source="kf_zhenlidiaoluo" horizontalCenter="-89" bottom="533"/>
+		<e:Image source="bg_zhenlidiaoluo" anchorOffsetX="0" width="325" anchorOffsetY="0" height="269" scale9Grid="26,15,140,66" horizontalCenter="-88.5" bottom="267"/>
+		<e:List id="rewardList" itemRendererSkinName="ItemSkin" x="20" y="212">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="4" horizontalGap="-6"/>
+			</e:layout>
+		</e:List>
+		<e:Image source="kf_wodepingfen" bottom="171" left="12" scaleX="0.8" scaleY="0.8"/>
+		<e:BitmapLabel id="equipScore" text="73000000" letterSpacing="-7" bottom="172" left="209" font="KFDominatefnt_fnt"/>
+		<e:Label id="challgeScore" text="挑战需要主宰总评分：50000" size="19" verticalCenter="129" horizontalCenter="-99.5" textColor="0x1df72a"/>
+		<e:Label id="AttributionCount" text="剩余归属次数：6" size="20" textColor="0xc1ac8b" horizontalCenter="-192" bottom="124"/>
+		<e:Label id="buyCount" text="购买次数" size="21" textColor="0x1df72a" horizontalCenter="17" bottom="124"/>
+		<e:Image x="363" y="6" source="tongyongtip1" scale9Grid="10,10,3,3" anchorOffsetX="0" width="197" anchorOffsetY="0" height="604"/>
+		<e:Label id="remind" text="提醒设置" size="21" textColor="0x1DF72A" horizontalCenter="187" bottom="686"/>
+		<e:Button id="challenge" label="参与挑战" skinName="Btn1Skin" horizontalCenter="4" bottom="27"/>
+		<e:Scroller height="559" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="173" bottom="121">
+			<e:List id="bossList" itemRendererSkinName="KFDominateItemSkin">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:VerticalLayout gap="-6"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

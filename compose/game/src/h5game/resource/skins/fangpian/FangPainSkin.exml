@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FangPainSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16f5b6c86cd"/>
+
+<e:Group width="551">
+	<e:Image y="18" horizontalCenter="0" source="biaoti_fangpianzhinan"/>
+	<e:Image y="56" anchorOffsetX="0" width="551" source="fangpainbg_png" scaleX="0.8" scaleY="0.8" horizontalCenter="1.5"/>
+	<e:Group y="529" horizontalCenter="0">
+		<e:Label text="奖励：" size="20" textColor="0x9F946D" y="0" x="0"/>
+		<e:Image id="icon" x="50" y="-2" source="szyuanbao" width="30" height="22"/>
+		<e:Label id="ybTxt" text="0" y="0" size="18" textAlign="left" x="85" textColor="0xe5b613" fontFamily="SimHei"/>
+	</e:Group>
+	<e:Button id="sendRedBtn" label="领取奖励" skinName="Btn1Skin" y="561" horizontalCenter="0"/>
+	
+
+
+
+
+
+</e:Group>
+
+</e:Skin>

@@ -1,0 +1,18 @@
+{"mc":{
+	"weapon920_0_4h":{
+		"frameRate":12,
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"BBFC0FFA",
+			"x":-104,
+			"y":-222
+			}
+			]
+}},
+	"res":{
+		"BBFC0FFA":{"x":0,"y":0,"w":104,"h":199}
+	}}

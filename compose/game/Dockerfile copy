@@ -1,0 +1,20 @@
+# 使用官方的 PHP 5.6 FPM 镜像作为基础镜像
+FROM php:5.6-fpm
+
+# 安装必要的扩展，比如 MySQL 扩展
+RUN docker-php-ext-install mysqli pdo pdo_mysql && \
+    apt update
+# 设置工作目录
+WORKDIR /var/www/html
+
+# # 拷贝应用代码到容器中
+# COPY ./src/ltcq/h5game /var/www/html
+# COPY ./src/ltcq/server /server
+# # 设置环境变量，用于传递服务 IP
+# ENV SERVICE_IP=localhost
+
+# 暴露端口，供 Nginx 或其他服务访问
+EXPOSE 9000
+
+# 启动 PHP-FPM 服务
+CMD ["php-fpm"]

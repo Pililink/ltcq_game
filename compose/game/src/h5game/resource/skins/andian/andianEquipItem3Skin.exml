@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="andianEquipItem3Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="130" height="108">
+<e:Image  y="0" touchEnabled="false" source="andianposbiankuang" x="0" anchorOffsetX="0" width="130" anchorOffsetY="0" height="108" scale9Grid="13,21,58,45"/>
+     <e:Image id="img_quality"  touchEnabled="false" horizontalCenter="0" verticalCenter="0" source="andiankuang2_2"/>
+    <e:Image id="img_icon"  touchEnabled="false" source="andianpos0_11_png" horizontalCenter="0" verticalCenter="0"/>
+    <e:Label id="itemName" text="+0" size="16" bold="true" y="81" fontFamily="SimHei" right="10" touchEnabled="false"/>
+    <e:Image id="redPoint" y="-6" touchEnabled="false" source="zjmhongdian" x="115" visible="false"/>
+
+  
+</e:Skin>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ThunderSuitSkin" width="580" height="712" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+    <e:Image source="equiptrain_bg_png" horizontalCenter="0" />
+    <e:Image source="equip_train_pos_selected" horizontalCenter="4" verticalCenter="68" />
+    <e:Group width="556" height="104" bottom="6" horizontalCenter="0">
+        <e:Image x="0" top="0" bottom="0" source="bantoumingkuang3" />
+        <e:Image scaleX="-1" top="0" bottom="0" source="bantoumingkuang3" right="0" />
+    </e:Group>
+    <e:Group id="upInfo" bottom="0" height="110" horizontalCenter="0" width="560">
+        <e:Group id="costGroup" horizontalCenter="0" bottom="68">
+            <e:Label text="消耗: " size="20" bold="true" x="0" y="0" textColor="0xD1C28F" />
+            <e:Image id="icon" x="55" width="30" height="30" y="1" source="2100003_png" />
+            <e:Label id="countLabel" text="12000/100" size="20" textAlign="left" textColor="0xD1C28F" x="94" y="12" />
+            <e:layout>
+                <e:HorizontalLayout verticalAlign="middle" gap="0" />
+            </e:layout>
+        </e:Group>
+        <e:Button id="upGradeBtn" label="升  级" skinName="Btn1Skin" horizontalCenter="0" bottom="6" />
+    </e:Group>
+    <e:Group width="480" height="113" bottom="110" horizontalCenter="0">
+        <e:Image height="80" y="30" source="shuxingbg" scale9Grid="36,6,113,39" left="0" right="0" />
+        <e:Image x="0" source="shuxingbg2" scale9Grid="188,0,5,32" width="240" y="0" />
+        <e:Image source="shuxingbg2" scale9Grid="188,0,5,32" width="240" scaleX="-1" y="0" right="0" />
+        <e:Group y="38" x="40">
+            <e:Label id="attr0" text="攻击+10000" size="18" textAlign="center" x="0" textColor="0x9F946D" y="0" />
+            <e:Image id="arrow0" x="139" y="1" rotation="90" source="tongyongup" />
+            <e:Label id="addAttr0" text="22222" size="18" textAlign="center" x="124" textColor="0x32FF00" y="0" />
+            <e:layout>
+                <e:HorizontalLayout verticalAlign="middle" />
+            </e:layout>
+        </e:Group>
+        <e:Group x="260" y="38">
+            <e:Label id="attr1" text="生命+10000" size="18" textAlign="center" x="0" textColor="0x9F946D" y="0" />
+            <e:Image id="arrow1" source="tongyongup" x="139" y="1" rotation="90" />
+            <e:Label id="addAttr1" text="222222" size="18" textAlign="center" textColor="0x32FF00" x="126" y="0" />
+            <e:layout>
+                <e:HorizontalLayout verticalAlign="middle" />
+            </e:layout>
+        </e:Group>
+        <e:Group x="260" y="63">
+            <e:Label id="attr3" text="物防 +100" size="18" textAlign="center" x="0" textColor="0x9F946D" y="0" />
+            <e:Image id="arrow3" source="tongyongup" x="139" y="1" rotation="90" />
+            <e:Label id="addAttr3" text="2222" size="18" textAlign="center" textColor="0x32FF00" x="126" y="0" />
+            <e:layout>
+                <e:HorizontalLayout verticalAlign="middle" />
+            </e:layout>
+        </e:Group>
+        <e:Group x="40" y="63">
+            <e:Label id="attr2" text="魔防 +100" size="18" textAlign="center" x="0" textColor="0x9F946D" y="0" />
+            <e:Image id="arrow2" source="tongyongup" x="139" y="1" rotation="90" />
+            <e:Label id="addAttr2" text="2222" size="18" textAlign="center" textColor="0x32FF00" x="124" y="0" />
+            <e:layout>
+                <e:HorizontalLayout verticalAlign="middle" />
+            </e:layout>
+        </e:Group>
+        <e:Group x="39" y="88">
+            <e:Label id="exAttr" text="魔防 +100" size="18" textAlign="center" x="0" textColor="0x9F946D" y="0" />
+            <e:Image id="exArrow" x="42" y="8" source="tongyongup" rotation="90" />
+            <e:Label id="exAddAttr" text="Label" x="35" y="-1" size="18" textColor="0x32ff00" />
+            <e:layout>
+                <e:HorizontalLayout verticalAlign="middle" />
+            </e:layout>
+        </e:Group>
+    </e:Group>
+    <ns1:ThunderSuitPanel id="suitItem0" y="380" skinName="ThunderSuitItemSkin" x="239" scaleX="1" scaleY="1" />
+    <ns1:ThunderSuitPanel id="suitItem1" y="361" skinName="ThunderSuitItemSkin" x="382" scaleX="1" scaleY="1" />
+    <ns1:ThunderSuitPanel id="suitItem2" y="282" skinName="ThunderSuitItemSkin" x="462" scaleX="1" scaleY="1" />
+    <ns1:ThunderSuitPanel id="suitItem3" y="204" skinName="ThunderSuitItemSkin" x="389" scaleX="1" scaleY="1" />
+    <ns1:ThunderSuitPanel id="suitItem4" y="184" skinName="ThunderSuitItemSkin" x="239" scaleX="1" scaleY="1" />
+    <ns1:ThunderSuitPanel id="suitItem5" y="207" skinName="ThunderSuitItemSkin" x="87" scaleX="1" scaleY="1" />
+    <ns1:ThunderSuitPanel id="suitItem6" y="278" skinName="ThunderSuitItemSkin" x="5" scaleX="1" scaleY="1" />
+    <ns1:ThunderSuitPanel id="suitItem7" y="360" skinName="ThunderSuitItemSkin" x="92" scaleX="1" scaleY="1" />
+    <e:Label id="maxDesc" text="已满级" textColor="0x9F946D" size="24" bold="true" bottom="46" horizontalCenter="0.5" />
+    <ns1:PowerPanel id="power" skinName="PowerPanelSkin" horizontalCenter="15" verticalCenter="-239" />
+    <e:Button id="suitSkill" label="Button" skinName="Btn0Skin" icon="equipup_icon_skill" horizontalCenter="-194.5"
+              bottom="559" height="80" visible="false" />
+</e:Skin>

@@ -1,0 +1,109 @@
+ActorMgr, alloc total:0, used:0 
+randnameAlloc, alloc total:416626, used:0 
+namelist_Alloc, alloc total:960000, used:0 
+alloc_gameserver, alloc total:0, used:0 
+GameClientAlloc, alloc total:0, used:0 
+GameConnAlloc, alloc total:0, used:0 
+GameConnMgr, alloc total:0, used:0 
+ActorIdPacket, alloc total:0, used:0 
+0, total:262148 
+1, total:264 
+2, total:1250040 
+3, total:1552 
+4, total:1544 
+5, total:6057504 
+6, total:634104 
+7, total:704 
+
+mbcsFilter, alloc total:0, used:0 
+mapAlloc, alloc total:340484, used:0 
+filelogger, alloc total:100288, used:0 
+LangDataAlloc, alloc total:1485050, used:1476776 
+GameConfigData, alloc total:0, used:0 
+GameGateMgr, alloc total:0, used:0 
+GameGateMgr, alloc total:0, used:0 
+WorkSock_Alloc, alloc total:0, used:0 
+GameGate, alloc total:0, used:0 
+GameGate, alloc total:6340608, used:0 
+WorkSock_Alloc, alloc total:16384, used:0 
+recv_gate_alloc_, alloc total:288, used:0 
+LogSender, alloc total:0, used:0 
+LogSender, alloc total:50868, used:0 
+WorkSock_Alloc, alloc total:8192, used:0 
+CenterClient, alloc total:0, used:0 
+CenterClient, alloc total:0, used:0 
+WorkSock_Alloc, alloc total:0, used:0 
+SysVarHdlMgr, alloc total:0, used:0 
+ScriptCBHdlMgr, alloc total:499720, used:0 
+EntityMgr, alloc total:0, used:0 
+EntityMgr, alloc total:0, used:0 
+ActorHdlMgr, alloc total:2153480, used:0 
+RoleHdlMgr, alloc total:5015560, used:0 
+MonsterHdlMgr, alloc total:3514376, used:0 
+NpcHdlMgr, alloc total:0, used:0 
+ScriptNPcHdlMgr, alloc total:1832, used:0 
+GatherMonsterMgr, alloc total:1388552, used:0 
+DropBagMgr, alloc total:0, used:0 
+RoleCloneMgr, alloc total:0, used:0 
+FubenHdlMgr, alloc total:292872, used:0 
+SceneHdlMgr, alloc total:516104, used:0 
+AIHdlMgr, alloc total:0, used:0 
+friend_alloctor_, alloc total:0, used:0 
+entity_grid_alloc, alloc total:0, used:0 
+scene_grid_alloc, alloc total:0, used:0 
+scene_tele_alloc_, alloc total:0, used:0 
+obser_entity_list, alloc total:0, used:0 
+obser_alloc, alloc total:0, used:0 
+quest_alloc, alloc total:0, used:0 
+any_list_alloc, alloc total:0, used:0 
+any_alloc, alloc total:0, used:0 
+dp_list_alloc_, alloc total:0, used:0 
+db_alloc, alloc total:1048576, used:0 
+item_list_alloc_, alloc total:0, used:0 
+item_alloc_, alloc total:0, used:0 
+time_caller_alloc_, alloc total:0, used:0 
+ge_alloc_, alloc total:1632, used:0 
+AMSkillResult_List, alloc total:0, used:0 
+AMScriptEvent_List, alloc total:4240, used:0 
+AMEntityEffect_List, alloc total:0, used:0 
+AMCommon_List, alloc total:1544, used:0 
+AMCreateMonster_List, alloc total:0, used:0 
+AMTeleportBaby_List, alloc total:0, used:0 
+AMMjUseSkill_List), alloc total:0, used:0 
+AMMarkerEffect_List, alloc total:0, used:0 
+AMUseSKill_List, alloc total:0, used:0 
+AMJump_List, alloc total:0, used:0 
+ScriptMemoryManager, alloc total:259002688, used:0 *****
+EntityLinkNodeHdlMgr, alloc total:2621448, used:0 
+GuildMemberNodeHdlMgr, alloc total:0, used:0 
+TimeCaller::TimeList, alloc total:139272, used:0 
+entity list, alloc total:81928, used:0 
+ActorMgrAlloc, alloc total:0, used:0 
+AsyncWorker, alloc total:0, used:0 
+GameConnMgr, alloc total:0, used:0 
+GameConnMgr, alloc total:0, used:0 
+WorkSock_Alloc, alloc total:0, used:0 
+StaticRankBasic, alloc total:0, used:0 
+StaticRankBasic, alloc total:0, used:0 
+StaticRankBasic, alloc total:0, used:0 
+StaticRankBasic, alloc total:0, used:0 
+StaticRankBasic, alloc total:0, used:0 
+StaticRankBasic, alloc total:0, used:0 
+StaticRankBasic, alloc total:0, used:0 
+StaticRankBasic, alloc total:0, used:0 
+StaticRankBasic, alloc total:0, used:0 
+StaticRankBasic, alloc total:0, used:0 
+StaticRankBasic, alloc total:0, used:0 
+dynamic ranking first cache , alloc total:52, used:0 
+DynamicRankingMgr, alloc total:797, used:0 
+datapacket, alloc total:198, used:0 
+SendMsgToAllGameClient, alloc total:0, used:0 
+DBClient, alloc total:0, used:0 
+DBClient, alloc total:93484, used:0 
+WorkSock_Alloc, alloc total:57344, used:0 
+appear_data, alloc total:1142, used:0 
+actorret, alloc total:18, used:0 
+enter scene packet, alloc total:64, used:0 
+appear_data, alloc total:1039, used:0 
+GlobalVarMgr::Save, alloc total:0, used:0 
+all: alloc total:294364610, used:1476776

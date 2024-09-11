@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChuanShiShenQiWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" height="716" xmlns:w="http://ns.egret.com/wing" width="560">
+	<e:Image source="shenwu_bg_png" y="0" scaleX="1" scaleY="1" x="2"/>
+	<e:Group id="equipGrp" y="190" x="340"/>
+	<e:Group right="409" bottom="99" top="-7" width="100" anchorOffsetY="0">
+		<e:Image x="-19" top="0" source="tielian"/>
+		<e:Image y="0" right="30" source="tielian"/>
+		<e:Image x="-19" bottom="0" source="tielian"/>
+		<e:Image bottom="0" right="30" source="tielian"/>
+		<e:Rect width="144" horizontalCenter="-21" top="44" bottom="44" fillAlpha="0.2" anchorOffsetX="0"/>
+		<e:Image source="zhuakuang2" width="79" left="-50" top="36" bottom="34" scale9Grid="38,30,12,2" anchorOffsetX="0"/>
+		<e:Image source="zhuakuang2" width="83" top="36" bottom="34" right="-12" scaleX="-1" scale9Grid="38,30,13,2" anchorOffsetX="0"/>
+	</e:Group>
+	<ns1:BaseComponent id="powerPanel" skinName="PowerPanelSkin" className="PowerPanel" horizontalCenter="31" y="14.02" x="192"/>
+	<e:Image id="imgName" source="shenwu_name8" x="473" y="115"/>
+	<e:Label id="lab_lv" text="Lv.0" y="359" fontFamily="SimHei" width="150" textAlign="center" horizontalCenter="64"/>
+	<e:Group id="grpStar" x="497" y="65" anchorOffsetX="40" anchorOffsetY="45" scaleX="1" scaleY="1">
+		<e:Button id="btnUpStarLv" name="changeBtn" anchorOffsetX="40" anchorOffsetY="44" y="45" x="39">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Group scaleX="1" scaleY="1" scaleX.down="0.97" scaleY.down="0.97">
+				<e:Image width="100%" height="100%" source="shenwu_up_btn"/>
+				<e:Image  x="40" y="13" rotation="0.48" source="star2" anchorOffsetX="18" anchorOffsetY="17" scaleX="0.7" scaleY="0.7" visible="false"/>
+				<e:Image  x="67" y="29" rotation="0.48" source="star2" anchorOffsetX="18" anchorOffsetY="17" scaleX="0.7" scaleY="0.7" visible="false"/>
+				<e:Image  x="67" y="61" rotation="0.48" source="star2" anchorOffsetX="18" anchorOffsetY="17" scaleX="0.7" scaleY="0.7" visible="false"/>
+				<e:Image  x="40" y="76" rotation="0.48" source="star2" anchorOffsetX="18" anchorOffsetY="17" scaleX="0.7" scaleY="0.7" visible="false"/>
+				<e:Image  x="13" y="61" rotation="0.48" source="star2" anchorOffsetX="18" anchorOffsetY="17" scaleX="0.7" scaleY="0.7" visible="false"/>
+				<e:Image  x="13" y="29" rotation="0.48" source="star2" anchorOffsetX="18" anchorOffsetY="17" scaleX="0.7" scaleY="0.7" visible="false"/>
+				</e:Group>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="redPointStar" touchEnabled="false" source="zjmhongdian" x="60" y="0"/>
+	</e:Group>
+	<e:Group horizontalCenter="60.5" bottom="252">
+		<e:Group x="0" y="0" scaleX="0.8" scaleY="0.8">
+			<e:Image x="0" y="0" width="74" height="74" source="quality0"/>
+			<e:Image id="skillItem0" x="5" y="5" source="skill_icon_zhuzai1" touchEnabled="true"/>
+			<e:Group id="grpSkill0" x="5" y="5" touchChildren="false" touchEnabled="false">
+			<e:Rect y="0" x="0" width="64" height="64" alpha="0.6"/>
+			</e:Group>
+		</e:Group>
+		<e:Group x="92" y="0" scaleX="0.8" scaleY="0.8">
+			<e:Image x="0" y="0" source="quality0" width="74" height="74"/>
+			<e:Image id="skillItem1" x="5" y="5" source="skill_icon_zhuzai1" touchEnabled="true"/>
+			<e:Group id="grpSkill1" x="5" y="5" touchChildren="false" touchEnabled="false">
+			<e:Rect y="0" x="0" width="64" height="64" alpha="0.6"/>
+			</e:Group>
+		</e:Group>
+		<e:Group x="185" y="0" scaleX="0.8" scaleY="0.8">
+			<e:Image x="0" y="0" source="quality0" width="74" height="74"/>
+			<e:Image id="skillItem2" x="5" y="5" source="skill_icon_zhuzai1" touchEnabled="true"/>
+			<e:Group id="grpSkill2" x="5" y="5" touchChildren="false" touchEnabled="false">
+			<e:Rect y="0" x="0" width="64" height="64" alpha="0.6"/>
+			</e:Group>
+		</e:Group>
+		<e:Group x="277" y="0" scaleX="0.8" scaleY="0.8">
+			<e:Image x="0" y="0" source="quality0" width="74" height="74"/>
+			<e:Image id="skillItem3" x="5" y="5" source="skill_icon_zhuzai1" touchEnabled="true"/>
+			<e:Group id="grpSkill3" x="5" y="5" touchChildren="false" touchEnabled="false">
+			<e:Rect y="0" x="0" width="64" height="64" alpha="0.6"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Group width="480" height="125" horizontalCenter="60" bottom="128">
+		<e:Image source="shuxingbg" left="29" right="23" top="30" bottom="26" scale9Grid="20,5,125,34" anchorOffsetY="0" anchorOffsetX="0"/>
+		<e:Image x="0" source="shuxingbg2" scale9Grid="188,0,5,32" width="240" y="0"/>
+		<e:Image source="shuxingbg2" scale9Grid="188,0,5,32" width="240" scaleX="-1" y="0" right="0"/>
+		<e:Group y="41" x="37">
+		<e:Label id="attr0" text="生命+10" size="18" y="0" textColor="0x9f946d"/>
+		<e:Group id="grpAddAttr0" x="121" y="0">
+			<e:Image x="0" y="3" rotation="90" source="tongyongup" scaleX="1" scaleY="1"/>
+			<e:Label id="addAttr0" text="0" size="18" textAlign="center" x="3" textColor="0x32FF00" y="0" scaleX="1" scaleY="1"/>
+		</e:Group>
+			<e:layout>
+				<e:HorizontalLayout gap="15"/>
+			</e:layout>
+		</e:Group>
+		<e:Group y="41" x="257">
+		<e:Label id="attr1" text="攻击+0" size="18" y="0" textColor="0x9f946d"/>
+		<e:Group x="121" y="0" id="grpAddAttr1">
+			<e:Image x="0" y="3" rotation="90" source="tongyongup" scaleX="1" scaleY="1"/>
+			<e:Label id="addAttr1" text="22222" size="18" textAlign="center" x="3" textColor="0x32FF00" y="0" scaleX="1" scaleY="1"/>
+		</e:Group>
+			<e:layout>
+				<e:HorizontalLayout gap="15"/>
+			</e:layout>
+		</e:Group>
+		<e:Group y="65" x="37">
+		<e:Label id="attr2" text="魔防+0" size="18" y="0" textColor="0x9f946d"/>
+		<e:Group x="121" y="0" id="grpAddAttr2">
+			<e:Image x="0" y="3" rotation="90" source="tongyongup" scaleX="1" scaleY="1"/>
+			<e:Label id="addAttr2" text="22222" size="18" textAlign="center" x="3" textColor="0x32FF00" y="0" scaleX="1" scaleY="1"/>
+		</e:Group>
+			<e:layout>
+				<e:HorizontalLayout gap="15"/>
+			</e:layout>
+		</e:Group>
+		<e:Group y="65" x="257">
+		<e:Label id="attr3" text="物防+0" size="18" y="0" textColor="0x9f946d"/>
+		<e:Group x="121" y="0" id="grpAddAttr3">
+			<e:Image x="0" y="3" rotation="90" source="tongyongup" scaleX="1" scaleY="1"/>
+			<e:Label id="addAttr3" text="22222" size="18" textAlign="center" x="3" textColor="0x32FF00" y="0" scaleX="1" scaleY="1"/>
+		</e:Group>
+			<e:layout>
+				<e:HorizontalLayout gap="15"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="upInfo" horizontalCenter="41" verticalCenter="232">
+		<e:Group id="costGroup0" y="15" right="266">
+		<e:Group width="32" height="32">
+		<ns1:BaseComponent id="itemIcon" skinName="ItemSkin" className="ItemBase" scaleX="0.34" scaleY="0.33" x="1" y="1" alpha="0"/>
+			<e:Image id="img_itemIcon" source="200141_png" touchEnabled="false" scaleX="0.5" scaleY="0.5"/>
+		</e:Group>
+		<e:Label id="countLabel" text="120/1000" size="20" textAlign="right" textColor="0xD1C28F" x="94" y="12" fontFamily="SimHei"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+		</e:layout>
+		</e:Group>
+		<e:Button id="btnUpLv" label="激  活" skinName="Btn1Skin" width="156" height="60" x="139" y="0"/>
+		<e:Image id="redPointLv" touchEnabled="false" source="zjmhongdian" x="273" y="-1"/>
+		<e:Group y="23" x="318">
+		<e:Label id="getItemTxt" text="获取道具" size="20" textColor="0x00FF00" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" touchEnabled="true" fontFamily="SimHei"/>
+		</e:Group>
+	</e:Group>
+	<e:Label id="lab_maxLv" text="已满级" size="30" textColor="0x00FF00" scaleX="1" scaleY="1" horizontalCenter="59" verticalCenter="230" x="10" y="10" fontFamily="SimHei" visible="false"/>
+	<e:Group id="dinghong" width="556" height="95" anchorOffsetY="0" horizontalCenter="1" bottom="-2">
+		<e:Image top="0" bottom="0" left="0" width="287" source="bantoumingkuang3" horizontalCenter="-134.5" anchorOffsetX="0"/>
+		<e:Image width="286" scaleX="-1" top="0" bottom="0" right="0" source="bantoumingkuang3" anchorOffsetX="0"/>
+		<e:Group y="-2" x="8" width="183">
+		<e:Image id="img_type1" source="shenwu_type_0" x="4" y="6" touchEnabled="true"/>
+		<e:Group y="18" horizontalCenter="0" touchChildren="false" touchEnabled="false" touchThrough="false">
+			<e:Image id="xhItemIcon1" source="200518_png" scaleX="0.5" scaleY="0.5"/>
+			<e:Label id="xhItemNum1" text="0" x="37" y="6" fontFamily="SimHei" size="22"/>
+		</e:Group>
+		<e:Image id="img_selected1" source="shenwu_chosen_kuang" y="0" x="0" touchEnabled="false"/>
+		</e:Group>
+		<e:Image id="redPoint1" touchEnabled="false" source="zjmhongdian" x="159" y="6"/>
+		<e:Group y="-2" x="187" width="183">
+		<e:Image id="img_type2" x="4" y="6" source="shenwu_type_1" touchEnabled="true"/>
+		<e:Group y="18" horizontalCenter="0" touchChildren="false" touchEnabled="false" touchThrough="false">
+			<e:Image id="xhItemIcon2" source="200518_png" scaleX="0.5" scaleY="0.5"/>
+			<e:Label id="xhItemNum2" text="0" x="37" y="6" fontFamily="SimHei" size="22"/>
+		</e:Group>
+		<e:Image id="img_selected2" source="shenwu_chosen_kuang" y="0" x="0" touchEnabled="false"/>
+			<e:Image id="redPoint2" touchEnabled="false" source="zjmhongdian" x="159" y="6"/>
+		</e:Group>
+		<e:Group y="-2" x="364" width="183">
+		<e:Image id="img_type3" x="4" y="6" source="shenwu_type_2" touchEnabled="true"/>
+		<e:Group y="18" horizontalCenter="0" touchChildren="false" touchEnabled="false">
+			<e:Image id="xhItemIcon3" source="200518_png" scaleX="0.5" scaleY="0.5"/>
+			<e:Label id="xhItemNum3" text="168" x="37" y="6" fontFamily="SimHei" size="22"/>
+		</e:Group>
+		<e:Image id="img_selected3" source="shenwu_chosen_kuang" y="0" x="0" touchEnabled="false"/>
+			<e:Image id="redPoint3" touchEnabled="false" source="zjmhongdian" x="159" y="6"/>
+		</e:Group>
+	</e:Group>
+	<e:Scroller id="barList" bounces="false" height="492" scrollPolicyV="auto" scrollPolicyH="off" anchorOffsetX="0" anchorOffsetY="0" x="6" y="47">
+		<e:List id="list" x="0" y="80" itemRendererSkinName="ChuanShiLeftItemSkin" anchorOffsetX="0" anchorOffsetY="0">
+		<e:layout>
+			<e:VerticalLayout gap="3"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object b="null"/>
+			<e:Object b="null"/>
+			<e:Object b="null"/>
+			<e:Object b="null"/>
+			<e:Object b="null"/>
+			<e:Object b="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

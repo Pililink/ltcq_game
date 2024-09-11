@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZhuZaiEquipWinSkin" width="554" height="716" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="juesebg_png" width="554" horizontalCenter="0" height="658" bottom="60"/>
+	<e:Group id="groupRole" x="0" width="580" height="770" bottom="0">
+		<e:Group id="bodyFzEff" x="298" y="579"/>
+		<e:Image id="wingImg" touchEnabled="false" scaleX="0.9" scaleY="0.9" source="wing01_png" horizontalCenter="53.5" verticalCenter="-33.5"/>
+		<e:Image id="weaponImg" touchEnabled="false" scaleX="0.9" scaleY="0.9" source="weapon101_0_c_png" verticalCenter="133.5" horizontalCenter="-214.5"/>
+		<e:Group id="soulEff" x="289" y="434">
+		<e:Image id="sef1" width="20" height="20" x="0" y="-44"/>
+		<e:Image id="sef2" width="20" height="20" x="3" y="-50" source=""/>
+		<e:Image id="sef3" width="20" height="20" x="17" y="-34"/>
+		<e:Image id="wsef0" width="20" height="20" x="2" y="-68"/>
+		<e:Image id="wsef1" width="20" height="20" x="-9" y="-70" source=""/>
+		</e:Group>
+		<e:Image id="bodyImg" touchEnabled="false" scaleX="0.9" scaleY="0.9" source="body001_0_c_png" verticalCenter="-19.5" horizontalCenter="0"/>
+		<e:Group id="bodyEff" x="286" y="430">
+		<e:Image id="bodyEffect0" height="20" x="8" y="-44" width="20"/>
+		<e:Image id="bodyEffect1" width="20" height="20" x="3" y="-50" source=""/>
+		</e:Group>
+		<e:Image id="suitImg" width="20" height="20" x="284" y="376"/>
+	</e:Group>
+	<e:Group id="groupRoleNext" x="580" width="580" height="770" bottom="0">
+		<e:Image id="nextWingImg" touchEnabled="false" scaleX="0.9" scaleY="0.9" source="wing01_png" horizontalCenter="52.5" verticalCenter="-32.5"/>
+		<e:Image id="nextWeaponImg" touchEnabled="false" scaleX="0.9" scaleY="0.9" source="weapon101_0_c_png" horizontalCenter="-214.5" verticalCenter="133.5"/>
+		<e:Group id="nsoulEff" x="289" y="434">
+		<e:Image id="nsef1" width="20" height="20" x="0" y="-44"/>
+		<e:Image id="nsef2" width="20" height="20" x="3" y="-50" source=""/>
+		<e:Image id="nsef3" width="20" height="20" x="17" y="-34"/>
+		<e:Image id="nwsef0" width="20" height="20" x="2" y="-68"/>
+		<e:Image id="nwsef1" width="20" height="20" x="-9" y="-70" source=""/>
+		</e:Group>
+		<e:Image id="nextBodyImg" touchEnabled="false" scaleX="0.9" scaleY="0.9" source="body001_0_c_png" horizontalCenter="0" verticalCenter="-19.5"/>
+		<e:Group id="nbodyEff" x="289" y="434">
+		<e:Image id="nbodyEffect0" width="20" height="20" x="0" y="-44"/>
+		<e:Image id="nbodyEffect1" width="20" height="20" x="3" y="-50" source=""/>
+		</e:Group>
+		<e:Image id="suitImg1" width="20" height="20" x="284" y="376"/>
+	</e:Group>
+	<e:Group height="457" anchorOffsetX="0" anchorOffsetY="0" bottom="139" left="30" right="7">
+		<ns1:BaseComponent id="zhuzaiPoin0" className="ZhuZaiEquipitemView" skinName="ItemSkin" y="8" x="7"/>
+		<ns1:BaseComponent id="zhuzaiPoin1" className="ZhuZaiEquipitemView" skinName="ItemSkin" y="8" x="435"/>
+		<ns1:BaseComponent id="zhuzaiPoin2" className="ZhuZaiEquipitemView" skinName="ItemSkin" y="121" x="7"/>
+		<ns1:BaseComponent id="zhuzaiPoin3" className="ZhuZaiEquipitemView" skinName="ItemSkin" y="122" x="433"/>
+		<ns1:BaseComponent id="zhuzaiPoin4" className="ZhuZaiEquipitemView" skinName="ItemSkin" x="7" y="236"/>
+		<ns1:BaseComponent id="zhuzaiPoin5" className="ZhuZaiEquipitemView" skinName="ItemSkin" x="433" y="238"/>
+		<ns1:BaseComponent id="zhuzaiPoin6" className="ZhuZaiEquipitemView" skinName="ItemSkin" x="8" y="353"/>
+		<ns1:BaseComponent id="zhuzaiPoin7" className="ZhuZaiEquipitemView" skinName="ItemSkin" x="433" y="352"/>
+		<ns1:BaseComponent id="zhuzaiPoin8" x="95" y="239" className="ZhuZaiEquipitemView" skinName="ItemSkin"/>
+		<ns1:BaseComponent id="zhuzaiPoin9" x="347" y="239" className="ZhuZaiEquipitemView" skinName="ItemSkin"/>
+		<ns1:BaseComponent id="zhuzaiPoin11" x="347" y="353" className="ZhuZaiEquipitemView" skinName="ItemSkin"/>
+		<ns1:BaseComponent id="zhuzaiPoin10" x="95" y="353" className="ZhuZaiEquipitemView" skinName="ItemSkin"/>
+	</e:Group>
+	<ns1:BaseComponent id="powerPanel" skinName="PowerPanelSkin" className="PowerPanel" horizontalCenter="0" y="88"/>
+	<e:Group width="480" height="135" bottom="2" horizontalCenter="7">
+		<e:Image height="106" y="30" source="shuxingbg" scale9Grid="36,6,113,39" left="0" right="0"/>
+		<e:Image x="0" source="shuxingbg2" scale9Grid="188,0,5,32" width="240" y="0"/>
+		<e:Image source="shuxingbg2" scale9Grid="188,0,5,32" width="240" scaleX="-1" y="0" right="0"/>
+		<e:Image x="105" y="45" source="quality3" width="74" height="74"/>
+		<e:Image id="skillItem1" x="110" y="50" source="skill_icon_zhuzai1" touchEnabled="true"/>
+		<e:Group id="grpSkill1" x="110" y="50" touchChildren="false" touchEnabled="false">
+			<e:Rect y="0" x="0" width="64" height="64" alpha="0.6"/>
+			<e:Image source="zanweikaiqi" x="0" y="0" visible="false"/>
+		</e:Group>
+		<e:Image x="205" y="45" source="quality3" width="74" height="74"/>
+		<e:Image id="skillItem2" x="210" y="50" source="skill_icon_zhuzai2" touchEnabled="true"/>
+		<e:Group id="grpSkill2" x="210" y="50" touchChildren="false" touchEnabled="false">
+			<e:Rect y="0" x="0" width="64" height="64" alpha="0.6"/>
+			<e:Image source="zanweikaiqi" x="0" y="0" visible="false"/>
+		</e:Group>
+		<e:Image x="305" y="45" source="quality3" width="74" height="74"/>
+		<e:Image id="skillItem3" x="310" y="50" source="skill_icon_zhuzai3" touchEnabled="true"/>
+		<e:Group id="grpSkill3" x="310" y="50" touchChildren="false" touchEnabled="false">
+			<e:Rect y="0" x="0" width="64" height="64" alpha="0.6"/>
+			<e:Image source="zanweikaiqi" x="0" y="0" visible="false"/>
+		</e:Group>
+		<e:Label text="主宰神技" x="190.99" y="-1.67" bold="true" size="24" textColor="0xfed741"/>
+	</e:Group>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" y="145">
+		<e:Rect left="-7" right="-11" top="-6" bottom="-5" fillAlpha="0.4" ellipseWidth="17"/>
+		<e:Label id="zhuZaiScore" text="主宰评分：2540000" left="0" right="0" top="0" bottom="0" size="19" textColor="0xefab3f" bold="true" verticalAlign="middle"/>
+	</e:Group>
+	<e:Label id="getTreasureBtn" text="获得主宰材料" size="18" textColor="0x2ECA22" y="630" height="60" verticalAlign="middle" x="432"/>
+	<e:Button id="btnLingPi" x="496"  scaleX="0.8" scaleY="0.8" y="55" anchorOffsetX="57" anchorOffsetY="51">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lingpiBtn" source.down="lingpiBtn" width.down="99%" height.down="99%" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

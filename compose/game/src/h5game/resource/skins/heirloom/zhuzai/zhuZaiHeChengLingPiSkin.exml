@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="zhuZaiHeChengLingPiSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="580" height="930" >
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.8"/>
+	<e:Group id="anigroup" width="567" height="729" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-0.5" verticalCenter="-55.5">
+		<e:Image left="0" right="0" top="0" bottom="0" source="tongyongmianbanbg" scale9Grid="19,12,10,20"/>
+		<e:Group id="dinghong0" width="556" height="100" bottom="1" horizontalCenter="0">
+				<e:Image top="0" bottom="0" source="bantoumingkuang3" left="0"/>
+				<e:Image scaleX="-1" top="0" bottom="0" source="bantoumingkuang3" right="0" />
+			<e:Scroller id="barList" bounces="false" width="544" height="107" scrollPolicyV="off" scrollPolicyH="on" anchorOffsetX="0" anchorOffsetY="0" x="10" y="-3">
+				<e:List id="list" x="0" y="80" itemRendererSkinName="zhuZaiLingPiBtnSkin" anchorOffsetX="0" anchorOffsetY="0">
+				<e:ArrayCollection>
+					<e:Array>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					<e:Object b="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:HorizontalLayout paddingLeft="0" gap="3"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Image y="45" anchorOffsetX="0" anchorOffsetY="0" x="64" source="composebg_png" width="443" height="556" alpha="0.4"/>
+		<e:Image x="217" y="45" source="t_lingpihecheng"/>
+		<e:Image  source="zjhc2" x="157" y="138"/>
+		<e:Group id="grpMax" x="162" y="188" visible="false">
+			<e:Image source="zjhe_x"  x="129" rotation="90" width="215" y="37"/>
+			<e:Image source="zjhe_x" y="209" x="0" width="246"/>
+			<e:Image source="zjhe_x" y="219" x="13" width="36" rotation="90" height="13"/>
+			<e:Image source="zjhe_x" y="219" x="246" width="36" rotation="90" height="13"/>
+		</e:Group>
+		<ns1:BaseComponent id="itemIcon" skinName="ItemSkin" className="ItemBase" x="238" y="144"/>
+		<ns1:BaseComponent id="itemIconTarge" skinName="ItemSkin" className="ItemBase" y="273" x="234" scaleX="1.1" scaleY="1.1"/>
+		<ns1:BaseComponent id="itemIcon0" skinName="ItemSkin" className="ZhuZaiHeChengViewItem" y="440" x="122"/>
+		<ns1:BaseComponent id="itemIcon1" skinName="ItemSkin" className="ZhuZaiHeChengViewItem" y="441" x="241"/>
+		<ns1:BaseComponent id="itemIcon2" skinName="ItemSkin" className="ZhuZaiHeChengViewItem" y="440" x="358"/>
+		<e:Button id="btnHecheng" label="合成" anchorOffsetX="0" anchorOffsetY="0" y="557" skinName="Btn1Skin" horizontalCenter="0"/>
+		<e:Button id="bgClose" label="按钮" skinName="Btn0Skin" icon="chatclose" y="10" scaleX="0.9" scaleY="0.9" right="8"/>
+	</e:Group>
+</e:Skin>

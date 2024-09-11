@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ThunderEquipSkin" width="580" height="712" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Image source="equipup_bg_png" anchorOffsetY="0" height="603.67" horizontalCenter="1" verticalCenter="-54" />
+    <e:Group id="equipGrp" width="552" height="421" y="63.01" anchorOffsetY="0" horizontalCenter="0">
+        <ns1:ThunderEquipPanel id="equip0" x="0" y="0" skinName="ThunderEquipItemSkin" />
+        <ns1:ThunderEquipPanel id="equip2" x="0" y="110" skinName="ThunderEquipItemSkin" />
+        <ns1:ThunderEquipPanel id="equip4" x="0" y="220" skinName="ThunderEquipItemSkin" />
+        <ns1:ThunderEquipPanel id="equip6" x="0" y="330" skinName="ThunderEquipItemSkin" />
+        <ns1:ThunderEquipPanel id="equip1" y="0" skinName="ThunderEquipItemSkin" right="0" />
+        <ns1:ThunderEquipPanel id="equip3" y="110" skinName="ThunderEquipItemSkin" right="0" />
+        <ns1:ThunderEquipPanel id="equip5" y="220" skinName="ThunderEquipItemSkin" right="0" />
+        <ns1:ThunderEquipPanel id="equip7" y="330" skinName="ThunderEquipItemSkin" right="0" />
+    </e:Group>
+    <e:Group width="556" height="104" bottom="6" horizontalCenter="0">
+        <e:Image x="0" top="0" bottom="0" source="bantoumingkuang3" />
+        <e:Image scaleX="-1" top="0" bottom="0" source="bantoumingkuang3" right="0" />
+    </e:Group>
+    <e:Group width="480" height="100" bottom="110" horizontalCenter="0">
+        <e:Image height="68" y="30" source="shuxingbg" scale9Grid="36,6,113,39" left="0" right="0" />
+        <e:Image x="0" source="shuxingbg2" scale9Grid="188,0,5,32" width="240" y="0" />
+        <e:Image source="shuxingbg2" scale9Grid="188,0,5,32" width="240" scaleX="-1" y="0" right="0" />
+        <e:Group y="44" x="40">
+            <e:Label id="attr0" text="攻击+10000" size="18" textAlign="center" x="0" textColor="0x9f946d" y="0" />
+            <e:Image id="arrow0" x="139" y="1" rotation="90" source="tongyongup" />
+            <e:Label id="addAttr0" text="22222" size="18" textAlign="center" x="124" textColor="0x32FF00" y="0" />
+            <e:layout>
+                <e:HorizontalLayout verticalAlign="middle" />
+            </e:layout>
+        </e:Group>
+        <e:Group x="260" y="44">
+            <e:Label id="attr1" text="生命+10000" size="18" textAlign="center" x="0" textColor="0x9f946d" y="0" />
+            <e:Image id="arrow1" source="tongyongup" x="139" y="1" rotation="90" />
+            <e:Label id="addAttr1" text="222222" size="18" textAlign="center" textColor="0x32FF00" x="126" y="0" />
+            <e:layout>
+                <e:HorizontalLayout verticalAlign="middle" />
+            </e:layout>
+        </e:Group>
+        <e:Group x="260" y="68">
+            <e:Label id="attr3" text="物防 +100" size="18" textAlign="center" x="0" textColor="0x9f946d" y="0" />
+            <e:Image id="arrow3" source="tongyongup" x="139" y="1" rotation="90" />
+            <e:Label id="addAttr3" text="2222" size="18" textAlign="center" textColor="0x32FF00" x="126" y="0" />
+            <e:layout>
+                <e:HorizontalLayout verticalAlign="middle" />
+            </e:layout>
+        </e:Group>
+        <e:Group x="40" y="68">
+            <e:Label id="attr2" text="魔防 +100" size="18" textAlign="center" x="0" textColor="0x9f946d" y="0" />
+            <e:Image id="arrow2" source="tongyongup" x="139" y="1" rotation="90" />
+            <e:Label id="addAttr2" text="2222" size="18" textAlign="center" textColor="0x32FF00" x="124" y="0" />
+            <e:layout>
+                <e:HorizontalLayout verticalAlign="middle" />
+            </e:layout>
+        </e:Group>
+    </e:Group>
+    <e:Group id="upInfo" bottom="0" height="110" horizontalCenter="0" width="560">
+        <e:Group id="costGroup" horizontalCenter="0" bottom="68">
+            <e:Label id="expendLabel" text="消耗: " size="20" bold="true" x="0" y="0" textColor="0xd1c28f" />
+            <e:Image id="icon" x="55" source="200002_png" width="40" height="40" y="28" />
+            <e:Label id="countLabel" text="12000/100" size="20" textAlign="left" textColor="0xd1c28f" x="94" y="12" />
+            <e:layout>
+                <e:HorizontalLayout verticalAlign="middle" gap="0" />
+            </e:layout>
+        </e:Group>
+        <e:Label id="getItemTxt" text="获取道具" size="20" textColor="0x00FF00" horizontalCenter="198" bottom="9"
+                 height="60" verticalAlign="middle" width="100" textAlign="center" />
+        <e:Button id="upGradeBtn" label="淬  炼" skinName="Btn1Skin" horizontalCenter="0" bottom="6" />
+    </e:Group>
+    <e:Group width="415" height="212" x="85" y="282" anchorOffsetX="0" anchorOffsetY="0">
+        <ns1:ThunderEquipPanel id="equipGem0" y="28" skinName="ThunderGemEquipItemSkin" right="327" x="8" scaleX="1"
+                               scaleY="1" />
+        <ns1:ThunderEquipPanel id="equipGem1" y="69" skinName="ThunderGemEquipItemSkin" right="264" x="71" scaleX="1"
+                               scaleY="1" />
+        <ns1:ThunderEquipPanel id="equipGem2" y="81" skinName="ThunderGemEquipItemSkin" right="172" x="163" scaleX="1"
+                               scaleY="1" />
+        <ns1:ThunderEquipPanel id="equipGem3" y="70" skinName="ThunderGemEquipItemSkin" right="81" x="257" scaleX="1"
+                               scaleY="1" />
+        <ns1:ThunderEquipPanel id="equipGem4" y="25" skinName="ThunderGemEquipItemSkin" right="14" x="319" scaleX="1"
+                               scaleY="1" />
+        <e:Image x="22" y="131" source="equipup_name_0" />
+        <e:Image x="91" y="168" source="equipup_name_1" />
+        <e:Image x="183" y="179" source="equipup_name_2" />
+        <e:Image x="283" y="169" source="equipup_name_3" />
+        <e:Image x="347" y="137" source="equipup_name_4" />
+    </e:Group>
+    <ns1:PowerPanel id="power" skinName="PowerPanelSkin" verticalCenter="-256" horizontalCenter="3" />
+    <e:Label id="maxDesc" text="已满级" textColor="0x9F946D" size="24" bold="true" bottom="46" horizontalCenter="0.5" />
+</e:Skin>

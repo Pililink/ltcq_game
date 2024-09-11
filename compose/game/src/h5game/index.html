@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>至尊传世</title>
+    <!--防止index.html被浏览器缓存--begin-->
+    <!--<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">-->
+    <!--防止index.html被浏览器缓存--over-->
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #000000;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mainDiv" style="margin: auto;width: 100%;height: 100%;" class="egret-player" data-entry-class="Main" data-orientation="auto" data-scale-mode="showAll" data-frame-rate="30" data-content-width="580"
+data-content-height="930" data-show-paint-rect="false" data-multi-fingered="2" data-show-fps="false" data-show-log="false"
+data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+
+<!--<iframe id="paramIframe" style="border: 0px; width: 100%;height: 100%;"src="./indexlogin.html"></iframe>-->
+</div>
+<script>
+ window["loginType"] = 0;////测试 0=测试 1 正式
+    var s = document.createElement('script');
+    s.async = false;
+    s.src = 'index.js?'+ Math.random();
+    s.addEventListener('load', function () {
+        s.parentNode.removeChild(s);
+        s.removeEventListener('load', arguments.callee, false);
+    }, false);
+    document.body.appendChild(s);
+</script>
+
+</body>
+
+</html>

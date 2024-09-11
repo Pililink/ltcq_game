@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EveryRedBagSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16f5b6c86cd"/>
+
+<e:Group>
+	<e:Image source="ny_curtain_png" y="0" anchorOffsetX="0" width="551"/>
+	<e:Image source="ny_logbg_png" width="554" anchorOffsetY="0" height="518" y="110"/>
+	<e:Image source="biaoti_meirihongbao" x="211" y="23"/>
+	<e:Group id="grpQiang" y="70" x="88">
+		<e:Image source="bg_hongbao1"/>
+
+		<e:Button id="sendRedBtn" label="" x="133" y="174" alpha="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_qiang" source.down="btn_qiang" scaleX.down="0.98" scaleY.down="0.98"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Group id="effGroup" x="187" y="228" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="grpyiQiang" anchorOffsetX="0" y="63" x="87" width="377" visible="false">
+		<e:Image source="bg_hongbao2"/>
+
+
+
+
+		<e:Group y="242" horizontalCenter="0">
+			<e:BitmapLabel id="txtGoldNum" font="num_8_fnt" text="2" y="0" letterSpacing="-4" right="40"/>
+			<e:Image source="200135_png" y="-2" scaleX="0.6" scaleY="0.6" right="0"/>
+		</e:Group>
+		<e:Group y="335" horizontalCenter="0.5">
+			<e:BitmapLabel id="txtGoldNum0" font="num_8_fnt" text="2" y="0" letterSpacing="-4" right="40"/>
+			<e:Image source="200135_png" y="-2" scaleX="0.6" scaleY="0.6" right="0"/>
+		</e:Group>
+
+
+
+		<e:Button id="sendRedBtn1" label="额外领取" skinName="Btn16Skin" x="108" y="377"/>
+
+		<e:Scroller scrollPolicyV="on" anchorOffsetY="0" height="63" width="318" x="29" y="449" anchorOffsetX="0">
+		
+			<e:Group>
+				<e:Label id="golddesc" text="" size="18" textColor="0x9f946d" y="0" width="310" x="0" fontFamily="SimHei" lineSpacing="2"/>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+
+	<e:Label id="txtNum" text="今日可抢次数:0" size="20" textColor="0x9F946D" y="604" x="384"/>
+	<e:Group id="grpTime" y="602" x="40">
+		<e:Label id="desc0" text="距离下次可抢:" size="20" textColor="0x9F946D" y="0" x="0"/>
+		<e:Label id="txtTime" text="14分59秒" size="20" y="0" x="130" textColor="0x1ef40e"/>
+	</e:Group>
+</e:Group>
+
+</e:Skin>

@@ -1,0 +1,23 @@
+﻿DBServer =
+{
+	--服务器名称
+	ServerName = "dbserver_s99",
+
+	--绑定地址和端口
+	DBService = 
+	{ 
+		Address = "0.0.0.0", 
+		Port = 5099
+	},
+
+	--数据库连接配置
+	SQL = 
+	{ 
+		Host = "127.0.0.1",
+		Port = 3306, 
+		DBName = "actor_s99", 
+		DBUser = "root", 
+		--DBPass = "Qaz_!@#_3098$prime", 
+		DBPass = "123456", 
+	},
+}

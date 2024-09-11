@@ -1,0 +1,16 @@
+{"file":"LaBa.png","frames":{
+"icon_LaBaDrop":{"x":1,"y":266,"w":78,"h":75,"offX":2,"offY":2,"sourceW":80,"sourceH":80},
+"title_LaBaLuckyBag":{"x":1,"y":378,"w":135,"h":33,"offX":34,"offY":0,"sourceW":200,"sourceH":34},
+"luckyBagObtainHint":{"x":238,"y":338,"w":172,"h":23,"offX":0,"offY":0,"sourceW":172,"sourceH":23},
+"title_LaBaBoss":{"x":1,"y":194,"w":158,"h":34,"offX":3,"offY":0,"sourceW":166,"sourceH":34},
+"icon_LaBaLuckyBag":{"x":373,"y":231,"w":78,"h":75,"offX":2,"offY":2,"sourceW":80,"sourceH":80},
+"exchangePlus":{"x":238,"y":266,"w":26,"h":27,"offX":1,"offY":0,"sourceW":28,"sourceH":27},
+"labaFrame":{"x":279,"y":1,"w":227,"h":228,"offX":0,"offY":0,"sourceW":228,"sourceH":228},
+"title_LaBaExchange":{"x":1,"y":343,"w":136,"h":33,"offX":0,"offY":1,"sourceW":136,"sourceH":34},
+"luckyBagBigIcon":{"x":1,"y":1,"w":276,"h":191,"offX":1,"offY":2,"sourceW":281,"sourceH":193},
+"icon_LaBaBoss":{"x":160,"y":306,"w":76,"h":75,"offX":2,"offY":2,"sourceW":80,"sourceH":80},
+"LuckyBagName":{"x":161,"y":194,"w":61,"h":23,"offX":0,"offY":0,"sourceW":61,"sourceH":23},
+"title_LaBaDrop":{"x":1,"y":231,"w":286,"h":33,"offX":0,"offY":1,"sourceW":287,"sourceH":34},
+"LaBaRankRewadBtn":{"x":289,"y":231,"w":82,"h":73,"offX":0,"offY":0,"sourceW":82,"sourceH":73},
+"biaoti_LaBa":{"x":238,"y":308,"w":144,"h":28,"offX":3,"offY":1,"sourceW":147,"sourceH":29},
+"icon_LaBaExchange":{"x":81,"y":266,"w":77,"h":75,"offX":0,"offY":0,"sourceW":77,"sourceH":75}}}

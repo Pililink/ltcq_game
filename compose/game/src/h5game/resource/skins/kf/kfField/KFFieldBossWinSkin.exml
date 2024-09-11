@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="KFFieldBossWinSkin" width="580" height="930" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" xmlns:euiextension="euiextension.*" >
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.6"/>
+	<e:Image top="0" bottom="0" source="tongyongmianbanbg2" width="580" horizontalCenter="0" scale9Grid="15,12,2,3"/>
+	<e:Group width="556" horizontalCenter="0" bottom="58">
+		<e:Image source="bantoumingkuang4" x="0" top="0" bottom="0" width="278" height="90"/>
+		<e:Image source="bantoumingkuang4" scaleX="-1" right="0" top="0" bottom="0" width="278" height="90"/>
+	</e:Group>
+	<e:Image width="570" horizontalCenter="0" source="tongyongmianbanbg" scale9Grid="19,12,14,25" top="44" bottom="155"/>
+
+	<ns1:BaseComponent id="roleSelect" y="0" skinName="RoleSelectPanelSkin" className="RoleSelectPanel"  width="580" horizontalCenter="0" currentState="nohead"/>
+	<e:ViewStack id="viewStack" width="560" selectedIndex="2" top="52" bottom="162" horizontalCenter="0">
+		<ns1:BaseComponent id="kFBossWin" left="0" right="0" top="0" bottom="0" className="KFBossWin" skinName="KFBossSkin" name="跨服BOSS"/>
+		<ns1:BaseComponent id="kFEliteBossPanel" skinName="kFEliteBossSkin" className="KFEliteBossPanel" name="精英BOSS" visible="false"/>
+		<!--<ns1:BaseComponent id="rankPanel" name="排行" skinName="KfArenaRankSkin" left="0" right="0" top="0" bottom="0" className="KfArenaRankPanel" visible="false"/>-->
+	</e:ViewStack>
+	<e:TabBar id="tab" dataProvider="{viewStack}" selectedIndex="0" horizontalCenter="1" bottom="112"  itemRendererSkinName="BtnTab7Skin" anchorOffsetX="0">
+		<e:layout>
+		<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:TabBar>
+	<e:Group touchEnabled="false" width="180" height="48" horizontalCenter="55" anchorOffsetX="0" bottom="115">
+		<e:Image id="redPoint0" source="zjmhongdian" x="5" y="1" scaleX="1" scaleY="1"/>
+		<e:Image id="redPoint1" source="zjmhongdian" x="158" y="3" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Image y="6"  horizontalCenter="-155" source="biaoti_kuafuzhanchang"/>
+
+
+
+
+
+
+	<e:Button id="seeRule" label="按钮" icon="wenhao" skinName="Btn0Skin" horizontalCenter="-246" y="8" scaleX="0.9" scaleY="0.9"/>
+
+	<e:Button id="closeBtn" label="按钮" skinName="Btn0Skin" icon="chatclose" y="46" scaleX="0.8" scaleY="0.8" horizontalCenter="266"/>
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="demonSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="710">
+	<e:Image left="-1" right="1" top="0" bottom="200" source="demoncirclefb_bg_png" height="400" anchorOffsetY="0"/>
+
+	<e:Group id="eff3"  x="128" y="137"/>
+	<e:Group id="eff2" x="430" y="281"/>
+	<e:Group id="eff1" x="130" y="445"/>
+	<e:Group id="b3" width="182" height="165" x="31" y="24" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Image id="s3" y="-14.5" x="-4" source="dailyfb_demon_chosen"/>
+		<e:Image y="4.5" x="-5" width="46" height="135" scaleX="1" scaleY="1" source="demoncircle_boss_name2"/>
+		<e:Image id="lock3" y="32" x="60" source="touxianglock" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="b2" width="182" height="165" x="341" y="162" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Image id="s2" y="-2.5" x="-10" source="dailyfb_demon_chosen"/>
+		<e:Image y="16" x="0" width="46" height="135" source="demoncircle_boss_name1" scaleX="1" scaleY="1"/>
+		<e:Image id="lock2" y="41" x="53" source="touxianglock" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="b1" width="182" height="165" x="43" y="317" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Image id="s1" y="3.5" x="-20" source="dailyfb_demon_chosen"/>
+		<e:Image y="14" x="1" width="46" height="135" scaleX="1" scaleY="1" source="demoncircle_boss_name0"/>
+		<e:Image id="lock1" y="35" x="48" source="zdbossyijisha" scaleX="1" scaleY="1"/>
+	</e:Group>
+
+
+	<e:Group width="560" height="150" horizontalCenter="0" bottom="92">
+		<e:Image width="280" x="0" top="0" bottom="0" source="bantoumingkuang3"/>
+		<e:Image width="280" scaleX="-1" x="560" top="0" bottom="0" source="bantoumingkuang3"/>
+	</e:Group>
+	<e:Group width="480" height="150" bottom="122" horizontalCenter="0">
+		<e:Image height="68" y="30" source="shuxingbg" scale9Grid="36,6,113,39" left="0" right="0"/>
+		<e:Image x="0" source="shuxingbg2" scale9Grid="188,0,5,32" width="240" y="0"/>
+		<e:Image source="shuxingbg2" scale9Grid="188,0,5,32" width="240" scaleX="-1" y="0" right="0"/>
+	</e:Group>
+	<e:Label id="getItemTxt" text="获取道具" size="20" textColor="0x00FF00" horizontalCenter="216" bottom="234" height="60" verticalAlign="middle" width="100" textAlign="center"/>
+	<e:Group id="upInfo" bottom="112" width="500" horizontalCenter="1" height="86">
+		<e:Group id="costGroup1" y="-19" horizontalCenter="155.5">
+		<e:Label id="expendLabel1" text="进入条件: " size="20" bold="true" x="0" y="0" textColor="0xD1C28F"/>
+		<e:Image id="icon1" x="55" y="28" source="200141_png" scaleX="0.5" scaleY="0.5"/>
+		<e:Label id="countLabel1" text="12000/100" size="20" textAlign="left" textColor="0xD1C28F" x="94" y="12"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+		</e:layout>
+		</e:Group>
+		<e:Label id="expendLabel0" text="第1关:魔殿广场 " size="18" bold="true" y="-69" textColor="0xd34530" width="150" horizontalCenter="-4" textAlign="center"/>
+		<e:Label id="yitongguan" text="已通关" size="22" bold="true" y="45" width="150" horizontalCenter="163" textAlign="center" textColor="0x00ff00"/>
+	</e:Group>
+	<e:Scroller id="itemScroller" horizontalCenter="-61" height="121" bottom="102" anchorOffsetY="0">
+		<e:List id="itemList0" itemRendererSkinName="ItemSkin" y="-74" useVirtualLayout="false" width="450" height="206" horizontalCenter="0">
+		<e:layout>
+			<e:TileLayout verticalGap="0" requestedColumnCount="5" horizontalGap="0" horizontalAlign="center"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="challengeBtn" label="挑  战" horizontalCenter="164" width="140" height="43" bottom="130" skinName="Btn16Skin" anchorOffsetY="0" anchorOffsetX="0"/>
+
+
+
+</e:Skin>

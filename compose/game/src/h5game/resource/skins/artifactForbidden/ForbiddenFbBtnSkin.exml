@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForbiddenFbBtnSkin" xmlns:e="http://ns.egret.com/eui" states="up,down" >
+	<e:Image source="swjd_tabBar_0"/>
+	<e:Image source="swjd_tabBar_1" visible.up="false"/>
+	<e:Label id="labelDisplay" size="20" text="{data}" strokeColor="0xFF9400" horizontalCenter="0" verticalCenter="-4" textColor="0xb7a77b" bold="true" textColor.down="0xecb453"/>
+</e:Skin>

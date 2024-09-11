@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="jinyanPanelskin" width="554" height="710" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:ViewStack id="viewStack" selectedIndex="0"  bottom="43" horizontalCenter="0" top="0">
+		<ns1:BaseComponent id="expPanel" name="1" top="-2" bottom="-41" className="FbExpPanel" skinName="jinyanskin" anchorOffsetY="0" width="554" horizontalCenter="0"/>
+			<ns1:BaseComponent id="guardWeaponPanel" name="2" skinName="guardGodWeaponSkin" top="0" bottom="0" width="554"
+		                   className="GuardWeaponPanel" horizontalCenter="0"  visible="false"/>
+		<ns1:BaseComponent id="demonSkin" name="3" top="-2" bottom="-41" className="FBDemonPanel" skinName="demonSkin" anchorOffsetY="0" width="572" horizontalCenter="9" visible="false"/>
+	</e:ViewStack>
+	<e:Group width="560" horizontalCenter="0" bottom="3" height="104">
+		<e:Image width="280" x="0" top="0" bottom="0" source="bantoumingkuang3"/>
+		<e:Image width="280" scaleX="-1" x="560" top="0" bottom="0" source="bantoumingkuang3"/>
+	</e:Group>
+	<e:TabBar id="tab" dataProvider="{viewStack}" selectedIndex="0" itemRendererSkinName="jinyanIconskin" anchorOffsetX="0" width="472" scaleX="1" scaleY="1" horizontalCenter="8" bottom="14" height="84">
+		<e:layout>
+		<e:HorizontalLayout gap="10" horizontalAlign="center"/>
+		</e:layout>
+	</e:TabBar>
+	<e:Button id="help" label="按钮" skinName="Btn0Skin" icon="wenhao" horizontalCenter="-246" y="-50" scaleX="0.9" scaleY="0.9" visible="false"/>
+	<e:Image id="redPoint0" touchEnabled="false" source="zjmhongdian" horizontalCenter="234" bottom="71" height="24"/>
+</e:Skin>

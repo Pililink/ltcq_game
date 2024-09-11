@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameLoadingViewSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+	xmlns:ns1="*" >
+	<e:Image id="bg" horizontalCenter="0" verticalCenter="0" source=""/>
+	<e:ProgressBar id="bar" width="438" height="22" y="601" horizontalCenter="0"> 
+		<e:skinName>
+		<e:Skin  >
+			<e:Image anchorOffsetX="0" source="ui_loding_di" width="100%" height="23" scale9Grid="43,0,21,29"/>
+			<e:Image id="thumb" height="9" source="ui_loding_tiao" y="7" anchorOffsetX="0" left="25" right="24" scale9Grid="27,0,4,13"/>
+
+		</e:Skin>
+		</e:skinName>
+	</e:ProgressBar>
+
+	<e:Label id="tip" text="Label" y="633.34" size="16" horizontalCenter="0" stroke="1" strokeColor="0x333333" visible="false"/>
+	<e:Label id="tip0" text="首次加载时间稍长，请耐心等待" y="583.34" size="16" horizontalCenter="0" stroke="1" strokeColor="0x000000" textColor="0xe0e0e0"/>
+	<e:Label id="tip1" text="若长时间加载不成功，请刷新页面" y="626.01" size="16" horizontalCenter="0" stroke="1" strokeColor="0x000000" textColor="0x1baa17"/>
+	<e:Image y="89" touchEnabled="false" horizontalCenter="1.5" source=""/>
+	<e:Label id="versionNumber" text="" y="734" anchorOffsetX="0" width="479" anchorOffsetY="0" height="54" size="10" lineSpacing="2" textAlign="center" horizontalCenter="0"/>
+	<e:Label text="抵制不良游戏，拒绝盗版游戏，注意自我保护，谨防受骗上当。\n适度游戏益脑，沉迷游戏伤身，合理安排时间，享受健康生活。" y="696" anchorOffsetX="0" width="423" anchorOffsetY="0" height="42" size="12" lineSpacing="4" horizontalCenter="0" textAlign="center"/>
+
+</e:Skin>

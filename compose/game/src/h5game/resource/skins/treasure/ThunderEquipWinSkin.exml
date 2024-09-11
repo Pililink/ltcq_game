@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ThunderEquipWinSkin" width="580" height="930" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.6" />
+    <e:Image top="0" bottom="0" source="tongyongmianbanbg2" width="580" horizontalCenter="0" scale9Grid="15,12,2,3" />
+    <e:Image width="570" horizontalCenter="0" source="tongyongmianbanbg" scale9Grid="19,12,14,25" top="44" bottom="155" />
+    <e:ViewStack id="viewStack" width="580" selectedIndex="1" horizontalCenter="0" top="52" bottom="166">
+        <ns1:BaseComponent id="thunderEquipPanel" skinName="ThunderEquipSkin" className="ThunderEquipPanel" name="淬炼"
+                           left="0" right="0" top="0" bottom="0" />
+        <ns1:BaseComponent id="thunderSuitPanel" skinName="ThunderSuitSkin" className="ThunderSuitPanel" name="升级"
+                           left="0" right="0" top="0" bottom="0" visible="false" />
+    </e:ViewStack>
+    <e:TabBar id="tab" itemRendererSkinName="BtnTab0Skin" dataProvider="{viewStack}" selectedIndex="0"
+              horizontalCenter="0" bottom="106">
+        <e:layout>
+            <e:HorizontalLayout gap="-8" />
+        </e:layout>
+    </e:TabBar>
+    <ns1:BaseComponent id="roleSelect" y="0" skinName="RoleSelectPanelSkin" width="580" horizontalCenter="0"
+                       className="RoleSelectPanel" />
+    <e:Image horizontalCenter="-155.5" y="6" source="biaoti_leitingzhuangbei" />
+    <e:Group horizontalCenter="47" bottom="141">
+        <e:layout>
+            <e:HorizontalLayout gap="88" />
+        </e:layout>
+        <e:Image id="redPoint0" x="210" y="-253" scaleX="1" scaleY="1" source="zjmhongdian" visible="false" />
+        <e:Image id="redPoint1" x="220" y="-243" scaleX="1" scaleY="1" source="zjmhongdian" visible="false" />
+    </e:Group>
+    <e:Button id="closeBtn" label="按钮" skinName="Btn0Skin" icon="chatclose" y="46" scaleX="0.8" scaleY="0.8"
+              horizontalCenter="266" />
+</e:Skin>

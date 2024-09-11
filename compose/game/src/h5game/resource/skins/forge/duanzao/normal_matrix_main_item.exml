@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="normal_matrix_main_item" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="240">
+	<e:Image scale9Grid="52,47,6,10" width="240" height="200" source="dc_listItemBg" anchorOffsetX="0" horizontalCenter="0" verticalCenter="-3"/>
+	<e:Image source="dc_titleBg" x="4" y="2"/>
+<e:Group id="fazhenEff" y="130" x="122">
+		</e:Group>
+	<e:Image id="dcName" source="dc_name1" x="62" y="10"/>
+	<e:Label id="lvtxt" text="Lv.1" x="91" y="35" textColor="0xFFD93F" size="24" bold="true" fontFamily="SimHei"/>
+	<e:Image id="skillRedPoint0" source="zjmhongdian" x="211" y="2.5" touchEnabled="false"/>
+
+</e:Skin>

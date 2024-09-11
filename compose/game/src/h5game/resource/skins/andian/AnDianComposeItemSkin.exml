@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AnDianComposeItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="155"  states="simple,expand"  height.simple="58">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Group id="btnGrp" x="8" y="7" width="150" height="58">
+			<e:Image y="0" scale9Grid="82,0,5,58" width="170" scaleX="1" scaleY="1" right="0" source="yeqian5"/>
+			<e:Label id="nameLabel" text="神·轮回装备" verticalCenter="0" size="20" horizontalCenter="-0.5" visible="false"/>
+			<e:Image id="redPoint" touchEnabled="false" source="zjmhongdian" x="128" y="0"/>
+			<e:Group y="20" x="20" touchChildren="false" touchEnabled="false">
+				<e:BitmapLabel id="lv0" font="adianText_fnt" text="10" x="0" width="30" textAlign="right"/>
+				<e:Image source="equipText_png" x="33"/>
+			</e:Group>
+			
+		</e:Group>
+		<e:List id="list" x="46" y="91" width="155" itemRendererSkinName="AnDianComposeLvItemSKin" includeIn="expand">
+		</e:List>
+		<e:layout>
+			<e:VerticalLayout gap="0" horizontalAlign="right"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

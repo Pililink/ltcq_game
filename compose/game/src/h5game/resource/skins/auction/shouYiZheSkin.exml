@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="shouYiZheSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Rect id="bgClose" fillAlpha="0.8" left="0" right="0" bottom="0" top="0" />
+    <e:Group id="anigroup" width="230" height="204" verticalCenter="0" horizontalCenter="0" anchorOffsetX="0"
+             anchorOffsetY="0">
+        <e:Image source="tongyongkuang3bg" scale9Grid="30,20,2,7" top="0" bottom="0" left="0" right="0" />
+        <e:Image y="0" source="tongyongkuang3tou" left="0" right="0" scale9Grid="50,40,300,2" />
+        <e:Label text="该奖励收益人名单" size="18" horizontalCenter="1" verticalCenter="-77" textColor="0xbeff1e" />
+        <e:Scroller height="144" x="44" y="51" scaleX="1" scaleY="1" scrollPolicyH="off">
+            <e:Label id="nameAry" text=""
+                     size="20" y="40" left="31" />
+        </e:Scroller>
+    </e:Group>
+</e:Skin>

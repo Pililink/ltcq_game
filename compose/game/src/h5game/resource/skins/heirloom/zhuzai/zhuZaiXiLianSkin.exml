@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="zhuZaiXiLianSkin" width="580" height="930" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Rect id="bgClose" fillAlpha="0.8" left="0" right="0" top="0" bottom="0"/>
+	<e:Group width="400" height="557" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="frame" source="tongyongkuang3bg" scale9Grid="9,5,30,27"   left="0" right="0" top="0" bottom="0"/>
+		<e:Image id="tou" y="0" source="tongyongkuang3tou" left="0" right="0" scale9Grid="66,0,269,47"/>
+
+		<e:Image source="biaoti_zhuzaitilian" y="8" horizontalCenter="0"/>
+		<e:Image source="tongyonglabbg" x="5" y="53" anchorOffsetX="0" width="190" scale9Grid="38,30,50,23" anchorOffsetY="0" height="371"/>
+		<e:Image source="tongyonglabbg" scale9Grid="38,30,50,23" x="201" y="53" anchorOffsetX="0" width="190" anchorOffsetY="0" height="371"/>
+
+		<e:Group x="3" y="53" anchorOffsetX="0" width="194">
+			<e:Image x="6" y="0" anchorOffsetX="0" anchorOffsetY="0" source="biaotibg"/>
+			<e:Image x="8" y="40" anchorOffsetX="0" anchorOffsetY="0" source="biaoqianbg"/>
+			<e:Image y="146" scale9Grid="85,1,6,1" width="186" horizontalCenter="-1" source="bantoutiaobg" anchorOffsetX="0" anchorOffsetY="0" height="33"/>
+			<ns1:BaseComponent id="curPowerPanel" skinName="PowerPanelSkin" className="PowerPanel" y="135" x="-27" scaleX="0.8" scaleY="0.8"/>
+			<e:Image source="bantoutiaobg" scale9Grid="128,2,15,41" touchEnabled="false" y="183" x="6" anchorOffsetY="0" height="28" anchorOffsetX="0" width="184"/>
+			<e:Label text="当前装备" y="53" textAlign="center" size="18" bold="false" width="20" textColor="0xd3c594" fontFamily="SimHei" x="16"/>
+			<e:Label id="currName" text="主宰斗笠" y="15" textAlign="center" size="18" bold="true" textColor="0xf9cf2f" fontFamily="SimHei" x="61"/>
+			<e:Label text="随机属性" y="187" textAlign="center" size="18" bold="true" textColor="0xF9CF2F" fontFamily="SimHei" x="62"/>
+			<e:Label id="currAtt0" text="致命伤害:+9999999" y="225" textAlign="center" size="17" bold="false" textColor="0xAF9F7E" x="34" fontFamily="SimHei"/>
+			<e:Label id="currAtt1" text="致命伤害:+99999" y="255" textAlign="center" size="17" bold="false" textColor="0xAF9F7E" x="34" fontFamily="SimHei"/>
+			<e:Label id="currAtt2" text="致命伤害:+99999" y="284" textAlign="center" size="17" bold="false" textColor="0xAF9F7E" x="34" fontFamily="SimHei"/>
+			<e:Label id="currAtt3" text="致命伤害:+99999" y="314" textAlign="center" size="17" bold="false" textColor="0xAF9F7E" x="34" fontFamily="SimHei"/>
+			<e:Image id="currGou" source="gou" y="312" x="7"/>
+			<ns1:BaseComponent id="curItemIcon" skinName="ItemSkin" className="ItemBaseNoName" x="61" y="55" scaleX="0.8" scaleY="0.8" touchChildren="false" touchEnabled="false"/>
+			<e:Group id="grpAddFight" x="75" y="123">
+				<e:Image source="shangshengjiantou" y="0" x="0"/>
+				<e:Label id="lab_AddFight" text="9999" y="5" textAlign="center" size="20" bold="true" textColor="0x3CD60A" x="20" fontFamily="SimHei"/>
+			</e:Group>
+		</e:Group>
+		<e:Group y="433" horizontalCenter="50">
+			<e:Image source="weijihuohuawen" y="0" scale9Grid="0,3,50,25" width="100" scaleX="-1" x="0"/>
+			<e:Image source="weijihuohuawen" x="167" y="0" scale9Grid="0,3,50,25" width="100" anchorOffsetX="0"/>
+			<e:Label text="选择想要替换的属性" y="7" textAlign="center" size="16" textColor="0x3cd60a" bold="true" fontFamily="SimHei" x="6"/>
+		</e:Group>
+		<e:Group x="169" y="53" anchorOffsetX="0" width="222">
+			<e:Image x="36" y="0" anchorOffsetX="0" anchorOffsetY="0" source="biaotibg"/>
+			<e:Image x="38" y="40" anchorOffsetX="0" anchorOffsetY="0" source="biaoqianbg"/>
+			<e:Image y="146" scale9Grid="85,1,6,1" width="186" horizontalCenter="15" source="bantoutiaobg" anchorOffsetX="0" anchorOffsetY="0" height="33"/>
+			<ns1:BaseComponent id="xhPowerPanel" skinName="PowerPanelSkin" className="PowerPanel" y="135" x="6" scaleX="0.8" scaleY="0.8"/>
+			<e:Image source="jiantou" y="140" x="0"/>
+			<e:Image source="bantoutiaobg" scale9Grid="128,2,15,41" touchEnabled="false" y="183" x="33" anchorOffsetY="0" height="28" anchorOffsetX="0" width="184"/>
+			<e:Label text="提炼装备" y="53" textAlign="center" size="18" textColor="0xD3C594" bold="false" width="20" fontFamily="SimHei" x="45"/>
+			<e:Label id="xhName" text="主宰斗笠" y="15" textAlign="center" size="18" bold="true" textColor="0xF9CF2F" fontFamily="SimHei" x="85"/>
+			<e:Label text="随机属性" y="187" textAlign="center" size="18" bold="true" textColor="0xF9CF2F" fontFamily="SimHei" x="90"/>
+			<e:Group x="65" y="224">
+				<e:Label id="xhAttr0" text="致命伤害:+0" y="1" textAlign="center" size="17" bold="false" x="0" fontFamily="SimHei" textColor="0xf41a94" name="0"/>
+				<e:Image id="xhJT0" source="shangshengjiantou" y="-2" x="142" touchEnabled="true" name="0" scaleX="0.8" scaleY="0.8"/>
+				<e:layout>
+					<e:HorizontalLayout gap="2"/>
+				</e:layout>
+			</e:Group>
+			<e:Group x="65" y="254">
+				<e:Label id="xhAttr1" text="致命伤害:+0" y="3" textAlign="center" size="17" bold="false" textColor="0xAF9F7E" x="0" fontFamily="SimHei" scaleX="1" scaleY="1" name="1"/>
+				<e:Image id="xhJT1" y="0" x="142" touchEnabled="true" name="1" scaleX="0.8" scaleY="0.8" source="xiajiangjiantou"/>
+				<e:layout>
+					<e:HorizontalLayout gap="2"/>
+				</e:layout>
+			</e:Group>
+			<e:Group x="65" y="284">
+				<e:Label id="xhAttr2" text="致命伤害:+0" y="2" textAlign="center" size="17" bold="false" textColor="0xAF9F7E" x="0" fontFamily="SimHei" name="2"/>
+				<e:Image id="xhJT2" source="shangshengjiantou" y="0" x="142" touchEnabled="true" name="2" scaleX="0.8" scaleY="0.8"/>
+				<e:layout>
+					<e:HorizontalLayout gap="2"/>
+				</e:layout>
+			</e:Group>
+			<e:Group x="65" y="312">
+				<e:Label id="xhAttr3" text="致命伤害:+0" y="4" textAlign="center" size="17" bold="false" textColor="0xAF9F7E" x="0" fontFamily="SimHei" name="3"/>
+				<e:Image id="xhJT3" source="shangshengjiantou" y="0" x="142" touchEnabled="true" name="3" scaleX="0.8" scaleY="0.8"/>
+				<e:layout>
+					<e:HorizontalLayout gap="2"/>
+				</e:layout>
+			</e:Group>
+			<e:Image id="xhKuang0" source="xuanzekuang" y="218" x="36" touchEnabled="true" name="0"/>
+			<e:Image id="xhKuang1" source="xuanzekuang" y="248" x="36" touchEnabled="true" name="1"/>
+			<e:Image id="xhKuang2" source="xuanzekuang" y="278" x="36" touchEnabled="true" name="2"/>
+			<e:Image id="xhKuang3" source="xuanzekuang" y="308" x="36" touchEnabled="true" name="3"/>
+
+
+
+
+
+
+			<e:Image id="xhGou" source="gou" y="222" x="36" touchEnabled="false" visible="false"/>
+
+
+
+
+			<ns1:BaseComponent id="xhitemIcon" skinName="ItemSkin" className="ZhuZaiHeChengViewItem" x="89" y="54" scaleX="0.8" scaleY="0.8"/>
+
+		</e:Group>
+		<e:Group y="470" horizontalCenter="0">
+			<e:Label text="消耗：" y="3" x="0" size="20" fontFamily="SimHei" textColor="0xAF9F7E"/>
+			<e:Image id="imgIcon1" y="0" scaleX="0.35" scaleY="0.35" x="51" source="621007_png"/>
+			<e:Label id="lab_Count1" text="0/3" y="2" x="83" size="20" fontFamily="SimHei" textColor="0xAF9F7E"/>
+		</e:Group>
+		<e:Button id="btnXiLian" label="提炼" anchorOffsetX="0" anchorOffsetY="0" y="497" skinName="Btn3Skin" horizontalCenter="0"/>
+		<e:Label id="labItem" text="获取道具" y="475" textAlign="center" size="16" textColor="0x3CD60A" bold="true" fontFamily="SimHei" x="299"/>
+	</e:Group>	
+</e:Skin>

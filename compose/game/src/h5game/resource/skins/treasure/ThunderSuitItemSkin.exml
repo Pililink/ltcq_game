@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ThunderSuitItemSkin" width="115" height="130" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Image id="suitIcon" horizontalCenter="0" verticalCenter="-17" source="2100003_png" />
+    <e:BitmapLabel id="suitLv" font="num_lv__fnt" text="3" top="3" horizontalCenter="-37.5" />
+    <e:Label id="suitName" text="雷霆之刃" bold="true" size="25" horizontalCenter="-6" verticalCenter="46"
+             textColor="0x5d5e9e" />
+    <e:Image id="redPoint" x="91" y="2" source="zjmhongdian" />
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KFDominateItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="218" height="94" states="up,down" >
+	<e:Image id="bossImg" horizontalCenter="13" verticalCenter="0.5" source=""/>
+	<e:Image source="kf_xuanzhongkuang" horizontalCenter="2.5" bottom="0" visible.up="false"/>
+	<e:Label id="bossName" text="主宰-冥海烛龙皇" size="15" left="35" bold="true" bottom="63" textColor="0xf9be66"/>
+	<e:Image source="kf_xxing" right="8" bottom="54"/>
+	<e:BitmapLabel id="bossLV" x="165" y="16" text="七" font="zhuzaiStar_fnt"/>
+	<e:Rect id="isRevival" width="179" height="72" x="33" y="11" anchorOffsetY="0" anchorOffsetX="0" fillAlpha="0.4"/>
+	<e:Label id="Countdown" text="00:00:00" x="120" y="51" size="21" textColor="0x4eed15"/>
+</e:Skin>

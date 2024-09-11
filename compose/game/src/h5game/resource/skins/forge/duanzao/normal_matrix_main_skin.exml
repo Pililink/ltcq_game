@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="normal_matrix_main_skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="open,select,dark" >
+	<w:Config id="159bef2916a"/>
+	<e:Image id="bgImg" horizontalCenter="-1" top="1" source="dc_listBg_jpg"/>
+	<e:Scroller scrollPolicyH="off" width="515" height="637" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="9.5" y="108">
+		<e:List id="menuList" x="0" y="0" itemRendererSkinName="normal_matrix_main_item" anchorOffsetX="0" width="500">
+			<e:layout>
+				<e:TileLayout horizontalGap="15" verticalGap="15" requestedColumnCount="2"/>
+			</e:layout>
+
+		</e:List>
+	</e:Scroller>
+
+</e:Skin>

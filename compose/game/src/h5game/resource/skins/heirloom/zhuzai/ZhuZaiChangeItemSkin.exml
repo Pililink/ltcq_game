@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZhuZaiChangeItemSkin" width="450" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image left="0" right="0" top="0" bottom="0" source="tongyonglabbg" scale9Grid="42,20,48,41"/>
+	<e:Label id="power" text="战力:999999" size="20" y="14" textColor="0xf8b141" x="294" width="150" textAlign="center"/>
+	<e:Label id="attr1" text="攻击力+3000000 \n攻击力+30000   \n攻击力+30000   \n攻击力+30000" size="18" width="183" x="110" textColor="0x9f946d" verticalAlign="middle" height="72"  anchorOffsetX="0" verticalCenter="0"/>
+	<e:Button id="changeBtn" skinName="Btn3Skin" label="更 换" y="50" name="changeBtn" x="320" width="100"/>
+	<ns1:BaseComponent id="itemIcon" skinName="ItemSkin" className="ItemBase" y="10" horizontalCenter="-167" touchChildren="true" touchEnabled="true"/>
+	<e:Image id="best" y="43" touchEnabled="false" right="15" source="tuijian2" visible="false"/>
+	<e:Group id="now" x="381" y="52" visible="false">
+		<e:Image source="xiejiaotiao" scale9Grid="20,2,2,15" rotation="135" width="79" scaleX="1.6" scaleY="1.6" x="89" y="0"/>
+		<e:Label text="当前装备" size="20" bold="true" rotation="-45" textColor="0xd1c28f" x="-2" y="54"/>
+	</e:Group>
+	<e:Label id="levelText" text="转生等级不足" y="64" size="18" x="310" textColor="0xF70733" fontFamily="SimHei" visible="false"/>
+</e:Skin>

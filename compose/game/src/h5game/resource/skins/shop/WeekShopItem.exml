@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WeekShopItem" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="560" height="108">
+	<w:Config id="1586bdedfef"/>
+	<e:Image left="0" right="0" top="0" bottom="0" scale9Grid="26,25,61,4" source="scitembg"/>
+	<e:Image id="textBG" x="110" y="44" source="tongyongline2"/>
+	<ns1:BaseComponent id="itemIcon" x="21" verticalCenter="0" skinName="ItemIconSkin" className="ItemIcon"/>
+	<e:Button id="buyBtn" label="购 买" name="buy" right="31" skinName="Btn14Skin" verticalCenter="20" width="100" height="48"/>
+	<e:Label id="itemName" text="商品名称" x="110" y="20" size="22" textColor="0x9f946d"/>
+	<e:Label id="money" text="1000" y="60" size="22" x="150" textColor="0xf8b141"/>
+	<e:Label id="used" text="（商品用途）" x="230" y="20" size="22" textColor="0xd1c28f" visible="false"/>
+	<e:Label id="num" text="每周限购：0/3" y="15" size="20" textColor="0xD1C28F" textAlign="right" right="20"/>
+	<e:Image x="112" y="59" source="szyuanbao"/>
+	<e:Group id="grp_zk" x="25" y="18" touchChildren="false" touchEnabled="false" touchThrough="false">
+		<e:Image id="discount" x="0" y="0" source="shop_json.shangzk0"/>
+		<e:Label id="lab_zk" text="5" y="0" size="22" textColor="0xD1C28F" textAlign="center" fontFamily="SimHei" width="20" x="3"/>
+	</e:Group> 
+</e:Skin>

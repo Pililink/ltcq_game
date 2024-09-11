@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KFSwitchServerSkin" width="580" height="930" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.6"/>
+	<e:Image source="kuafuSwitch_jpg"/>
+	<e:Group horizontalCenter="0" bottom="40">
+		<e:Label id="switchLabel" text="正在进出跨服..." size="20" fontFamily="黑体" textColor="0x7EFA55" y="-44" x="131"/>
+		<e:Image id="progress" y="0" width="456.67" scaleX="0.9" source="jingyantiao1" scale9Grid="53,2,17,17" anchorOffsetX="0" x="0"/>
+		<e:ProgressBar id="pgress" height="17" skinName="bar0Skin" value="0" width="340" y="9" x="34"/>
+	</e:Group>
+
+</e:Skin>

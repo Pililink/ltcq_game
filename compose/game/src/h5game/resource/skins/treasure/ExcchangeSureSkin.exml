@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExcchangeSureSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="580" height="930">
+	<e:Rect id="bgClose" left="0" right="0" top="0" bottom="0" fillAlpha="0.6"/>
+	<e:Group anchorOffsetY="0" width="453" height="398" horizontalCenter="0.5" verticalCenter="-41">
+		<e:Image  source="tongyongkuang3bg" left="0" right="0" top="0" bottom="31" anchorOffsetY="0" scale9Grid="16,3,11,26"/>
+
+		<e:Image source="tongyongkuang3tou" scale9Grid="74,5,261,37" left="0" right="0"/>
+
+
+
+		<e:Group id="seniorPiece" x="50" y="60">
+			<e:Image y="0" source="quality0" anchorOffsetX="0" width="98" anchorOffsetY="0" height="98" scale9Grid="8,8,48,48" x="85"/>
+			<e:Image id="itemIcon" y="16" source="200007_png" x="104"/>
+			<e:Label id="itemName" text="高级符文碎片" y="12" size="18" textColor="0xffd93f" x="200"/>
+			<e:Label text="数量：" y="39" size="18" x="200" fontFamily="SimHei" textColor="0xa37609"/>
+			<e:Label id="count0" text="99999" y="39" size="18" textColor="0xd1c28f" x="249" fontFamily="SimHei"/>
+			<e:Label text="等级：" y="69" size="18" x="200" fontFamily="SimHei" textColor="0xa37609"/>
+			<e:Label id="labeLv" text="1级" y="69" size="18" textColor="0xD1C28F" x="250" fontFamily="SimHei"/>
+		</e:Group>
+		<e:Group y="190" horizontalCenter="0.5">
+			<e:Image width="152" height="38" x="0" y="0" source="tongyongtip3" scale9Grid="9,9,12,12" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:ProgressBar id="changeBar" width="140" height="26" x="13" y="6" value="0" anchorOffsetY="0" skinName="bar5Skin" anchorOffsetX="0" visible="false"/>
+			<e:Label id="count1" text="0" size="18" textColor="0xD1C28F" fontFamily="SimHei" x="1" y="11" width="150" textAlign="center"/>
+		</e:Group>
+		<e:Button id="minus" label="Button" y="186" skinName="Btn0Skin" icon="btn-" left="90"/>
+		<e:Button id="minTenBtn" label="Button" y="186" skinName="Btn0Skin" icon="btnmax" left="23" scaleX="-1"/>
+		<e:Button id="add" label="Button" y="185" skinName="Btn0Skin" icon="btnadd" right="90"/>
+		<e:Button id="addTenBtn" label="Button" y="185" icon="btnmax" right="20" skinName="Btn0Skin"/>
+		<e:Button id="quicklytransformBtn" label="兑换" y="263" skinName="Btn3Skin" right="180"/>
+
+
+
+
+	</e:Group>
+</e:Skin>

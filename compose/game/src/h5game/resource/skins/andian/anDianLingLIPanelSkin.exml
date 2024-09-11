@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="anDianLingLIPanelSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" width="580" height="930">
+	<w:Config id="1716440de3e"/>
+	<e:Rect id="bgClose" left="0" right="0" top="0" bottom="0" fillAlpha="0.8"/>
+
+
+	<e:Group id="anigroup" horizontalCenter="0" verticalCenter="-100" width="264" height="240" anchorOffsetX="0">
+
+
+		<e:Image id="frame" left="0" right="0" top="0" scale9Grid="26,18,1,1" anchorOffsetX="0" anchorOffsetY="0" source="tongyongtip2" bottom="0"/>
+		<e:Image scale9Grid="128,2,15,41" touchEnabled="false" y="0" source="contentbg1" anchorOffsetX="0" width="254" horizontalCenter="0"/>
+		<e:Image horizontalCenter="0" verticalCenter="22" source="zjmqipao" scale9Grid="6,9,9,8" alpha="0.5" anchorOffsetY="0" anchorOffsetX="0" top="67" left="10" right="10" bottom="20"/>
+		<e:Label id="lab_Name" text="我的暗殿灵力" size="26" textAlign="left" y="18" bold="true" horizontalCenter="0" textColor="0xaf7536" fontFamily="SimHei"/>
+		<e:Group y="80" horizontalCenter="0">
+			<e:Image touchEnabled="false" source="tongyongdian" y="0" x="0"/>
+			<e:Image touchEnabled="false" source="tongyongdian" y="27.5" x="0"/>
+			<e:Image touchEnabled="false" source="tongyongdian" y="55" x="0"/>
+			<e:Image touchEnabled="false" source="tongyongdian" y="82.5" x="0"/>
+			<e:Image touchEnabled="false" source="tongyongdian" y="110" x="0"/>
+			<e:Label id="labAttr1" text="三角色日之灵力：13700" size="18" y="0" x="19" bold="true" fontFamily="SimHei" textColor="0xe8cd10" textAlign="left"/>
+			
+			<e:Label id="labAttr2" text="三角色日之灵力：13700" size="18" y="26" x="19" bold="true" fontFamily="SimHei" textColor="0xE8CD10" textAlign="left"/>
+			<e:Label id="labAttr3" text="三角色日之灵力：13700" size="18" y="54" x="19" bold="true" fontFamily="SimHei" textColor="0xE8CD10" textAlign="left"/>
+			<e:Label id="labAttr4" text="三角色日之灵力：13700" size="18" y="81" x="19" bold="true" fontFamily="SimHei" textColor="0xE8CD10" textAlign="left"/>
+			<e:Label id="labAttr5" text="三角色日之灵力：13700" size="18" y="108" x="19" bold="true" fontFamily="SimHei" textColor="0xE8CD10" textAlign="left"/>
+		</e:Group>
+		
+
+		<e:Group horizontalCenter="0" bottom="-40" touchChildren="false" touchEnabled="false" touchThrough="false">
+			<e:Image source="bantoutiaobg" height="30" scale9Grid="128,2,15,41" width="300" touchEnabled="false" x="0" y="0"/>
+			<e:Label text="点击空白区域关闭窗口" size="20" x="48" bold="true" textColor="0x7E6437" touchEnabled="false" y="5"/>
+		</e:Group>
+
+	</e:Group>
+	
+	
+</e:Skin>

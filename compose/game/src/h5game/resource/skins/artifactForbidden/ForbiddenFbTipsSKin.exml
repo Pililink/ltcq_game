@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForbiddenFbTipsSKin" width="580" height="930" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="bgClose" fillAlpha="0.7" left="-1" right="1" top="0" bottom="0"/>
+	<e:Group id="anigroup" width="501" horizontalCenter="0.5" verticalCenter="-44" touchEnabled="true" anchorOffsetX="0" anchorOffsetY="0" height="702.33">
+		<e:Image source="tongyongtip1" scale9Grid="7,6,11,12" touchEnabled="false" bottom="0" left="0" right="0" top="0"/>
+		<e:Image left="0" right="0" scale9Grid="9,0,10,54" top="0" height="200" source="quali3"/>
+		<e:Image source="tongyongtip2" left="0" right="0" top="0" bottom="0" scale9Grid="18,18,2,4" touchEnabled="false" anchorOffsetY="0"/>
+		<e:Image scale9Grid="85,1,6,1" width="442" y="434.68" horizontalCenter="0.5" source="tongyongline"/>
+		<e:Image scale9Grid="85,1,6,1" width="442" y="608.01" horizontalCenter="0.5" source="tongyongline"/>
+		<e:Group id="bossGrp" width="200" height="200" horizontalCenter="-11.5" bottom="398"/>
+		<e:Image id="imgName" source="shenwu_name8" horizontalCenter="183.5" bottom="410"/>
+		<e:Image source="swjd_tips_icon1" horizontalCenter="-191" bottom="281"/>
+		<e:Label id="ArtifactPower" text="神器之力：35" size="24" textColor="0xd09539" horizontalCenter="-94" bottom="282"/>
+		<e:Image source="swjd_tips_icon2" horizontalCenter="-190" bottom="219"/>
+		<e:Label text="携带宝贝" size="24" textColor="0xD09539" horizontalCenter="-119.5" bottom="218"/>
+		<e:Scroller width="462" height="99" scaleX="0.9" scaleY="0.9" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="8.5" bottom="112">
+			<e:List id="itemList" x="5" y="46" itemRendererSkinName="ItemSkin" anchorOffsetX="0" width="456" anchorOffsetY="0" height="104">
+			<e:layout>
+				<e:HorizontalLayout gap="1"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Image source="swjd_tips_icon3" horizontalCenter="-193" bottom="49"/>
+		<e:Label text="刷新时间" size="24" textColor="0xD09539" horizontalCenter="-122.5" bottom="51"/>
+		<e:Label id="refreshTime" text="每隔7分钟刷新一次" size="24" textColor="0xD09539" horizontalCenter="-67.5" bottom="14"/>
+	</e:Group>
+</e:Skin>

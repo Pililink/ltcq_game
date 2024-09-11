@@ -1,0 +1,4 @@
+[2021-03-20 12:37:17] ~HandleMgr check memory leaks(size:3384)£¬alloc£º/mnt/hgfs/invCodeCpp/gameworld/entity/entity_mgr.cc(151)
+
+[2021-03-20 12:37:17]~HandleMgr:/mnt/hgfs/invCodeCpp/srvlib/include/memory/handle_mgr.h:403 memory error,free size:3510944, alloc_size:3514376
+

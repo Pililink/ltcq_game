@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="jinyanIconskin" states="up,down,disabled"
+        currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" includeIn="down" width="150" height="84">
+	<e:Image id="item" y="1" horizontalCenter="0.5" visible.disabled="false" source="tab_dailyfb_0_png"/>
+	<e:Image id="selectIcon" visible.disabled="false" visible.up="false" pixelHitTest="true"  x="0" y="-3" source="tab_dailyfb_chosen_png"/>
+	<e:Group id="redPoint" y="0" alpha.disabled="0.5" right="0" visible="false">
+		<e:Image x="0" y="0" source="zjmhongdian"/>
+	</e:Group>
+</e:Skin>

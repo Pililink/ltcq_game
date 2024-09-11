@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForbiddenItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="swjd_card"/>
+	<e:Image id="bossName" source="swjd_3_boss1" horizontalCenter="0" verticalCenter="72"/>
+	<e:Image id="bossIcon" source="monhead87176_png" width="83" height="83" horizontalCenter="0.5" verticalCenter="-29"/>
+	<e:Group id="RefreshGrp" width="119" height="30" x="27" y="56" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.73" ellipseWidth="31"/>
+		<e:Label id="RefreshTime" text="04:22 后刷新" size="15" textColor="0x03e303" horizontalCenter="0" verticalCenter="0" bold="true"/>
+	</e:Group>
+</e:Skin>

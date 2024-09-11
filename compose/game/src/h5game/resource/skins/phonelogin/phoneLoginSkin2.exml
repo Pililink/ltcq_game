@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="phoneLoginSkin2" width="580" height="930" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+<e:Rect fillAlpha="0.5" left="0" right="0" top="0" bottom="0"/>
+<e:Group horizontalCenter="0" verticalCenter="0">
+
+<e:Image y="1" x="0" scaleX="1" scaleY="1" source="guanzhu_bg_czfl_png"/>
+	<e:Image id="img_title" y="3" x="165" scaleX="1" scaleY="1" source=""/>
+	<e:Group id="grpDesc" y="110" x="219">
+		<e:Image  source="bg_xitongzi"  anchorOffsetX="0" width="326" anchorOffsetY="0" height="80"/>
+		<e:Label id="lab_desc" text="从微端登陆即可领取丰厚奖励!!!" size="20" fontFamily="SimHei" strokeColor="0x141212" textColor="0xf7e07b" lineSpacing="5" anchorOffsetY="0" y="19" x="20"/>
+	
+	</e:Group>
+	<e:Button id="closeBtn" label="" x="538" y="63">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guanbi"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	
+
+	<e:Scroller  y="237" scrollPolicyV="off" scrollPolicyH="on"  maxWidth="340" anchorOffsetX="0" horizontalCenter="105" scaleX="0.8" scaleY="0.8">
+			<e:List id="reward" itemRendererSkinName="ItemIconSkin">
+				<e:layout>
+				<e:HorizontalLayout gap="-4"/>
+				</e:layout>
+			</e:List>
+	</e:Scroller>
+
+	<e:Button id="btnLogin" x="270" y="312" label="微端下载" anchorOffsetX="0" anchorOffsetY="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_bg" source.down="btn_bg" scaleX.down="0.99" scaleY.down="0.98"/>
+			<e:Label id="labelDisplay" horizontalCenter="5" verticalCenter="12" size="26" fontFamily="SimHei" stroke="1" strokeColor="0x141212" textColor="0xf7e07b"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:Button>
+</e:Group>
+	
+</e:Skin>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChuanShiUpStarWinSkin" width="580" height="930" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586be3e7df" />
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.6" />
+
+	<e:Image top="0" bottom="0" source="tongyongmianbanbg2" width="580" horizontalCenter="0" scale9Grid="15,12,2,3" />
+	<e:Image width="570" horizontalCenter="0" source="tongyongmianbanbg" scale9Grid="19,12,14,25" top="44" bottom="120"  alpha="0.5" anchorOffsetY="0"/>
+	<e:Image source="shenwu_up_bg_png" y="54" x="13" scale9Grid="69,485,416,14" anchorOffsetY="0" height="648"/>
+
+	<e:Group id="equipGrp" y="257" x="293">
+	</e:Group>
+	<e:Image id="imgName" x="83" y="89" source="shenwu_name4"/>
+	<e:Group y="409.6" horizontalCenter="15">
+		<e:Image id="img_starLv0" y="0" x="0" source="star2" anchorOffsetX="18" anchorOffsetY="17" scaleX="1.2" scaleY="1.2"/>
+		<e:Image id="img_starLv1" source="star2" y="0" x="50" anchorOffsetX="18" anchorOffsetY="17" scaleX="1.2" scaleY="1.2"/>
+		<e:Image id="img_starLv2" source="star2" y="0" x="100" anchorOffsetX="18" anchorOffsetY="17" scaleX="1.2" scaleY="1.2"/>
+		<e:Image id="img_starLv3" source="star2" y="0" x="150" anchorOffsetX="18" anchorOffsetY="17" scaleX="1.2" scaleY="1.2"/>
+		<e:Image id="img_starLv4" source="star2" y="0" x="200" anchorOffsetX="18" anchorOffsetY="17" scaleX="1.2" scaleY="1.2"/>
+		<e:Image id="img_starLv5" source="star2" y="0" x="250" anchorOffsetX="18" anchorOffsetY="17" scaleX="1.2" scaleY="1.2"/>
+	</e:Group>
+
+
+	<ns1:BaseComponent id="roleSelect" y="0" skinName="RoleSelectPanelSkin" width="580" horizontalCenter="0"
+	                   className="RoleSelectPanel" />
+
+	<e:Image horizontalCenter="-155" y="5"  source="biaoti_chuanshishenwu"/>
+
+	<ns1:BaseComponent id="attrPanel" y="435" className="ChuanShiUpItem" skinName="ChuanShiUpItemSkin" horizontalCenter="-9" anchorOffsetY="0"/>
+	<e:Group id="dinghong" width="556" height="100" anchorOffsetY="0" y="705" x="13">
+		<e:Image top="0" bottom="0" left="0" width="287" source="bantoumingkuang3" horizontalCenter="-134.5" anchorOffsetX="0"/>
+		<e:Image width="269" scaleX="-1" top="0" bottom="0" right="0" source="bantoumingkuang3" anchorOffsetX="0"/>
+		
+		<e:Group id="costGroup" y="3" horizontalCenter="6">
+		<e:Group width="32" height="32">
+		<ns1:BaseComponent id="itemIcon" skinName="ItemSkin" className="ItemBase" scaleX="0.34" scaleY="0.33" x="1" y="1" alpha="0"/>
+			<e:Image id="img_itemIcon" source="200141_png" touchEnabled="false" scaleX="0.5" scaleY="0.5"/>
+		</e:Group>
+		<e:Label id="countLabel" text="120/1000" size="20" textAlign="right" textColor="0xD1C28F" x="94" y="12" fontFamily="SimHei"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+		</e:layout>
+		</e:Group>
+
+
+		
+		<e:Button id="btnUpStarLv" label="升 星" skinName="Btn1Skin" width="156" height="60" y="33" horizontalCenter="0" enabled="true"/>
+		<e:Image id="redPoint" touchEnabled="false" source="zjmhongdian" x="331" y="32"/>
+		<e:Label id="getItemTxt" text="获取道具" size="20" textColor="0x00FF00" scaleX="1" scaleY="1" y="34" x="414"/>
+		<e:Label id="lab_maxStarLv" text="已满星" size="30" textColor="0x00FF00" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" bold="true"/>
+	</e:Group>
+	<e:Button id="closeBtn" label="按钮" skinName="Btn0Skin" icon="chatclose" y="49" scaleX="0.8" scaleY="0.8"
+	          horizontalCenter="265.5" />
+</e:Skin>

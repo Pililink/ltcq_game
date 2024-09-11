@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ThunderEquipItemSkin" width="80" height="103" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+    <ns1:ItemIcon id="itemIcon" y="2" skinName="ItemIconSkin" horizontalCenter="0" />
+    <e:Image id="select" y="0" horizontalCenter="0" width="80" height="80" source="xuanzhongkuang2" scale9Grid="4,4,8,8"
+             visible="false" />
+    <e:Image id="redPoint" y="0" touchEnabled="false" right="0" source="zjmhongdian"  visible="false"/>
+    <e:BitmapLabel id="level" x="7" font="num_lv__fnt" text="1" top="4" />
+    <e:Label id="itemName" text="雷霆之靴" size="19" bold="true" textColor="0xa2a899" horizontalCenter="0"
+             verticalCenter="38" />
+</e:Skin>

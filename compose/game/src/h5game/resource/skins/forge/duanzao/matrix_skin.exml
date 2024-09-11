@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="matrix_skin" width="580" height="930" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586be3384a"/>
+	<e:Rect fillAlpha="0.6" left="0" right="0" top="0" bottom="0"/>
+	<e:Image top="0" bottom="0" source="tongyongmianbanbg2" width="580" horizontalCenter="0" scale9Grid="15,12,2,3"/>
+	<e:Group width="556" horizontalCenter="0" bottom="58">
+		<e:Image source="tongyong2_json.bantoumingkuang4" x="0" top="0" bottom="0" width="278" height="90"/>
+		<e:Image source="tongyong2_json.bantoumingkuang4" scaleX="-1" right="0" top="0" bottom="0" width="278" height="90"/>
+	</e:Group>
+	<e:Image width="570" horizontalCenter="0" source="tongyongmianbanbg" top="44" bottom="155" scale9Grid="19,12,14,25"/>
+	<!--<e:Image x="24" y="85" source="xzhuzao_json.xduanzao_07_png"/>-->
+	<e:ViewStack id="viewStack" selectedIndex="0" top="44" bottom="155" horizontalCenter="0" width="580">
+		<ns1:BaseComponent id="stockingPanel" name="蕴养" skinName="normal_matrix_stocking_skin" left="0" right="0" top="0" bottom="0" className="MatrixStockingPanel"/>
+		<ns1:BaseComponent id="potentialPanel" name="潜能" skinName="normal_matrix_potential_skin" left="0" right="0" top="0" bottom="0" className="MatrixPotentialPanel" visible="false"/>		
+	</e:ViewStack>
+	<e:Button id="closeBtn0" label="按钮" x="676.42" y="54" skinName="Btn0Skin" visible="false"/>
+	<e:TabBar id="tab" itemRendererSkinName="BtnTab0Skin" dataProvider="{viewStack}"
+	          selectedIndex="0" horizontalCenter="0" bottom="112">
+		<e:layout>
+			<e:HorizontalLayout  gap="-8"/>
+		</e:layout>
+	</e:TabBar>
+
+
+
+	<e:Group id="redPointGroup" horizontalCenter="42" bottom="139" touchEnabled="false">
+		<e:Image id="redPoint0" touchEnabled="false" source="zjmhongdian" x="0" y="0"/>
+		<e:Image id="redPoint1" touchEnabled="false" source="zjmhongdian" x="118" y="0"/>
+
+
+
+		<!--<e:Image id="redPoint4" source="zjmhongdian" touchEnabled="false" x="367" y="10"/>-->
+		<e:layout>
+			<e:HorizontalLayout gap="87"/>
+		</e:layout>
+	</e:Group>
+
+	<ns1:BaseComponent id="roleSelect" y="-1" skinName="RoleSelectPanelSkin" className="RoleSelectPanel" left="0" right="0" currentState="nohead"/>
+	<e:Button id="seeRule" label="按钮" skinName="Btn0Skin" icon="wenhao" horizontalCenter="-75" width="30" height="30" alpha="0.6" top="10"/>
+	<e:Image id="titleImg" source="biaoti_duanzao" horizontalCenter="-155" top="6"/>
+	<e:Button id="closeBtn" label="按钮" skinName="Btn0Skin" icon="chatclose" y="46" scaleX="0.8" scaleY="0.8" horizontalCenter="266"/>
+
+	
+</e:Skin>

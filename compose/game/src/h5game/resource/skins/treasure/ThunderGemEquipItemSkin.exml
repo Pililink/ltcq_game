@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ThunderGemEquipItemSkin" width="82" height="85" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Image source="equipup_pos_bg" x="9" y="11" />
+    <e:Image id="selectImg" source="equipup_pos_select" x="4" y="7" />
+    <e:Image id="iconImg" source="equipup_pos_2" x="9" y="11" />
+    <e:Image id="lockImg" source="touxianglock" x="4" y="7" />
+    <e:BitmapLabel id="Lv" x="5" y="0" font="num_lv__fnt" text="10" />
+    <e:Image id="redPoint" x="60" y="-1" source="zjmhongdian" />
+</e:Skin>

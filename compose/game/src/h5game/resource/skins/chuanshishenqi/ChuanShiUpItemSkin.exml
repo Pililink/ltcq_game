@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChuanShiUpItemSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="normal,max" >
+	<w:Config id="1586be3e7df" />
+
+	<e:Group width="480" height="265" anchorOffsetY="0">
+		<e:Image x="0" source="shuxingbg2" scale9Grid="188,0,5,32" width="240" y="0"/>
+		<e:Image source="shuxingbg2" scale9Grid="188,0,5,32" width="260" scaleX="-1" y="0" right="-18"/>
+		<ns1:BaseComponent id="currPowerPanel" skinName="PowerPanelSkin" className="PowerPanel" y="28" x="192" scaleX="0.8" scaleY="0.8" x.max="132" x.normal="-12"/>
+		<e:Label id="currAttr0" text="生命：1620000" fontFamily="SimHei" size="22" y="86" x="54" textColor="0x9f946d" x.max="189"/>
+		<e:Label id="currAttr1" text="攻击：1620000" fontFamily="SimHei" size="22" y="111" x="54" textColor="0x9F946D" x.max="189"/>
+		<e:Label id="currAttr2" text="物防：1620000" fontFamily="SimHei" size="22" y="137" x="54" textColor="0x9F946D" x.max="189"/>
+		<e:Label id="currAttr3" text="魔防：30000" fontFamily="SimHei" size="22" y="162" x="54" textColor="0x9F946D" x.max="189"/>
+		<e:Group x="74" y="196" scaleX="0.85" scaleY="0.85" x.max="212">
+			<e:Image x="0" y="0" width="74" height="74" source="quality0"/>
+			<e:Image id="currSkill" x="5" y="5" source="skill_icon_zhuzai1" touchEnabled="true"/>
+			<e:Label id="currSkillNane" text="无畏" x="75.24" y="23.52" fontFamily="SimHei" size="25" textColor="0xdfe01f"/>
+		</e:Group>
+		<e:Image y="121" source="jiantouyou" x="228" includeIn="normal"/>
+		<ns1:BaseComponent id="nextPowerPanel" skinName="PowerPanelSkin" className="PowerPanel" y="28" x="235" scaleX="0.8" scaleY="0.8" includeIn="normal"/>
+		<e:Label id="nextAttr0" text="生命：1620000" fontFamily="SimHei" size="22" y="86" x="311" textColor="0x00ff00" includeIn="normal"/>
+		<e:Label id="nextAttr1" text="攻击：1620000" fontFamily="SimHei" size="22" y="111" x="311" textColor="0x00ff00" includeIn="normal"/>
+		<e:Label id="nextAttr2" text="物防：1620000" fontFamily="SimHei" size="22" y="137" x="311" textColor="0x00ff00" includeIn="normal"/>
+		<e:Label id="nextAttr3" text="魔防：30000" fontFamily="SimHei" size="22" y="162" x="311" textColor="0x00ff00" includeIn="normal"/>
+		<e:Group x="331" y="196" scaleX="0.85" scaleY="0.85" includeIn="normal">
+			<e:Image x="0" y="0" width="74" height="74" source="quality0"/>
+			<e:Image id="nextSkill" x="5" y="5" source="skill_icon_zhuzai1" touchEnabled="true"/>
+			<e:Label id="nextSkillNane" text="无畏" x="75.24" y="23.52" fontFamily="SimHei" size="25" textColor="0xDFE01F"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

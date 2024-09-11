@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="zhuZaiEquipHeCheng" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="580" height="930">
+	<e:Rect id="bgClose" left="0" right="0" top="0" bottom="0" fillAlpha="0.8"/>
+	<e:Group id="anigroup" width="406" verticalCenter="-31.5" height="667" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="tongyongtip3" scale9Grid="10,9,9,10"/>
+		<e:Image left="0" right="0" top="0" bottom="0" source="tongyongtip2" scale9Grid="19,18,2,6"/>
+		<e:Image source="composebg_png" y="138" x="4"/>
+		<e:Image source="gwmix_line1" y="269" x="94" anchorOffsetY="0" height="216"/>
+		<e:Image source="gwmix_line1" y="269" x="318" anchorOffsetY="0" height="216" scaleX="-1"/>
+		<e:Image source="biaoti_zhuzaihecheng" x="135" y="9"/>
+
+
+
+		<e:Group id="grpMax" x="97" y="265">
+			<e:Image source="gwmix_line2" y="0" x="-2" anchorOffsetY="0" height="218"/>
+			<e:Image source="gwmix_line2" y="0" x="221" anchorOffsetY="0" height="218" scaleX="-1"/>
+		</e:Group>
+		<ns1:BaseComponent id="itemIcon" skinName="ItemSkin" className="ItemBase" y="192" x="159"/>
+
+		<ns1:BaseComponent id="itemIconTarge" skinName="ItemSkin" className="ItemBase"  y="347" x="156" scaleX="1.1" scaleY="1.1"/>
+		<ns1:BaseComponent id="itemIcon0" skinName="ItemSkin" className="ItemBase" y="458" x="42"/>
+		<ns1:BaseComponent id="itemIcon1" skinName="ItemSkin" className="ItemBase" y="458" x="290"/>
+		<e:Button id="btnHecheng" label="合成" anchorOffsetX="0" anchorOffsetY="0" y="588" x="131" skinName="Btn1Skin"/>
+		<e:Group x="60" y="60">
+			<e:Button id="btn9" label="    主宰吊坠" skinName="Btn3Skin" anchorOffsetX="0" width="138" anchorOffsetY="0" height="56" name="9"/>
+			<e:Image source="621001_png" scaleX="0.5" scaleY="0.5" y="12" x="10" touchEnabled="false"/>
+			<e:Rect id="Rec9" fillAlpha="0.5" ellipseWidth="17" left="0" right="0" bottom="0" top="0" enabled="true" touchChildren="false" touchEnabled="false"/>
+		</e:Group>
+		<e:Group x="213" y="60">
+			<e:Button id="btn10" label="    主宰面甲" skinName="Btn3Skin" anchorOffsetX="0" width="138" anchorOffsetY="0" height="56" name="10"/>
+			<e:Image source="621002_png" scaleX="0.5" scaleY="0.5" y="12" x="10" touchEnabled="false"/>
+			<e:Rect id="Rec10" fillAlpha="0.5" ellipseWidth="17" left="0" right="0" bottom="0" top="0" enabled="true" touchChildren="false" touchEnabled="false"/>
+		</e:Group>
+		<e:Group x="60" y="125">
+			<e:Button id="btn11" label="    主宰肩饰" skinName="Btn3Skin" anchorOffsetX="0" width="138" anchorOffsetY="0" height="56" name="11"/>
+			<e:Image source="621003_png" scaleX="0.5" scaleY="0.5" y="12" x="10" touchEnabled="false"/>
+			<e:Rect id="Rec11" fillAlpha="0.5" ellipseWidth="17" left="0" right="0" bottom="0" top="0" enabled="true" touchChildren="false" touchEnabled="false"/>
+		</e:Group>
+		<e:Group x="213" y="125">
+			<e:Button id="btn12" label="    主宰护膝" skinName="Btn3Skin" anchorOffsetX="0" width="138" anchorOffsetY="0" height="56" name="12"/>
+			<e:Image source="621004_png" scaleX="0.5" scaleY="0.5" y="12" x="10" touchEnabled="false"/>
+			<e:Rect id="Rec12" fillAlpha="0.5" ellipseWidth="17" left="0" right="0" bottom="0" top="0" enabled="true" touchChildren="false" touchEnabled="false"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

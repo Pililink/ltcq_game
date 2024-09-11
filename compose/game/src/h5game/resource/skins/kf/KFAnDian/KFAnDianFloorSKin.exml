@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KFAnDianFloorSKin" width="202" height="143" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down" >
+	<e:Image id="bg" bottom="29" horizontalCenter="-3.5" source="KFAD_bgkf1"/>
+	<e:Image id="isSelected" source="KFAD_bgkfxz" horizontalCenter="0" verticalCenter="5.5" visible.up="false"/>
+	<e:Image id="redPoint" source="zjmhongdian" horizontalCenter="74" bottom="94"/>
+</e:Skin>

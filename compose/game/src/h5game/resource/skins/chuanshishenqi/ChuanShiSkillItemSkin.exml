@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ChuanShiSkillItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" height="56">
+	<e:Group x="0" y="0" scaleX="0.75" scaleY="0.75">
+		<e:Image x="0" y="0" width="74" height="74" source="quality0"/>
+		<e:Image id="skillItem" x="5" y="5" source="skill_icon_zhuzai1" touchEnabled="true"/>
+	</e:Group>
+	<e:Label id="lab_skillOpen" y="-2" x="61" text="激活或提升本身器天赋【遮天】" fontFamily="SimHei" size="18" textColor="0x9f946d"/>
+	<e:Label id="lab_skillDesc" y="23" x="61" text="三角色技能伤害减免+1%" fontFamily="SimHei" size="18" textColor="0x9F946D"/>
+</e:Skin>

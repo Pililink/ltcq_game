@@ -1,0 +1,63 @@
+﻿GameServer =
+{
+	--服务器名称
+	ServerName = "gameworld_s1",
+	ServerIndex = 1,
+	WebHost = "127.0.0.1",
+	WebPort = "10001",
+	
+	--数据库连接配置
+	SQL = 
+	{ 
+		Host = "127.0.0.1", 
+		Port = 3306, 
+		DBName = "actor_s1", 
+		DBUser = "root", 
+		DBPass = "123456"
+	}, --0987abc123
+	
+	GlobalSQL = 
+	{ 
+		Host = "127.0.0.1",
+		Port = 3306, 
+		DBName = "globaldata", 
+		DBUser = "root", 
+		DBPass = "123456"
+	},
+
+	--绑定地址和端口
+	GateService = 
+	{ 
+		Address = "0.0.0.0", 
+		Port = 6001
+	},
+
+	--Log服务器绑定地址和端口
+	LogServer = 
+	{ 
+		Address = "127.0.0.1", 
+		Port = 7001
+	},
+
+	--数据服务器绑定地址和端口
+	DbServer = 
+	{ 
+		Address = "127.0.0.1", 
+		Port = 5001
+	},
+	
+	-- 跨服服务地址和端口
+	CrossService = 
+	{
+		Address = "127.0.0.1", 
+		Port = 9992
+	},
+	
+	-- 中心服务器
+	CenterServer =
+	{
+		Address = "127.0.0.1",
+		Port = 0
+	},
+}
+

@@ -1,0 +1,17 @@
+【服务器版本】
+服务器id号 : s557
+actor数据库 : actor_s557
+log数据库 : log_s557
+服务器类型 : 开发版
+配置类型 : 典游
+dbserver版本 :  4510
+gateway版本 :  4478
+loggerserver版本 :  4478
+gameworld版本 :  5168
+Lua脚本版本 :  5165
+Config版本 :  5164
+屏蔽字版本 : 典游  liujixiang
+开服时间 : 2020-6-20 1:00:00
+创建时间 : 2020-06-15	14:34
+合服 : 
+跨服 : 

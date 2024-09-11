@@ -1,0 +1,14 @@
+{"file":"createrole1.png","frames":{
+"createrole_title_bg":{"x":326,"y":88,"w":138,"h":49,"offX":0,"offY":0,"sourceW":138,"sourceH":49},
+"createrole_input":{"x":175,"y":89,"w":137,"h":45,"offX":0,"offY":0,"sourceW":137,"sourceH":45},
+"createrole_title":{"x":323,"y":139,"w":101,"h":24,"offX":0,"offY":0,"sourceW":101,"sourceH":24},
+"createrole_btn":{"x":1,"y":1,"w":236,"h":79,"offX":0,"offY":0,"sourceW":236,"sourceH":79},
+"createrole_job1":{"x":239,"y":1,"w":85,"h":86,"offX":0,"offY":0,"sourceW":85,"sourceH":86},
+"createrole_job2":{"x":88,"y":82,"w":85,"h":85,"offX":0,"offY":0,"sourceW":85,"sourceH":86},
+"createrole_job3":{"x":1,"y":82,"w":85,"h":85,"offX":0,"offY":1,"sourceW":85,"sourceH":86},
+"createrole_any":{"x":75,"y":169,"w":46,"h":50,"offX":0,"offY":0,"sourceW":46,"sourceH":50},
+"createrole_selected_1":{"x":326,"y":1,"w":81,"h":85,"offX":2,"offY":1,"sourceW":85,"sourceH":86},
+"createrole_boy":{"x":409,"y":1,"w":72,"h":71,"offX":0,"offY":0,"sourceW":72,"sourceH":71},
+"createrole_girl":{"x":1,"y":169,"w":72,"h":70,"offX":0,"offY":0,"sourceW":72,"sourceH":71},
+"createrole_selected_0":{"x":175,"y":136,"w":72,"h":71,"offX":0,"offY":0,"sourceW":72,"sourceH":71},
+"createrole_selected_2":{"x":249,"y":136,"w":72,"h":70,"offX":0,"offY":0,"sourceW":72,"sourceH":71}}}

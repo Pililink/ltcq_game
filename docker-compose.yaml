@@ -1,0 +1,17 @@
+services:
+  game:
+    build: compose/game/
+    container_name: chuanqi_server
+    environment:
+      SERVER_ADDRESS: "172.17.0.1"
+      MYSQL_ROOT_PASSWORD: 123456
+    volumes:
+      - ./data/mysql:/data/mysql 
+      - ./compose/game/src/h5game:/var/www/html
+      - ./compose/game/src/server:/server
+      # - ./compose/game/conf/nginx/default.conf:/etc/nginx/sites-available/default
+    network_mode: "host"
+    # ports:
+    #   - 81:81
+    #   - 9001:9001
+    #   - 13306:3306

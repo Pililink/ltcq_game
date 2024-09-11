@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KFAnDianWinSkin" width="580" height="930" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.6" />
+	<e:Image top="0" bottom="0" source="tongyongmianbanbg2" width="580" horizontalCenter="0" scale9Grid="15,12,2,3" />
+	<e:Group width="556" horizontalCenter="0" bottom="58">
+		<e:Image source="bantoumingkuang4" x="0" top="0" bottom="0" width="278" height="90" />
+		<e:Image source="bantoumingkuang4" scaleX="-1" right="0" top="0" bottom="0" width="278" height="90" />
+	</e:Group>
+	<e:Image width="570" horizontalCenter="0" source="tongyongmianbanbg" scale9Grid="19,12,14,25" top="44" bottom="120" />
+	<ns1:BaseComponent id="roleSelect" y="0" skinName="RoleSelectPanelSkin" className="RoleSelectPanel" width="580"
+	                   horizontalCenter="0" currentState="nohead" />
+	<e:Image y="11" horizontalCenter="-154.5" source="biaoti_andianboss" />
+	<e:Button id="seeRule" label="按钮" icon="wenhao" skinName="Btn0Skin" horizontalCenter="-259" y="5" scaleX="0.9"
+	          scaleY="0.9" />
+	<e:Image source="worldbossbg_png" scaleX="-1" anchorOffsetX="0" width="410" anchorOffsetY="0"
+	         height="447"  horizontalCenter="69" bottom="294"/>
+	<e:Group width="417" height="279" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="66.5" bottom="126">
+		<e:Image x="0" y="61" source="bg_zhenlidiaoluo" width="417" anchorOffsetY="0" height="216" scale9Grid="22,12,138,72" />
+		<e:List id="listItem" itemRendererSkinName="ItemSkin" horizontalCenter="0.5" bottom="91" x="72" y="102" scaleX="1"
+		        scaleY="1">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object null="" />
+					<e:Object null="" />
+					<e:Object null="" />
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout gap="17" />
+			</e:layout>
+		</e:List>
+		<e:Label text="BOSS掉落" x="163" y="67" size="21" textColor="0xde7f04" bold="true" scaleX="1" scaleY="1" />
+		<e:Label id="isChallenge" text="未满足开启条件" x="117.98000000000002" y="242.64999999999998" size="20" textColor="0xd20506"
+		         bold="true" scaleX="1" scaleY="1" />
+		<e:Button id="challengeBtn" label="挑 战" skinName="Btn1Skin" bottom="2" horizontalCenter="-8.5" />
+		<e:Label id="bossName" text="暗殿：沙城之王(13转)" size="23" textColor="0x9f500d" bold="true" horizontalCenter="15"
+		         bottom="220" x="108" y="44" scaleX="1" scaleY="1" />
+		<e:Label id="RemainCount" text="剩余归属次数：" x="64.17" y="197.5" size="18" bold="true" scaleX="1" scaleY="1"
+		         textColor="0x89713c" />
+		<e:Label id="buyCount" text="购买归属次数" x="251.5" y="196" size="18" textColor="0x06d303" bold="true" scaleX="1"
+		         scaleY="1" />
+		<e:Label id="remind" text="提醒设置" x="324" y="24" textColor="0x06d303" bold="true" size="20" />
+	</e:Group>
+	<e:Scroller width="139" height="614" horizontalCenter="-207.5" bottom="126">
+		<e:List id="listBoss" height="614" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="KFAnDianBossHeadSkin"
+		        horizontalCenter="-207.5" bottom="126">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object null="" />
+					<e:Object null="" />
+					<e:Object null="" />
+					<e:Object null="" />
+					<e:Object null="null" />
+					<e:Object null="null" />
+					<e:Object null="null" />
+					<e:Object null="null" />
+					<e:Object null="null" />
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:TileLayout verticalGap="6" requestedColumnCount="1" />
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group width="554" height="80" horizontalCenter="0" touchEnabled="false" touchChildren="false" touchThrough="true"
+	         bottom="691">
+		<e:Image source="tongyongline" left="0" right="0" />
+		<e:Image source="tielian1" x="100" y="3" />
+		<e:Image y="3" right="100" source="tielian1" />
+		<e:Image source="shuxingline" x="2" y="17" width="275" scale9Grid="16,1,4,9" />
+		<e:Image source="shuxingline" y="17" width="275" scale9Grid="16,1,4,9" right="2" scaleX="-1" />
+		<e:Image source="bosswzbg" width="220" height="40" y="7" horizontalCenter="0" />
+	</e:Group>
+	<e:List id="listFloor" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="KFAnDianFloorSKin"
+	        horizontalCenter="3" bottom="749">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object null="" />
+				<e:Object null="" />
+				<e:Object null="" />
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout gap="-17"/>
+		</e:layout>
+	</e:List>
+	<e:Image id="imgFloor" source="KFAD_btkf1" horizontalCenter="-0.5" bottom="732" />
+	<e:Group id="bossGroup" width="200" height="200" horizontalCenter="88" bottom="408"/>
+	<e:Group id="spiritualGrp" width="412" height="135" anchorOffsetX="0" anchorOffsetY="0" touchChildren="false" touchEnabled="false"
+	         touchThrough="true" horizontalCenter="71" bottom="592">
+		<e:Label text="挑战需要：" x="6" y="7" textColor="0xbf9548" bold="true" size="19" />
+		<e:Label id="power1" text="日之力：13755/9735" x="6" y="29" bold="true" size="19" textColor="0xe0de01"  visible="false"/>
+		<e:Label id="power2" text="月之力：12945/11460" x="6" y="52" bold="true" size="19" textColor="0x026aad"  visible="false"/>
+		<e:Label id="power3" text="星之力：10000/12285" x="6" y="77" bold="true" size="19" textColor="0xbd03b9"  visible="false"/>
+		<e:Label id="power4" text="星之力：10000/12285" x="6" y="97" bold="true" size="19" textColor="0xBD03B9" visible="false"/>
+		<e:Label id="power5" text="星之力：10000/12285" x="6" y="117" bold="true" size="19" textColor="0xBD03B9" visible="false"/>
+		<e:layout>
+			<e:VerticalLayout gap="4"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="stateImage" source="zdbossyijisha" horizontalCenter="221" bottom="398" />
+</e:Skin>
